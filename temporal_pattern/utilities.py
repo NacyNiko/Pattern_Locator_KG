@@ -397,4 +397,3 @@ class PlotTools:
     #                                                             , 'dynamic' if (self.pattern == 'evolve' or self.pattern.split[0] == 'temporal') else 'static'
     #     load_path += 'pair_%s.csv' % self.pattern
 
-

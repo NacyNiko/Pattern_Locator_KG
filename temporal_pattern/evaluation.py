@@ -14,12 +14,10 @@ import matplotlib.ticker as ticke
 # TODO: 2. for certain relation, count conclusion in test set and premise in train set.
 
 # TODO: 3. make (ri, rj) inverse dict, count for each pair: 2*#(ri, rj) / (#ri + #rj) on train
-# TODO: 4. for test, for certain ri, looking up dict (for a (ri, rj) regarding a threshold)
-#  , check if (. rj .) exists in train, if yes, count 1
+# TODO: 4. for test, for certain rj, looking up dict (for a (ri, rj) regarding a threshold)
+#  , check if (. ri .) exists in train, if yes, count 1 -> dataset inverse
 # TODO: 5. make (ri --> rj) implication dict, count 1 each pair: #(ri --> rj) / (#ri) on train
-# TODO: 6. check for (ri) in test set, looking up dict(rj-->ri)(premise --> conclusion) and look if (. rj .) in train
-
-
+# TODO: 6. check for (ri) in test set, looking up dict(rj-->ri)(premise --> conclusion) and look if (. rj .) in train --> dateset implication
 
 def plot_distribution(dataset, pattern):
     for t in ['train', 'test']:
@@ -51,12 +49,13 @@ def plot_distribution(dataset, pattern):
         # plt.show()
 
 
-def main(dataset, pattern):
+def main(dataset, pattern, threshold):
     analysis = AnalysisTools(dataset, pattern)
     analysis.pattern_analyse()
-    # analysis.conclusion_premise_paar()
     analysis.pattern_pair_analyse()
+    analysis.conclusion_premise_paar(threshold)
 
-    # ptool = PlotTools(dataset)
+
+    # ptool = PlotTools(dataset, pattern)
     # ptool.plot_train_test_distribution()
     # plot_distribution(dataset, pattern)
