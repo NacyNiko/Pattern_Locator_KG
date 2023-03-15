@@ -7,4 +7,4 @@ This repo is built to find pattern in Knowledge Graph. The file format is in tri
 How to run:
   two hyperparameters needed to be determined, i.e. dataset and threshold for pattern lookup table. 
   example: 
-  # python run.py --dataset icews15 --threshold 0.5
+  - python run.py --dataset icews15 --threshold 0.5
