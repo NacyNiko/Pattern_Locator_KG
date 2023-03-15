@@ -223,7 +223,11 @@ def makedir(path):
 
 
 def main(dataname):
+<<<<<<< HEAD
     print('-----------------Data Reprocess Begin--------------------------------------------')
+=======
+    print('--------------------Begin--------------------------------------------')
+>>>>>>> 0727151 (update 3.15)
     start = time.time()
 
     for data in ['train2id.txt', 'test2id.txt']:
@@ -281,7 +285,11 @@ def main(dataname):
         pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
         patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
 
+<<<<<<< HEAD
         print('It takes {} seconds on {}'.format(end - start, data))
+=======
+        print('It takes {} seconds'.format(end - start))
+>>>>>>> 0727151 (update 3.15)
     #     print('Number of symmetric is: {} \n'
     #           'Number of anti_symmetric is: {} \n'
     #           'Number of reflexive is: {} \n'
@@ -293,4 +301,8 @@ def main(dataname):
     #                                                          patternlooker.num_reflexive, patternlooker.num_inverse,
     #                                                          patternlooker.num_t_inverse, patternlooker.num_implication,
     #                                                          patternlooker.num_evolve, patternlooker.num_t_relations))
+<<<<<<< HEAD
     print('----------------Data Reprocess Finish-------------------------------------------')
+=======
+    print('--------------------Finish-------------------------------------------')
+>>>>>>> 0727151 (update 3.15)
