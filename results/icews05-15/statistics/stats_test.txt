@@ -1,0 +1,1 @@
+{'number of static symmetric': 58907, 'number of static inverse': 741493, 'number of implication': 1194360, 'number of temporal data': 46092, 'number of temporal relations': 207, 'number of quaternions': 46092, 'number of temporal symmetric': 616, 'number of temporal inverse': 1030, 'number of reflexive': 16, 'number of temporal implication': 927, 'number of evolve': 999899}

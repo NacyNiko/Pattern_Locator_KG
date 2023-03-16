@@ -1,0 +1,1 @@
+head	relation_x	tail	time

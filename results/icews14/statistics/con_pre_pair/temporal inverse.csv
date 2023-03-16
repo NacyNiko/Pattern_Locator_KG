@@ -1,0 +1,18 @@
+relation test,relation train,#temporal inverse,#rel_test,percentage
+Make a visit,Host a visit,345,432,0.7986111111111112
+Host a visit,Make a visit,334,432,0.7731481481481481
+Provide military protection or peacekeeping,Receive deployment of peacekeepers,3,3,1.0
+Receive deployment of peacekeepers,Provide military protection or peacekeeping,2,2,1.0
+Express intent to meet or negotiate,Reject judicial cooperation,0,495,0.0
+Consult,Demand material aid,0,977,0.0
+Engage in negotiation,"Appeal for easing of economic sanctions, boycott, or embargo",0,194,0.0
+Make an appeal or request,Accede to demands for rights,1,629,0.001589825119236884
+Make an appeal or request,"Appeal for easing of economic sanctions, boycott, or embargo",0,629,0.0
+Make an appeal or request,Reject judicial cooperation,0,629,0.0
+"Protest violently, riot",Engage in mass expulsion,0,46,0.0
+Reject,Reject judicial cooperation,0,87,0.0
+Accuse,Violate ceasefire,0,268,0.0
+Express intent to cooperate,Express intent to cooperate on intelligence,0,178,0.0
+Investigate,Receive inspectors,1,90,0.011111111111111112
+Engage in judicial cooperation,Threaten to halt negotiations,0,2,0.0
+Increase police alert status,Receive inspectors,0,2,0.0

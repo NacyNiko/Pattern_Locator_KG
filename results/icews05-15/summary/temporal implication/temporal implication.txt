@@ -1,0 +1,2 @@
+head	relation_x	tail	time
+Iraq	Receive inspectors	Donald Rumsfeld	2005-02-11

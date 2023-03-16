@@ -1,0 +1,17 @@
+relation test,relation train,#temporal implication,#rel_test,percentage
+Threaten to halt mediation,Make statement,0,7736,0.0
+Demand economic cooperation,Make a visit,0,2481,0.0
+Express intent to allow international involvement (non-mediation),Sign formal agreement,0,975,0.0
+Reject request for humanitarian aid,Sign formal agreement,0,975,0.0
+Appeal for military cooperation,Consult,0,4925,0.0
+Reject request for humanitarian aid,Consult,0,4925,0.0
+Ease political dissent,Criticize or denounce,0,1400,0.0
+Receive inspectors,Host a visit,1,2497,0.00040048057669203043
+Halt mediation,Make pessimistic comment,0,278,0.0
+Reject request for humanitarian aid,Provide humanitarian aid,0,172,0.0
+Reject request for humanitarian aid,Express intent to provide humanitarian aid,0,32,0.0
+"Reject request for change in institutions, regime","Reject plan, agreement to settle dispute",0,36,0.0
+Reject request for humanitarian aid,Occupy territory,0,81,0.0
+Reject request for humanitarian aid,Provide economic aid,0,59,0.0
+Reject request for humanitarian aid,Express intent to provide material aid,0,61,0.0
+Threaten to impose curfew,Impose state of emergency or martial law,0,5,0.0

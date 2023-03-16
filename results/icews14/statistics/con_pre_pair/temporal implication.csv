@@ -1,0 +1,28 @@
+relation test,relation train,#temporal implication,#rel_test,percentage
+"Appeal for easing of economic sanctions, boycott, or embargo",Make statement,0,1500,0.0
+Engage in violent protest for rights,Make statement,0,1500,0.0
+Express intent to institute political reform,Make statement,0,1500,0.0
+Threaten to halt mediation,Make statement,0,1500,0.0
+Reject economic cooperation,Make statement,0,1500,0.0
+Express intent to cooperate on intelligence,Express intent to cooperate,0,178,0.0
+Demand material aid,Consult,0,977,0.0
+Appeal for military protection or peacekeeping,Make an appeal or request,0,629,0.0
+Threaten to halt negotiations,Make an appeal or request,0,629,0.0
+Demand policy change,Make an appeal or request,0,629,0.0
+"Appeal for easing of economic sanctions, boycott, or embargo",Criticize or denounce,0,309,0.0
+Threaten to halt negotiations,Criticize or denounce,0,309,0.0
+Reject judicial cooperation,Criticize or denounce,0,309,0.0
+Express intent to change policy,Criticize or denounce,0,309,0.0
+Use as human shield,Appeal for diplomatic cooperation (such as policy support),0,56,0.0
+"Appeal for easing of economic sanctions, boycott, or embargo",Engage in negotiation,0,194,0.0
+Use as human shield,Use unconventional violence,0,219,0.0
+Ease military blockade,"Protest violently, riot",0,46,0.0
+Threaten to halt negotiations,Reject,0,87,0.0
+Expel or withdraw,Expel or deport individuals,0,13,0.0
+Accede to demands for change in policy,Reduce or break diplomatic relations,0,15,0.0
+Demand policy change,Threaten,0,72,0.0
+Reduce or stop humanitarian assistance,"Obstruct passage, block",0,1,0.0
+Accede to demands for change in policy,Retreat or surrender militarily,0,2,0.0
+"Appeal for easing of economic sanctions, boycott, or embargo",Threaten with military force,0,14,0.0
+"Refuse to ease economic sanctions, boycott, or embargo","Impose embargo, boycott, or sanctions",0,13,0.0
+Carry out car bombing,"Conduct suicide, car, or other non-military bombing",0,15,0.0

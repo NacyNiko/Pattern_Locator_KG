@@ -1,0 +1,252 @@
+relation i,relation j,#temporal symmetric,#rel_i,P one direction,P two direction
+Make statement,Make statement,987,60754,0.016245843895052178,0.016245843895052178
+Consult,Consult,31789,39543,0.8039096679564018,0.8039096679564018
+Express intent to meet or negotiate,Express intent to meet or negotiate,4895,24450,0.2002044989775051,0.2002044989775051
+Make an appeal or request,Make an appeal or request,608,21313,0.02852718997794773,0.02852718997794773
+Make a visit,Make a visit,122,19534,0.006245520630695198,0.006245520630695198
+Host a visit,Host a visit,96,19488,0.0049261083743842365,0.0049261083743842365
+"Arrest, detain, or charge with legal action","Arrest, detain, or charge with legal action",4,17631,0.000226873121206965,0.000226873121206965
+Praise or endorse,Praise or endorse,242,13974,0.0173178760555317,0.0173178760555317
+Criticize or denounce,Criticize or denounce,428,11018,0.03884552550372118,0.03884552550372118
+Accuse,Accuse,281,9375,0.029973333333333334,0.029973333333333334
+Engage in negotiation,Engage in negotiation,7345,9213,0.7972430261586888,0.7972430261586888
+Sign formal agreement,Sign formal agreement,6348,8076,0.7860326894502229,0.7860326894502229
+Express intent to cooperate,Express intent to cooperate,5437,7950,0.6838993710691824,0.6838993710691824
+Engage in diplomatic cooperation,Engage in diplomatic cooperation,4785,7819,0.611970840260903,0.611970840260903
+Express intent to engage in diplomatic cooperation (such as policy support),Express intent to engage in diplomatic cooperation (such as policy support),2278,7761,0.2935188764334493,0.2935188764334493
+Use conventional military force,Use conventional military force,829,7613,0.10889268356758176,0.10889268356758176
+Use unconventional violence,Use unconventional violence,222,7317,0.03034030340303403,0.03034030340303403
+Demand,Demand,41,5720,0.007167832167832168,0.007167832167832168
+Investigate,Investigate,9,5263,0.001710051301539046,0.001710051301539046
+fight with small arms and light weapons,fight with small arms and light weapons,564,4266,0.13220815752461323,0.13220815752461323
+Reject,Reject,35,3682,0.009505703422053232,0.009505703422053232
+Make optimistic comment,Make optimistic comment,206,3509,0.058706184098033624,0.058706184098033624
+Discuss by telephone,Discuss by telephone,2461,3068,0.8021512385919165,0.8021512385919165
+Make pessimistic comment,Make pessimistic comment,74,2383,0.031053294167016365,0.031053294167016365
+Threaten,Threaten,4,2166,0.0018467220683287165,0.0018467220683287165
+Engage in symbolic act,Engage in symbolic act,239,1717,0.1391962725684333,0.1391962725684333
+Demonstrate or rally,Demonstrate or rally,6,1708,0.00351288056206089,0.00351288056206089
+Appeal for diplomatic cooperation (such as policy support),Appeal for diplomatic cooperation (such as policy support),10,1563,0.006397952655150352,0.006397952655150352
+"Return, release person(s)","Return, release person(s)",2,1546,0.00129366106080207,0.00129366106080207
+Meet at a 'third' location,Meet at a 'third' location,1180,1509,0.781974817760106,0.781974817760106
+"Abduct, hijack, or take hostage","Abduct, hijack, or take hostage",5,1239,0.004035512510088781,0.004035512510088781
+Provide humanitarian aid,Provide humanitarian aid,3,1193,0.002514668901927913,0.002514668901927913
+Make empathetic comment,Make empathetic comment,6,1102,0.0054446460980036296,0.0054446460980036296
+Confiscate property,Confiscate property,1,1082,0.0009242144177449168,0.0009242144177449168
+Deny responsibility,Deny responsibility,7,1054,0.006641366223908918,0.006641366223908918
+"Protest violently, riot","Protest violently, riot",0,927,0.0,0.0
+Reduce relations,Reduce relations,112,883,0.12684031710079274,0.12684031710079274
+Physically assault,Physically assault,11,828,0.013285024154589372,0.013285024154589372
+Provide aid,Provide aid,0,826,0.0,0.0
+Cooperate economically,Cooperate economically,100,787,0.12706480304955528,0.12706480304955528
+Expel or deport individuals,Expel or deport individuals,0,766,0.0,0.0
+Occupy territory,Occupy territory,0,687,0.0,0.0
+"Impose embargo, boycott, or sanctions","Impose embargo, boycott, or sanctions",0,677,0.0,0.0
+Bring lawsuit against,Bring lawsuit against,4,665,0.006015037593984963,0.006015037593984963
+Use tactics of violent repression,Use tactics of violent repression,0,653,0.0,0.0
+Mobilize or increase armed forces,Mobilize or increase armed forces,1,638,0.001567398119122257,0.001567398119122257
+Impose administrative sanctions,Impose administrative sanctions,0,620,0.0,0.0
+Provide economic aid,Provide economic aid,0,617,0.0,0.0
+Ease administrative sanctions,Ease administrative sanctions,0,610,0.0,0.0
+Express intent to cooperate economically,Express intent to cooperate economically,121,596,0.20302013422818793,0.20302013422818793
+Consider policy option,Consider policy option,0,583,0.0,0.0
+Reduce or break diplomatic relations,Reduce or break diplomatic relations,10,565,0.017699115044247787,0.017699115044247787
+Rally support on behalf of,Rally support on behalf of,0,506,0.0,0.0
+Yield,Yield,0,481,0.0,0.0
+"Reject proposal to meet, discuss, or negotiate","Reject proposal to meet, discuss, or negotiate",4,472,0.00847457627118644,0.00847457627118644
+Express intent to provide economic aid,Express intent to provide economic aid,0,462,0.0,0.0
+Coerce,Coerce,0,460,0.0,0.0
+Engage in material cooperation,Engage in material cooperation,104,444,0.23423423423423423,0.23423423423423423
+"Conduct suicide, car, or other non-military bombing","Conduct suicide, car, or other non-military bombing",1,440,0.0022727272727272726,0.0022727272727272726
+Threaten with military force,Threaten with military force,0,438,0.0,0.0
+Grant diplomatic recognition,Grant diplomatic recognition,82,414,0.19806763285024154,0.19806763285024154
+Express intent to provide material aid,Express intent to provide material aid,0,408,0.0,0.0
+Express intent to settle dispute,Express intent to settle dispute,178,379,0.46965699208443273,0.46965699208443273
+Receive deployment of peacekeepers,Receive deployment of peacekeepers,0,376,0.0,0.0
+Cooperate militarily,Cooperate militarily,127,375,0.33866666666666667,0.33866666666666667
+Provide military aid,Provide military aid,0,374,0.0,0.0
+Appeal for intelligence,Appeal for intelligence,0,372,0.0,0.0
+Sexually assault,Sexually assault,0,368,0.0,0.0
+Provide military protection or peacekeeping,Provide military protection or peacekeeping,0,347,0.0,0.0
+"Defy norms, law","Defy norms, law",0,344,0.0,0.0
+"Reject plan, agreement to settle dispute","Reject plan, agreement to settle dispute",100,331,0.3021148036253776,0.3021148036253776
+Demand diplomatic cooperation (such as policy support),Demand diplomatic cooperation (such as policy support),2,329,0.0060790273556231,0.0060790273556231
+Rally opposition against,Rally opposition against,0,328,0.0,0.0
+Express accord,Express accord,24,327,0.07339449541284404,0.07339449541284404
+Give ultimatum,Give ultimatum,0,321,0.0,0.0
+Retreat or surrender militarily,Retreat or surrender militarily,0,321,0.0,0.0
+Complain officially,Complain officially,0,311,0.0,0.0
+Share intelligence or information,Share intelligence or information,100,307,0.3257328990228013,0.3257328990228013
+Express intent to release persons or property,Express intent to release persons or property,4,287,0.013937282229965157,0.013937282229965157
+Appeal for change in leadership,Appeal for change in leadership,0,284,0.0,0.0
+Express intent to provide humanitarian aid,Express intent to provide humanitarian aid,0,272,0.0,0.0
+"Investigate crime, corruption","Investigate crime, corruption",1,265,0.0037735849056603774,0.0037735849056603774
+Express intent to provide military aid,Express intent to provide military aid,0,259,0.0,0.0
+Kill by physical assault,Kill by physical assault,2,259,0.007722007722007722,0.007722007722007722
+Employ aerial weapons,Employ aerial weapons,0,257,0.0,0.0
+Express intent to de-escalate military engagement,Express intent to de-escalate military engagement,0,248,0.0,0.0
+"Accuse of crime, corruption","Accuse of crime, corruption",2,239,0.008368200836820083,0.008368200836820083
+Impose restrictions on political freedoms,Impose restrictions on political freedoms,0,231,0.0,0.0
+Acknowledge or claim responsibility,Acknowledge or claim responsibility,0,228,0.0,0.0
+Accuse of human rights abuses,Accuse of human rights abuses,4,208,0.019230769230769232,0.019230769230769232
+Halt negotiations,Halt negotiations,76,200,0.38,0.38
+Demand change in leadership,Demand change in leadership,0,198,0.0,0.0
+Appeal for de-escalation of military engagement,Appeal for de-escalation of military engagement,4,179,0.0223463687150838,0.0223463687150838
+Mobilize or increase police power,Mobilize or increase police power,0,178,0.0,0.0
+Demonstrate military or police power,Demonstrate military or police power,0,159,0.0,0.0
+Apologize,Apologize,0,152,0.0,0.0
+Appeal for release of persons or property,Appeal for release of persons or property,0,152,0.0,0.0
+"Declare truce, ceasefire","Declare truce, ceasefire",110,150,0.7333333333333333,0.7333333333333333
+"Obstruct passage, block","Obstruct passage, block",0,148,0.0,0.0
+Appeal to others to meet or negotiate,Appeal to others to meet or negotiate,0,147,0.0,0.0
+Refuse to yield,Refuse to yield,0,145,0.0,0.0
+"Impose blockade, restrict movement","Impose blockade, restrict movement",0,144,0.0,0.0
+Mediate,Mediate,0,142,0.0,0.0
+Defend verbally,Defend verbally,0,137,0.0,0.0
+Assassinate,Assassinate,0,136,0.0,0.0
+Appeal to engage in or accept mediation,Appeal to engage in or accept mediation,0,133,0.0,0.0
+fight with artillery and tanks,fight with artillery and tanks,4,131,0.030534351145038167,0.030534351145038167
+Carry out suicide bombing,Carry out suicide bombing,0,129,0.0,0.0
+Increase military alert status,Increase military alert status,1,127,0.007874015748031496,0.007874015748031496
+Torture,Torture,2,126,0.015873015873015872,0.015873015873015872
+Appeal for aid,Appeal for aid,0,119,0.0,0.0
+Express intent to cooperate militarily,Express intent to cooperate militarily,62,115,0.5391304347826087,0.5391304347826087
+Decline comment,Decline comment,1,114,0.008771929824561403,0.008771929824561403
+Veto,Veto,0,114,0.0,0.0
+Refuse to release persons or property,Refuse to release persons or property,0,105,0.0,0.0
+Appeal for judicial cooperation,Appeal for judicial cooperation,2,99,0.020202020202020204,0.020202020202020204
+Demand de-escalation of military engagement,Demand de-escalation of military engagement,0,98,0.0,0.0
+Reduce or stop economic assistance,Reduce or stop economic assistance,0,94,0.0,0.0
+Accede to demands for change in leadership,Accede to demands for change in leadership,0,93,0.0,0.0
+Appeal for economic cooperation,Appeal for economic cooperation,2,93,0.021505376344086023,0.021505376344086023
+Appeal to others to settle dispute,Appeal to others to settle dispute,0,87,0.0,0.0
+Increase police alert status,Increase police alert status,0,84,0.0,0.0
+Engage in judicial cooperation,Engage in judicial cooperation,0,84,0.0,0.0
+"Demand meeting, negotiation","Demand meeting, negotiation",0,78,0.0,0.0
+Express intent to provide military protection or peacekeeping,Express intent to provide military protection or peacekeeping,1,76,0.013157894736842105,0.013157894736842105
+Appeal for economic aid,Appeal for economic aid,0,74,0.0,0.0
+Demonstrate for leadership change,Demonstrate for leadership change,0,73,0.0,0.0
+Express intent to accept mediation,Express intent to accept mediation,0,72,0.0,0.0
+Express intent to yield,Express intent to yield,0,72,0.0,0.0
+"Threaten with sanctions, boycott, embargo","Threaten with sanctions, boycott, embargo",1,68,0.014705882352941176,0.014705882352941176
+Appeal for military aid,Appeal for military aid,2,67,0.029850746268656716,0.029850746268656716
+Appeal for easing of administrative sanctions,Appeal for easing of administrative sanctions,0,65,0.0,0.0
+Appeal for material cooperation,Appeal for material cooperation,0,64,0.0,0.0
+Express intent to engage in material cooperation,Express intent to engage in material cooperation,16,63,0.25396825396825395,0.25396825396825395
+Conduct strike or boycott,Conduct strike or boycott,0,62,0.0,0.0
+Appeal for policy change,Appeal for policy change,0,59,0.0,0.0
+Seize or damage property,Seize or damage property,0,58,0.0,0.0
+Demand material cooperation,Demand material cooperation,0,57,0.0,0.0
+Demand intelligence cooperation,Demand intelligence cooperation,0,56,0.0,0.0
+Grant asylum,Grant asylum,0,56,0.0,0.0
+Forgive,Forgive,0,56,0.0,0.0
+Appeal to yield,Appeal to yield,0,55,0.0,0.0
+Impose state of emergency or martial law,Impose state of emergency or martial law,0,55,0.0,0.0
+Threaten non-force,Threaten non-force,0,54,0.0,0.0
+"Appeal for change in institutions, regime","Appeal for change in institutions, regime",0,52,0.0,0.0
+Express intent to mediate,Express intent to mediate,0,52,0.0,0.0
+Express intent to cooperate on judicial matters,Express intent to cooperate on judicial matters,0,51,0.0,0.0
+Threaten to reduce or break relations,Threaten to reduce or break relations,0,49,0.0,0.0
+"Accuse of espionage, treason","Accuse of espionage, treason",2,49,0.04081632653061224,0.04081632653061224
+"Ease economic sanctions, boycott, embargo","Ease economic sanctions, boycott, embargo",0,49,0.0,0.0
+Refuse to de-escalate military engagement,Refuse to de-escalate military engagement,0,47,0.0,0.0
+Demand that target yields,Demand that target yields,0,47,0.0,0.0
+Accede to demands for rights,Accede to demands for rights,0,47,0.0,0.0
+Express intent to ease administrative sanctions,Express intent to ease administrative sanctions,0,46,0.0,0.0
+Appeal for humanitarian aid,Appeal for humanitarian aid,0,40,0.0,0.0
+Accuse of war crimes,Accuse of war crimes,0,40,0.0,0.0
+"Return, release property","Return, release property",0,40,0.0,0.0
+Refuse to ease administrative sanctions,Refuse to ease administrative sanctions,0,36,0.0,0.0
+Demand economic aid,Demand economic aid,0,36,0.0,0.0
+Accuse of aggression,Accuse of aggression,2,34,0.058823529411764705,0.058823529411764705
+Appeal for rights,Appeal for rights,0,34,0.0,0.0
+Reduce or stop material aid,Reduce or stop material aid,0,34,0.0,0.0
+Expel or withdraw,Expel or withdraw,0,34,0.0,0.0
+Accede to demands for change in policy,Accede to demands for change in policy,0,33,0.0,0.0
+Engage in mass killings,Engage in mass killings,0,32,0.0,0.0
+"Demand change in institutions, regime","Demand change in institutions, regime",0,30,0.0,0.0
+Reject economic cooperation,Reject economic cooperation,0,30,0.0,0.0
+Reduce or stop military assistance,Reduce or stop military assistance,0,29,0.0,0.0
+Destroy property,Destroy property,0,26,0.0,0.0
+Demand judicial cooperation,Demand judicial cooperation,0,26,0.0,0.0
+Threaten with administrative sanctions,Threaten with administrative sanctions,0,24,0.0,0.0
+Reject judicial cooperation,Reject judicial cooperation,0,23,0.0,0.0
+Express intent to change leadership,Express intent to change leadership,0,23,0.0,0.0
+Express intent to cooperate on intelligence,Express intent to cooperate on intelligence,14,22,0.6363636363636364,0.6363636363636364
+Reduce or stop humanitarian assistance,Reduce or stop humanitarian assistance,0,21,0.0,0.0
+Appeal for political reform,Appeal for political reform,0,19,0.0,0.0
+Appeal for military protection or peacekeeping,Appeal for military protection or peacekeeping,0,19,0.0,0.0
+Ban political parties or politicians,Ban political parties or politicians,0,18,0.0,0.0
+Threaten with repression,Threaten with repression,0,18,0.0,0.0
+Attempt to assassinate,Attempt to assassinate,0,18,0.0,0.0
+Threaten to reduce or stop aid,Threaten to reduce or stop aid,0,17,0.0,0.0
+Violate ceasefire,Violate ceasefire,0,17,0.0,0.0
+"Threaten with political dissent, protest","Threaten with political dissent, protest",0,17,0.0,0.0
+Express intent to change policy,Express intent to change policy,0,17,0.0,0.0
+Receive inspectors,Receive inspectors,0,16,0.0,0.0
+"Express intent to ease economic sanctions, boycott, or embargo","Express intent to ease economic sanctions, boycott, or embargo",0,16,0.0,0.0
+"Refuse to ease economic sanctions, boycott, or embargo","Refuse to ease economic sanctions, boycott, or embargo",0,15,0.0,0.0
+Expel or withdraw peacekeepers,Expel or withdraw peacekeepers,0,15,0.0,0.0
+Demand settling of dispute,Demand settling of dispute,0,15,0.0,0.0
+Demobilize armed forces,Demobilize armed forces,0,14,0.0,0.0
+Ease state of emergency or martial law,Ease state of emergency or martial law,1,14,0.07142857142857142,0.07142857142857142
+Impose curfew,Impose curfew,0,14,0.0,0.0
+Use as human shield,Use as human shield,0,14,0.0,0.0
+Express intent to institute political reform,Express intent to institute political reform,0,13,0.0,0.0
+Investigate human rights abuses,Investigate human rights abuses,0,13,0.0,0.0
+Demand policy change,Demand policy change,0,12,0.0,0.0
+Appeal for easing of political dissent,Appeal for easing of political dissent,0,11,0.0,0.0
+Accede to requests or demands for political reform,Accede to requests or demands for political reform,0,10,0.0,0.0
+Demand easing of administrative sanctions,Demand easing of administrative sanctions,0,10,0.0,0.0
+Demand military aid,Demand military aid,0,9,0.0,0.0
+Demonstrate for policy change,Demonstrate for policy change,0,9,0.0,0.0
+Engage in violent protest for leadership change,Engage in violent protest for leadership change,0,9,0.0,0.0
+Reject material cooperation,Reject material cooperation,0,9,0.0,0.0
+Demand mediation,Demand mediation,0,9,0.0,0.0
+Demand political reform,Demand political reform,0,8,0.0,0.0
+Reject mediation,Reject mediation,0,8,0.0,0.0
+"Appeal for easing of economic sanctions, boycott, or embargo","Appeal for easing of economic sanctions, boycott, or embargo",0,8,0.0,0.0
+"Express intent to change institutions, regime","Express intent to change institutions, regime",0,8,0.0,0.0
+Demand release of persons or property,Demand release of persons or property,0,7,0.0,0.0
+Threaten with restrictions on political freedoms,Threaten with restrictions on political freedoms,0,7,0.0,0.0
+Threaten to halt negotiations,Threaten to halt negotiations,0,7,0.0,0.0
+Ease military blockade,Ease military blockade,0,7,0.0,0.0
+Demand rights,Demand rights,0,7,0.0,0.0
+"Accede to demands for change in institutions, regime","Accede to demands for change in institutions, regime",0,6,0.0,0.0
+"Use chemical, biological, or radiological weapons","Use chemical, biological, or radiological weapons",0,6,0.0,0.0
+Ease political dissent,Ease political dissent,0,6,0.0,0.0
+Demand material aid,Demand material aid,0,6,0.0,0.0
+Reject request for military protection or peacekeeping,Reject request for military protection or peacekeeping,0,6,0.0,0.0
+Reject request for change in leadership,Reject request for change in leadership,0,6,0.0,0.0
+Appeal for target to allow international involvement (non-mediation),Appeal for target to allow international involvement (non-mediation),0,5,0.0,0.0
+Carry out roadside bombing,Carry out roadside bombing,0,4,0.0,0.0
+Demand humanitarian aid,Demand humanitarian aid,0,4,0.0,0.0
+Ease ban on political parties or politicians,Ease ban on political parties or politicians,0,4,0.0,0.0
+Engage in political dissent,Engage in political dissent,0,4,0.0,0.0
+Reject request for economic aid,Reject request for economic aid,0,3,0.0,0.0
+Conduct hunger strike,Conduct hunger strike,0,3,0.0,0.0
+Halt mediation,Halt mediation,0,3,0.0,0.0
+Investigate war crimes,Investigate war crimes,0,3,0.0,0.0
+Reject military cooperation,Reject military cooperation,0,2,0.0,0.0
+Ease restrictions on political freedoms,Ease restrictions on political freedoms,0,2,0.0,0.0
+Threaten to impose curfew,Threaten to impose curfew,0,2,0.0,0.0
+Express intent to allow international involvement (non-mediation),Express intent to allow international involvement (non-mediation),0,2,0.0,0.0
+Reject request for rights,Reject request for rights,0,2,0.0,0.0
+Detonate nuclear weapons,Detonate nuclear weapons,0,2,0.0,0.0
+Reject request for policy change,Reject request for policy change,0,2,0.0,0.0
+Demand economic cooperation,Demand economic cooperation,0,2,0.0,0.0
+Appeal for military cooperation,Appeal for military cooperation,0,2,0.0,0.0
+Demand easing of political dissent,Demand easing of political dissent,0,1,0.0,0.0
+Allow humanitarian access,Allow humanitarian access,0,1,0.0,0.0
+Conduct strike or boycott for leadership change,Conduct strike or boycott for leadership change,0,1,0.0,0.0
+Reject request or demand for political reform,Reject request or demand for political reform,0,1,0.0,0.0
+Engage in violent protest for policy change,Engage in violent protest for policy change,0,1,0.0,0.0
+"Reject request for change in institutions, regime","Reject request for change in institutions, regime",0,1,0.0,0.0
+Engage in ethnic cleansing,Engage in ethnic cleansing,0,1,0.0,0.0
+Threaten to impose state of emergency or martial law,Threaten to impose state of emergency or martial law,0,1,0.0,0.0
+Threaten to halt mediation,Threaten to halt mediation,0,1,0.0,0.0
+Threaten to halt international involvement (non-mediation),Threaten to halt international involvement (non-mediation),0,1,0.0,0.0
+Reject request for humanitarian aid,Reject request for humanitarian aid,0,1,0.0,0.0
+Investigate military action,Investigate military action,0,1,0.0,0.0
+Ease curfew,Ease curfew,0,1,0.0,0.0
+Engage in mass expulsion,Engage in mass expulsion,0,1,0.0,0.0

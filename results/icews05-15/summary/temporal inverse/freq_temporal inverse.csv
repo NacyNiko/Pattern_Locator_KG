@@ -1,0 +1,1926 @@
+,head,relation,tail,time
+0,Ognyan Gerdzhikov,Make a visit,Malaysia,2005-01-02
+1,Malaysia,Host a visit,Ognyan Gerdzhikov,2005-01-02
+2,Dominican Republic,Host a visit,China,2005-01-28
+3,China,Make a visit,Dominican Republic,2005-01-28
+4,Police (Malaysia),Make statement,Malaysia,2005-01-28
+5,Malaysia,Investigate,Police (Malaysia),2005-01-28
+6,Israeli Defense Forces,Use conventional military force,Settler (Israel),2005-01-30
+7,Settler (Israel),Use unconventional violence,Israeli Defense Forces,2005-01-30
+8,Japan Self-Defense Forces,Provide military protection or peacekeeping,Sudan,2005-02-03
+9,Sudan,Receive deployment of peacekeepers,Japan Self-Defense Forces,2005-02-03
+10,Oluṣẹgun Ọbasanjọ,Make a visit,Niger,2005-02-09
+11,Iraq,Host a visit,Donald Rumsfeld,2005-02-09
+12,Niger,Host a visit,Oluṣẹgun Ọbasanjọ,2005-02-09
+13,Donald Rumsfeld,Make a visit,Iraq,2005-02-09
+14,Abdul Kalam,Praise or endorse,Carlo Azeglio Ciampi,2005-02-14
+15,Carlo Azeglio Ciampi,Make a visit,Abdul Kalam,2005-02-14
+16,Abdul Kalam,Host a visit,Carlo Azeglio Ciampi,2005-02-14
+17,Shaukat Aziz,Express intent to meet or negotiate,Iran,2005-02-25
+18,Iran,Consult,Shaukat Aziz,2005-02-25
+19,France,Host a visit,Saifur Rahman,2005-02-27
+20,Saifur Rahman,Make a visit,France,2005-02-27
+21,Armed Rebel (Russia),Use unconventional violence,Military (Russia),2005-03-02
+22,Military (Russia),Use conventional military force,Armed Rebel (Russia),2005-03-02
+23,Military Personnel (Yemen),Host a visit,Ali Abdullah Saleh,2005-03-10
+24,Ali Abdullah Saleh,Make a visit,Military Personnel (Yemen),2005-03-10
+25,China,Express intent to meet or negotiate,Japan,2005-03-15
+26,Japan,Make pessimistic comment,China,2005-03-15
+27,Japan,Consult,China,2005-03-15
+28,Japan,Consult,South Korea,2005-03-17
+29,South Korea,Make statement,Japan,2005-03-17
+30,Abdullah Gül,Sign formal agreement,Rafael Antonio Bielsa,2005-03-28
+31,Rafael Antonio Bielsa,Consult,Abdullah Gül,2005-03-28
+32,Member of Parliament (Australia),Express intent to engage in diplomatic cooperation (such as policy support),Peter Costello,2005-04-02
+33,Peter Costello,Make statement,Member of Parliament (Australia),2005-04-02
+34,Iran,Express intent to meet or negotiate,France,2005-04-05
+35,Iran,Express intent to cooperate,France,2005-04-05
+36,France,Meet at a 'third' location,Iran,2005-04-05
+37,Citizen (Australia),Engage in symbolic act,Police (Australia),2005-04-08
+38,Police (Australia),Investigate,Citizen (Australia),2005-04-08
+39,Japan,Consult,South Korea,2005-04-08
+40,South Korea,Accuse,Japan,2005-04-08
+41,China,Host a visit,Ministry (Egypt),2005-04-10
+42,Ministry (Egypt),Make a visit,China,2005-04-10
+43,South Korea,Demand,Japan,2005-04-13
+44,South Korea,Reject,Japan,2005-04-13
+45,Japan,Meet at a 'third' location,South Korea,2005-04-13
+46,South Korea,Meet at a 'third' location,Japan,2005-04-14
+47,Japan,Praise or endorse,South Korea,2005-04-14
+48,China,Express intent to cooperate,South Korea,2005-04-14
+49,South Korea,Make a visit,China,2005-04-14
+50,South Korea,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2005-04-14
+51,Roh Moo Hyun,Make a visit,South Korea,2005-04-16
+52,Kuomintang,Consult,China,2005-04-16
+53,South Korea,Consult,Roh Moo Hyun,2005-04-16
+54,China,Host a visit,Kuomintang,2005-04-16
+55,China,Make optimistic comment,Japan,2005-04-17
+56,Japan,Make a visit,China,2005-04-17
+57,China,Host a visit,Japan,2005-04-17
+58,China,Sign formal agreement,Japan,2005-04-18
+59,Japan,Express intent to cooperate,China,2005-04-18
+60,Military (Russia),Use conventional military force,Armed Rebel (Russia),2005-04-19
+61,Armed Rebel (Russia),fight with small arms and light weapons,Military (Russia),2005-04-19
+62,Lien Chan,Make a visit,China,2005-04-20
+63,Kuomintang,Engage in negotiation,China,2005-04-20
+64,China,Host a visit,Kuomintang,2005-04-20
+65,China,Host a visit,Lien Chan,2005-04-20
+66,China,Appeal for diplomatic cooperation (such as policy support),Japan,2005-04-22
+67,Japan,Engage in diplomatic cooperation,China,2005-04-22
+68,China,Make an appeal or request,Japan,2005-04-22
+69,China,Criticize or denounce,Japan,2005-04-22
+70,Japan,"Demand meeting, negotiation",China,2005-04-22
+71,Japan,Occupy territory,China,2005-04-23
+72,Japan,Engage in diplomatic cooperation,China,2005-04-23
+73,China,Accuse,Japan,2005-04-23
+74,Foreign Affairs (Israel),Make a visit,Mauritania,2005-04-26
+75,Mauritania,Host a visit,Foreign Affairs (Israel),2005-04-26
+76,Japan,Demand,China,2005-04-27
+77,China,Consult,Japan,2005-04-27
+78,China,Deny responsibility,Japan,2005-04-28
+79,Japan,Demand diplomatic cooperation (such as policy support),China,2005-04-28
+80,France,Express intent to meet or negotiate,China,2005-05-03
+81,China,Engage in diplomatic cooperation,France,2005-05-03
+82,China,Consult,Japan,2005-05-08
+83,Japan,Express intent to cooperate,China,2005-05-08
+84,Guerrilla (Colombia),Use unconventional violence,Marine Corp (Colombia),2005-05-16
+85,Marine Corp (Colombia),Use conventional military force,Guerrilla (Colombia),2005-05-16
+86,Japan,Share intelligence or information,South Korea,2005-05-30
+87,South Korea,Consult,Japan,2005-05-30
+88,Japan,Engage in diplomatic cooperation,China,2005-06-02
+89,China,Threaten,Japan,2005-06-02
+90,Jack McConnell,Make a visit,Malawi,2005-06-02
+91,Malawi,Host a visit,Jack McConnell,2005-06-02
+92,African Union,Make a visit,Sudan,2005-06-03
+93,Sudan,Host a visit,African Union,2005-06-03
+94,Jason C. Hu,Make a visit,China,2005-06-09
+95,China,Host a visit,Jason C. Hu,2005-06-09
+96,African Union,Provide military protection or peacekeeping,Sudan,2005-06-10
+97,Sudan,Receive deployment of peacekeepers,African Union,2005-06-10
+98,Head of Government (Nigeria),Host a visit,African Union,2005-06-16
+99,African Union,Make a visit,Head of Government (Nigeria),2005-06-16
+100,South Korea,Make a visit,China,2005-06-20
+101,China,Host a visit,South Korea,2005-06-20
+102,Iran,Make optimistic comment,Mahmoud Ahmadinejad,2005-06-25
+103,Mahmoud Ahmadinejad,Make an appeal or request,Iran,2005-06-25
+104,Kazakhstan,Express intent to engage in diplomatic cooperation (such as policy support),China,2005-07-02
+105,China,Engage in diplomatic cooperation,Kazakhstan,2005-07-02
+106,Criminal (Australia),Use unconventional violence,Police (Australia),2005-07-03
+107,Police (Australia),Use conventional military force,Criminal (Australia),2005-07-03
+108,Thailand,Express intent to meet or negotiate,Cambodia,2005-07-05
+109,Cambodia,Express intent to cooperate,Thailand,2005-07-05
+110,Thailand,Consult,China,2005-07-05
+111,China,Sign formal agreement,Thailand,2005-07-05
+112,Islam Karimov,Make a visit,Kazakhstan,2005-07-06
+113,Kazakhstan,Host a visit,Islam Karimov,2005-07-06
+114,Association of Southeast Asian Nations,Make a visit,Laos,2005-07-14
+115,Laos,Host a visit,Association of Southeast Asian Nations,2005-07-14
+116,Iraq,Make a visit,Iran,2005-07-16
+117,Iran,Express intent to engage in diplomatic cooperation (such as policy support),Iraq,2005-07-16
+118,China,Criticize or denounce,Japan,2005-07-22
+119,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2005-07-22
+120,South Korea,Make statement,China,2005-07-26
+121,South Korea,Consult,China,2005-07-26
+122,China,Engage in negotiation,South Korea,2005-07-26
+123,South Korea,Express intent to meet or negotiate,Japan,2005-07-27
+124,Japan,Engage in diplomatic cooperation,South Korea,2005-07-27
+125,China,Host a visit,Cabinet / Council of Ministers / Advisors (United States),2005-08-03
+126,Cabinet / Council of Ministers / Advisors (United States),Engage in negotiation,China,2005-08-03
+127,Japan,Express intent to meet or negotiate,China,2005-08-04
+128,China,Engage in negotiation,Japan,2005-08-04
+129,China,Express intent to cooperate,Japan,2005-08-04
+130,South Korea,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2005-08-08
+131,Japan,Express intent to cooperate,South Korea,2005-08-08
+132,Japan,Sign formal agreement,Thailand,2005-08-10
+133,Thailand,Make an appeal or request,Japan,2005-08-10
+134,North America,Host a visit,China,2005-08-20
+135,China,Make a visit,North America,2005-08-20
+136,Kuomintang,Make a visit,People First Party Korea,2005-08-28
+137,People First Party Korea,Host a visit,Kuomintang,2005-08-28
+138,Vietnam,Make a visit,Laos,2005-08-29
+139,Laos,Host a visit,Vietnam,2005-08-29
+140,Association of Southeast Asian Nations,Make a visit,Laos,2005-08-30
+141,Laos,Host a visit,Association of Southeast Asian Nations,2005-08-30
+142,Roh Moo Hyun,Make an appeal or request,Grand National Party,2005-08-31
+143,Grand National Party,Accuse,Roh Moo Hyun,2005-08-31
+144,Tony Blair,Engage in negotiation,Wen Jiabao,2005-09-05
+145,Wen Jiabao,Consult,Tony Blair,2005-09-05
+146,China,Host a visit,Shivraj Patil,2005-09-06
+147,Shivraj Patil,Express intent to meet or negotiate,China,2005-09-06
+148,Japan,Express intent to cooperate,South Korea,2005-09-14
+149,South Korea,Investigate,Japan,2005-09-14
+150,Tony Blair,Make a visit,China,2005-09-20
+151,Benjamin William Mkapa,Make a visit,South Africa,2005-09-20
+152,China,Host a visit,Tony Blair,2005-09-20
+153,South Africa,Host a visit,Benjamin William Mkapa,2005-09-20
+154,China,Consult,Japan,2005-09-21
+155,Japan,Complain officially,China,2005-09-21
+156,Japan,Express intent to cooperate,China,2005-09-21
+157,Angela Merkel,Express intent to cooperate,Gerhard Schröder,2005-09-22
+158,Gerhard Schröder,Engage in negotiation,Angela Merkel,2005-09-22
+159,UN Security Council,Provide military protection or peacekeeping,Sudan,2005-09-24
+160,Sudan,Receive deployment of peacekeepers,UN Security Council,2005-09-24
+161,China,Make a visit,Japan,2005-09-30
+162,Japan,Host a visit,China,2005-09-30
+163,Government (Sudan),Criticize or denounce,African Union,2005-10-02
+164,African Union,Accuse,Government (Sudan),2005-10-02
+165,China,Make optimistic comment,Iran,2005-10-13
+166,Iran,Express intent to meet or negotiate,China,2005-10-13
+167,South Korea,Host a visit,Thailand,2005-10-17
+168,China,Consult,Japan,2005-10-17
+169,Japan,Express intent to meet or negotiate,China,2005-10-17
+170,Thailand,Make a visit,South Korea,2005-10-17
+171,Japan,Reduce relations,China,2005-10-17
+172,Japan,Express intent to cooperate,China,2005-10-17
+173,South Korea,Host a visit,Robert Hill,2005-10-19
+174,Japan,Host a visit,Foreign Affairs (South Korea),2005-10-19
+175,Robert Hill,Make a visit,South Korea,2005-10-19
+176,Foreign Affairs (South Korea),Express intent to meet or negotiate,Japan,2005-10-19
+177,Donald Rumsfeld,Make statement,China,2005-10-21
+178,China,Reject,Donald Rumsfeld,2005-10-21
+179,Teodoro Obiang Nguema Mbasogo,Make a visit,China,2005-10-21
+180,China,Host a visit,Teodoro Obiang Nguema Mbasogo,2005-10-21
+181,China,Host a visit,Donald Rumsfeld,2005-10-21
+182,Donald Rumsfeld,Make pessimistic comment,China,2005-10-21
+183,China,Host a visit,Teodoro Obiang Nguema Mbasogo,2005-10-22
+184,Teodoro Obiang Nguema Mbasogo,Express intent to meet or negotiate,China,2005-10-22
+185,Undersecretary (United States),Make a visit,Aceh,2005-10-23
+186,Carlos Saul Menem,Make a visit,Justicialist Party,2005-10-23
+187,Justicialist Party,Host a visit,Carlos Saul Menem,2005-10-23
+188,Aceh,Host a visit,Undersecretary (United States),2005-10-23
+189,Thailand,Sign formal agreement,Malaysia,2005-10-26
+190,Malaysia,Express intent to cooperate,Thailand,2005-10-26
+191,Thailand,Demand,Malaysia,2005-10-26
+192,Japan,Host a visit,Ali Abdullah Saleh,2005-10-27
+193,Ali Abdullah Saleh,Express intent to meet or negotiate,Japan,2005-10-27
+194,South Korea,Host a visit,Alberto Fujimori,2005-10-31
+195,Alberto Fujimori,Make a visit,South Korea,2005-10-31
+196,China,Express intent to cooperate economically,Vietnam,2005-11-01
+197,Militia (Tanzania),Use unconventional violence,Military Personnel - Special (Tanzania),2005-11-01
+198,Vietnam,Sign formal agreement,China,2005-11-01
+199,Vietnam,Express intent to cooperate,China,2005-11-01
+200,Military Personnel - Special (Tanzania),Use conventional military force,Militia (Tanzania),2005-11-01
+201,James Wolfensohn,Make a visit,Mahmoud Abbas,2005-11-08
+202,Mahmoud Abbas,Praise or endorse,James Wolfensohn,2005-11-08
+203,South Korea,Threaten to reduce or break relations,Japan,2005-11-11
+204,Japan,Engage in negotiation,South Korea,2005-11-11
+205,Abu Salem,Make a visit,Portugal,2005-11-14
+206,Portugal,Expel or deport individuals,Abu Salem,2005-11-14
+207,China,Consult,South Korea,2005-11-17
+208,China,Express intent to cooperate,South Korea,2005-11-17
+209,South Korea,Sign formal agreement,China,2005-11-17
+210,Mikulas Dzurinda,Engage in negotiation,Yuriy Yekhanurov,2005-11-24
+211,Yuriy Yekhanurov,Consult,Mikulas Dzurinda,2005-11-24
+212,Rafael Antonio Bielsa,Make a visit,China,2005-11-25
+213,Angela Merkel,Make a visit,France,2005-11-25
+214,China,Host a visit,Rafael Antonio Bielsa,2005-11-25
+215,France,Host a visit,Angela Merkel,2005-11-25
+216,Iran,Host a visit,Iraq,2005-12-01
+217,Iraq,Use conventional military force,Iran,2005-12-01
+218,China,Reduce or break diplomatic relations,Japan,2005-12-08
+219,China,Make statement,Japan,2005-12-08
+220,Roh Moo Hyun,Express intent to meet or negotiate,Malaysia,2005-12-08
+221,Malaysia,Host a visit,Roh Moo Hyun,2005-12-08
+222,Japan,Express intent to meet or negotiate,China,2005-12-08
+223,Valdas Adamkus,Make a visit,Romania,2005-12-09
+224,Romania,Host a visit,Valdas Adamkus,2005-12-09
+225,China,Consult,Japan,2005-12-10
+226,Japan,Make statement,China,2005-12-10
+227,Iraq,Host a visit,Adil Abdul-Mahdi,2005-12-14
+228,Adil Abdul-Mahdi,Make a visit,Iraq,2005-12-14
+229,Bolivia,Praise or endorse,Evo Morales,2005-12-23
+230,Evo Morales,Make statement,Bolivia,2005-12-23
+231,Bolivia,Sign formal agreement,Evo Morales,2005-12-23
+232,Bolivia,Host a visit,Evo Morales,2005-12-23
+233,Citizen (Australia),Decline comment,Police (Australia),2005-12-29
+234,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2005-12-29
+235,China,Make statement,South Korea,2006-01-05
+236,South Korea,Consult,China,2006-01-05
+237,Evo Morales,Express intent to meet or negotiate,China,2006-01-09
+238,China,Host a visit,Evo Morales,2006-01-09
+239,Javier Solana,Meet at a 'third' location,France,2006-01-12
+240,France,Express accord,Javier Solana,2006-01-12
+241,Mexico,Host a visit,Valdas Adamkus,2006-01-17
+242,Valdas Adamkus,Make a visit,Mexico,2006-01-17
+243,Evo Morales,Make a visit,Bolivia,2006-01-22
+244,Bolivia,Praise or endorse,Evo Morales,2006-01-22
+245,Bolivia,Consult,Evo Morales,2006-01-22
+246,Bolivia,Host a visit,Evo Morales,2006-01-29
+247,Evo Morales,Make a visit,Bolivia,2006-01-29
+248,Men (South Africa),fight with small arms and light weapons,Police (South Africa),2006-01-30
+249,Police (South Africa),Investigate,Men (South Africa),2006-01-30
+250,Iran,Consult,France,2006-01-31
+251,France,Reduce or break diplomatic relations,Iran,2006-01-31
+252,China,Express intent to meet or negotiate,Japan,2006-02-07
+253,Japan,Express intent to cooperate,China,2006-02-07
+254,South Africa,Host a visit,Head of Government (Brazil),2006-02-08
+255,Head of Government (Brazil),Make a visit,South Africa,2006-02-08
+256,China,Accuse,Japan,2006-02-10
+257,China,Consult,Japan,2006-02-10
+258,Japan,Make an appeal or request,China,2006-02-10
+259,Tony Blair,Consult,Angela Merkel,2006-02-17
+260,Angela Merkel,Engage in negotiation,Tony Blair,2006-02-17
+261,Pervez Musharraf,Make statement,China,2006-02-20
+262,China,Host a visit,Pervez Musharraf,2006-02-20
+263,Vietnam,Host a visit,Mikhail Yefimovich Fradkov,2006-02-22
+264,Mikhail Yefimovich Fradkov,Make a visit,Vietnam,2006-02-22
+265,Iran,Host a visit,Mahmoud Ahmadinejad,2006-02-27
+266,Cambodia,Engage in diplomatic cooperation,Vietnam,2006-02-27
+267,Mahmoud Ahmadinejad,Make a visit,Iran,2006-02-27
+268,Vietnam,Sign formal agreement,Cambodia,2006-02-27
+269,Angela Merkel,Engage in negotiation,Wen Jiabao,2006-03-02
+270,Rashid Gumarovich Nurgaliyev,Make a visit,China,2006-03-02
+271,Wen Jiabao,Discuss by telephone,Angela Merkel,2006-03-02
+272,Mahmoud Ahmadinejad,Praise or endorse,Malaysia,2006-03-02
+273,Malaysia,Consult,Mahmoud Ahmadinejad,2006-03-02
+274,China,Host a visit,Rashid Gumarovich Nurgaliyev,2006-03-02
+275,South Korea,Express intent to meet or negotiate,China,2006-03-10
+276,China,Investigate,South Korea,2006-03-10
+277,Roh Moo Hyun,Express intent to meet or negotiate,Japan,2006-03-17
+278,Japan,Consult,Roh Moo Hyun,2006-03-17
+279,Israeli Defense Forces,Make statement,"Armed Gang (Palestinian Territory, Occupied)",2006-03-17
+280,"Armed Gang (Palestinian Territory, Occupied)",fight with small arms and light weapons,Israeli Defense Forces,2006-03-17
+281,China,Engage in diplomatic cooperation,Vietnam,2006-03-21
+282,Vietnam,Express intent to cooperate,China,2006-03-21
+283,China,Express intent to engage in diplomatic cooperation (such as policy support),Vietnam,2006-03-21
+284,Japan,Express intent to meet or negotiate,China,2006-03-22
+285,China,Consult,Japan,2006-03-22
+286,China,Express intent to cooperate,Vietnam,2006-03-23
+287,Vietnam,Engage in diplomatic cooperation,China,2006-03-23
+288,China,Engage in negotiation,Japan,2006-03-24
+289,Japan,Express intent to meet or negotiate,China,2006-03-24
+290,Roh Moo Hyun,Express intent to meet or negotiate,Islam Karimov,2006-03-29
+291,Islam Karimov,Engage in negotiation,Roh Moo Hyun,2006-03-29
+292,Jack Straw,Consult,Iraq,2006-04-04
+293,Iraq,Host a visit,Jack Straw,2006-04-04
+294,China,Host a visit,Ali Abdullah Saleh,2006-04-07
+295,Ali Abdullah Saleh,Praise or endorse,China,2006-04-07
+296,Robert Wexler,Make statement,Abdullah Gül,2006-04-11
+297,Abdullah Gül,Consult,Robert Wexler,2006-04-11
+298,Royal Administration (Saudi Arabia),Express intent to meet or negotiate,Shaukat Aziz,2006-04-15
+299,Shaukat Aziz,Praise or endorse,Royal Administration (Saudi Arabia),2006-04-15
+300,Japan,Make statement,South Korea,2006-04-21
+301,South Korea,Host a visit,Japan,2006-04-21
+302,Japan,Engage in negotiation,South Korea,2006-04-21
+303,South Korea,Sign formal agreement,Japan,2006-04-22
+304,Japan,"Reject plan, agreement to settle dispute",South Korea,2006-04-22
+305,Vietnam,Host a visit,Somsavat Lengsava,2006-05-04
+306,Somsavat Lengsava,Make a visit,Vietnam,2006-05-04
+307,Somsavat Lengsava,Express intent to meet or negotiate,Vietnam,2006-05-04
+308,Japan,Make an appeal or request,China,2006-05-18
+309,Japan,Express intent to cooperate,China,2006-05-18
+310,China,Consult,Japan,2006-05-18
+311,Japan,Make pessimistic comment,China,2006-05-18
+312,Tony Blair,Praise or endorse,Nuri al-Maliki,2006-05-23
+313,Nuri al-Maliki,Make statement,Tony Blair,2006-05-23
+314,Thailand,Reject,Citizen (Thailand),2006-05-25
+315,Citizen (Thailand),Demand,Thailand,2006-05-25
+316,Iraq,Host a visit,Nuri al-Maliki,2006-06-03
+317,Nuri al-Maliki,Make a visit,Iraq,2006-06-03
+318,Javier Solana,Make a visit,Middle East,2006-06-05
+319,Middle East,Host a visit,Javier Solana,2006-06-05
+320,African Union,Host a visit,UN Security Council,2006-06-07
+321,UN Security Council,Consult,African Union,2006-06-07
+322,China,Make optimistic comment,Japan,2006-06-08
+323,Governor (Thailand),Demand,Thailand,2006-06-08
+324,China,Sign formal agreement,Japan,2006-06-08
+325,Japan,Reduce relations,China,2006-06-08
+326,Thailand,Provide economic aid,Governor (Thailand),2006-06-08
+327,Militant (Taliban),Use unconventional violence,Employee (Afghanistan),2006-06-10
+328,Employee (Afghanistan),Use conventional military force,Militant (Taliban),2006-06-10
+329,Iran,Host a visit,Javier Solana,2006-06-15
+330,Javier Solana,Make a visit,Iran,2006-06-15
+331,Thailand,Make an appeal or request,Citizen (Thailand),2006-06-15
+332,Citizen (Thailand),Express intent to meet or negotiate,Thailand,2006-06-15
+333,Kazakhstan,Host a visit,Surakiart Sathirathai,2006-06-20
+334,Kazakhstan,Express intent to engage in diplomatic cooperation (such as policy support),Surakiart Sathirathai,2006-06-20
+335,Surakiart Sathirathai,Make a visit,Kazakhstan,2006-06-20
+336,Wen Jiabao,Make a visit,Angola,2006-06-21
+337,Angola,Host a visit,Wen Jiabao,2006-06-21
+338,Iran,Engage in negotiation,Javier Solana,2006-06-28
+339,Javier Solana,Make a visit,Iran,2006-06-28
+340,Labor Activist (United States),Make a visit,South Korea,2006-07-07
+341,South Korea,Host a visit,Labor Activist (United States),2006-07-07
+342,Nuri al-Maliki,Consult,Donald Rumsfeld,2006-07-13
+343,Donald Rumsfeld,Express intent to meet or negotiate,Nuri al-Maliki,2006-07-13
+344,Laos,Consult,Vietnam,2006-07-20
+345,Vietnam,Express intent to engage in diplomatic cooperation (such as policy support),Laos,2006-07-20
+346,China,Express intent to cooperate,Japan,2006-07-21
+347,Japan,Engage in negotiation,China,2006-07-21
+348,Foreign Affairs (France),Make a visit,Middle East,2006-07-23
+349,Middle East,Host a visit,Foreign Affairs (France),2006-07-23
+350,Japan,Consult,China,2006-07-26
+351,Association of Southeast Asian Nations,Sign formal agreement,France,2006-07-26
+352,France,Express intent to engage in diplomatic cooperation (such as policy support),Association of Southeast Asian Nations,2006-07-26
+353,China,Express intent to meet or negotiate,Japan,2006-07-26
+354,China,Express intent to meet or negotiate,Japan,2006-07-27
+355,Japan,Engage in negotiation,China,2006-07-27
+356,Japan,Consult,China,2006-07-27
+357,Pascal Affi N'Guessan,Make a visit,Legislature (Cote d'Ivoire),2006-07-31
+358,Legislature (Cote d'Ivoire),Host a visit,Pascal Affi N'Guessan,2006-07-31
+359,China,Host a visit,Japan Self-Defense Forces,2006-08-02
+360,Japan Self-Defense Forces,Make a visit,China,2006-08-02
+361,Malaysia,Express intent to de-escalate military engagement,Timor-Leste,2006-08-08
+362,Timor-Leste,Receive deployment of peacekeepers,Malaysia,2006-08-08
+363,Malaysia,Provide military aid,Timor-Leste,2006-08-08
+364,Vietnam,Make a visit,China,2006-08-26
+365,China,Engage in diplomatic cooperation,Vietnam,2006-08-26
+366,High Ranking Military Personnel (Taiwan),Make a visit,Japan,2006-08-28
+367,Japan,Host a visit,High Ranking Military Personnel (Taiwan),2006-08-28
+368,China,Host a visit,Dmitry Anatolyevich Medvedev,2006-08-29
+369,South Korea,Express intent to cooperate,China,2006-08-29
+370,Dmitry Anatolyevich Medvedev,Express intent to meet or negotiate,China,2006-08-29
+371,China,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2006-08-29
+372,Laos,Engage in diplomatic cooperation,Vietnam,2006-08-31
+373,Vietnam,Provide aid,Laos,2006-08-31
+374,Sudan,Give ultimatum,African Union,2006-09-04
+375,African Union,Provide military protection or peacekeeping,Sudan,2006-09-04
+376,Lawyer/Attorney (United Kingdom),Consider policy option,Citizen (United Kingdom),2006-09-04
+377,Citizen (United Kingdom),Express intent to cooperate,Lawyer/Attorney (United Kingdom),2006-09-04
+378,African Union,Provide military protection or peacekeeping,Sudan,2006-09-05
+379,Sudan,Give ultimatum,African Union,2006-09-05
+380,Kuomintang,Make a visit,China,2006-09-08
+381,China,Host a visit,Kuomintang,2006-09-08
+382,Tony Blair,Consult,Mahmoud Abbas,2006-09-11
+383,Mahmoud Abbas,Express intent to cooperate,Tony Blair,2006-09-11
+384,Police (Australia),Use conventional military force,Citizen (Australia),2006-09-13
+385,Citizen (Australia),fight with small arms and light weapons,Police (Australia),2006-09-13
+386,China,Express intent to settle dispute,Japan,2006-10-04
+387,Japan,Engage in negotiation,China,2006-10-04
+388,China,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2006-10-05
+389,Japan,Express intent to cooperate,China,2006-10-05
+390,Japan,Express intent to meet or negotiate,China,2006-10-08
+391,China,Express intent to settle dispute,Japan,2006-10-08
+392,China,"Declare truce, ceasefire",Japan,2006-10-08
+393,Japan,Consult,China,2006-10-09
+394,Japan,Express intent to meet or negotiate,China,2006-10-09
+395,Muslim Cleric (Iran),Criticize or denounce,Iran,2006-10-09
+396,China,"Declare truce, ceasefire",Japan,2006-10-09
+397,Iran,"Arrest, detain, or charge with legal action",Muslim Cleric (Iran),2006-10-09
+398,China,Make statement,South Korea,2006-10-11
+399,South Korea,Consult,China,2006-10-11
+400,Javier Solana,Engage in symbolic act,Foreign Affairs (Lebanon),2006-10-29
+401,Tzipi Livni,"Reject proposal to meet, discuss, or negotiate",Qatar,2006-10-29
+402,Qatar,Host a visit,Tzipi Livni,2006-10-29
+403,Foreign Affairs (Lebanon),Consult,Javier Solana,2006-10-29
+404,Islam Karimov,Make a visit,Kazakhstan,2006-11-04
+405,Kazakhstan,Host a visit,Islam Karimov,2006-11-04
+406,Oluṣẹgun Ọbasanjọ,Engage in negotiation,Roh Moo Hyun,2006-11-06
+407,Roh Moo Hyun,Sign formal agreement,Oluṣẹgun Ọbasanjọ,2006-11-06
+408,Oluṣẹgun Ọbasanjọ,Consult,Roh Moo Hyun,2006-11-06
+409,Roh Moo Hyun,Engage in negotiation,Oluṣẹgun Ọbasanjọ,2006-11-06
+410,Segolene Royal,Make a visit,Middle East,2006-12-01
+411,China,Express intent to meet or negotiate,Japan,2006-12-01
+412,Middle East,Host a visit,Segolene Royal,2006-12-01
+413,Japan,Demand rights,China,2006-12-01
+414,China,Engage in negotiation,Japan,2006-12-06
+415,Sudan,Express intent to cooperate,African Union,2006-12-06
+416,Japan,Consult,China,2006-12-06
+417,African Union,Provide military protection or peacekeeping,Sudan,2006-12-06
+418,Vietnam,Sign formal agreement,Laos,2006-12-07
+419,Laos,Consult,Vietnam,2006-12-07
+420,Head of Government (Chile),Make a visit,Bolivia,2006-12-08
+421,Vietnam,Consult,Laos,2006-12-08
+422,Laos,Sign formal agreement,Vietnam,2006-12-08
+423,Bolivia,Host a visit,Head of Government (Chile),2006-12-08
+424,Japan,Engage in diplomatic cooperation,China,2006-12-09
+425,China,Make a visit,Japan,2006-12-09
+426,Japan,Express intent to meet or negotiate,China,2006-12-18
+427,China,Engage in negotiation,Japan,2006-12-18
+428,Tony Blair,Make a visit,Middle East,2006-12-19
+429,Middle East,Host a visit,Tony Blair,2006-12-19
+430,Iran,Criticize or denounce,Mahmoud Ahmadinejad,2006-12-20
+431,Mahmoud Ahmadinejad,Make statement,Iran,2006-12-20
+432,China,Express intent to meet or negotiate,Japan,2007-01-05
+433,Japan,Consult,China,2007-01-05
+434,Men (South Africa),Use unconventional violence,Police (South Africa),2007-01-08
+435,Police (South Africa),fight with small arms and light weapons,Men (South Africa),2007-01-08
+436,China,Praise or endorse,Association of Southeast Asian Nations,2007-01-11
+437,Association of Southeast Asian Nations,Make statement,China,2007-01-11
+438,South Korea,Consult,China,2007-01-14
+439,China,"Declare truce, ceasefire",South Korea,2007-01-14
+440,Iraq,Host a visit,Mohammad Ali Jafari,2007-01-19
+441,Mohammad Ali Jafari,Make a visit,Iraq,2007-01-19
+442,Ethiopia,Host a visit,African Union,2007-01-21
+443,African Union,Make a visit,Ethiopia,2007-01-21
+444,South Africa,Host a visit,China,2007-01-22
+445,China,Make a visit,South Africa,2007-01-22
+446,African Union,Make a visit,Ethiopia,2007-01-23
+447,Ethiopia,Host a visit,African Union,2007-01-23
+448,China,Make an appeal or request,Japan,2007-01-25
+449,Japan,Express intent to cooperate,China,2007-01-25
+450,Citizen (Nigeria),Make an appeal or request,Oluṣẹgun Ọbasanjọ,2007-01-29
+451,Oluṣẹgun Ọbasanjọ,Criticize or denounce,Citizen (Nigeria),2007-01-29
+452,Sudan,Engage in diplomatic cooperation,China,2007-02-01
+453,China,Express intent to meet or negotiate,Sudan,2007-02-01
+454,China,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2007-02-13
+455,Japan,Consult,China,2007-02-13
+456,China,Make optimistic comment,Japan,2007-02-13
+457,President of the Senate (Australia),Make a visit,Cambodia,2007-02-14
+458,Cambodia,Host a visit,President of the Senate (Australia),2007-02-14
+459,Head of Government (Turkmenistan),Engage in negotiation,Mikhail Yefimovich Fradkov,2007-02-15
+460,China,Express intent to meet or negotiate,Japan,2007-02-15
+461,Japan,Reject,China,2007-02-15
+462,Mikhail Yefimovich Fradkov,Consult,Head of Government (Turkmenistan),2007-02-15
+463,Middle East,Make optimistic comment,Cabinet / Council of Ministers / Advisors (United States),2007-02-18
+464,Cabinet / Council of Ministers / Advisors (United States),Make a visit,Middle East,2007-02-18
+465,UN Security Council,Demand,Iran,2007-02-22
+466,Iran,Reject,UN Security Council,2007-02-22
+467,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2007-02-27
+468,Citizen (Australia),Share intelligence or information,Police (Australia),2007-02-27
+469,Citizen (Australia),Accuse,Police (Australia),2007-03-01
+470,Police (Australia),Investigate,Citizen (Australia),2007-03-01
+471,Citizen (Uganda),Demonstrate or rally,Police (Uganda),2007-03-06
+472,Police (Uganda),fight with small arms and light weapons,Citizen (Uganda),2007-03-06
+473,Foreign Affairs (Belgium),Make a visit,Middle East,2007-03-09
+474,Middle East,Host a visit,Foreign Affairs (Belgium),2007-03-09
+475,Citizen (Australia),Demonstrate or rally,Police (Australia),2007-03-10
+476,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2007-03-10
+477,Saud bin Faisal bin Abdul-Aziz,Engage in symbolic act,Javier Solana,2007-03-13
+478,Javier Solana,Express intent to meet or negotiate,Saud bin Faisal bin Abdul-Aziz,2007-03-13
+479,Angela Merkel,Discuss by telephone,Wen Jiabao,2007-03-20
+480,Japan,Consult,China,2007-03-20
+481,China,Express intent to meet or negotiate,Japan,2007-03-20
+482,Wen Jiabao,Consult,Angela Merkel,2007-03-20
+483,Citizen (Australia),Criticize or denounce,Police (Australia),2007-03-29
+484,Police (Australia),Provide humanitarian aid,Citizen (Australia),2007-03-29
+485,Roh Moo Hyun,Make a visit,Kuwait,2007-04-03
+486,Kuwait,Host a visit,Roh Moo Hyun,2007-04-03
+487,China,Engage in diplomatic cooperation,Japan,2007-04-05
+488,Japan,Consult,China,2007-04-05
+489,Japan,Express intent to meet or negotiate,China,2007-04-05
+490,Men (South Africa),Physically assault,Police (South Africa),2007-04-09
+491,Police (South Africa),"Arrest, detain, or charge with legal action",Men (South Africa),2007-04-09
+492,Japan,Express intent to cooperate,China,2007-04-11
+493,China,Demand,Japan,2007-04-11
+494,Japan,Engage in diplomatic cooperation,China,2007-04-11
+495,China,Make a visit,Japan,2007-04-11
+496,China,Make a visit,South Korea,2007-04-11
+497,South Korea,Engage in diplomatic cooperation,China,2007-04-11
+498,China,Reject,Japan,2007-04-12
+499,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2007-04-12
+500,China,"Ease economic sanctions, boycott, embargo",Japan,2007-04-12
+501,Japan,Sign formal agreement,China,2007-04-13
+502,China,Accuse,Japan,2007-04-13
+503,Umaru Musa Yar'Adua,Criticize or denounce,Citizen (Nigeria),2007-04-23
+504,Citizen (Nigeria),Demand,Umaru Musa Yar'Adua,2007-04-23
+505,Foreign Affairs (Syria),Engage in symbolic act,Pervez Musharraf,2007-05-17
+506,Pervez Musharraf,Consult,Foreign Affairs (Syria),2007-05-17
+507,United Self-Defense Forces of Colombia,Accuse,Head of Government (Colombia),2007-05-17
+508,Head of Government (Colombia),Make an appeal or request,United Self-Defense Forces of Colombia,2007-05-17
+509,China,Host a visit,Hui Liangyu,2007-05-19
+510,Hui Liangyu,Make a visit,China,2007-05-19
+511,Tony Blair,Make a visit,Nuri al-Maliki,2007-05-19
+512,Nuri al-Maliki,Host a visit,Tony Blair,2007-05-19
+513,Javier Solana,Consult,Tzipi Livni,2007-05-21
+514,Tzipi Livni,Engage in negotiation,Javier Solana,2007-05-21
+515,Somsavat Lengsava,Make a visit,China,2007-05-24
+516,China,Host a visit,Somsavat Lengsava,2007-05-24
+517,South Africa,Make statement,Vietnam,2007-05-28
+518,Vietnam,Sign formal agreement,South Africa,2007-05-28
+519,China,Consult,Japan,2007-05-29
+520,Sudan,Express intent to engage in diplomatic cooperation (such as policy support),China,2007-05-29
+521,China,Provide military protection or peacekeeping,Sudan,2007-05-29
+522,China,Make an appeal or request,Japan,2007-05-29
+523,Japan,Appeal for intelligence,China,2007-05-29
+524,Trinidad and Tobago,Host a visit,Abdul Kadir,2007-06-05
+525,Abdul Kadir,Make a visit,Trinidad and Tobago,2007-06-05
+526,Citizen (Thailand),Accuse,Insurgent (Thailand),2007-06-07
+527,Insurgent (Thailand),fight with small arms and light weapons,Citizen (Thailand),2007-06-07
+528,China,Host a visit,Jusuf Kalla,2007-06-08
+529,Jusuf Kalla,Make statement,China,2007-06-08
+530,Citizen (Australia),Use unconventional violence,Police (Australia),2007-06-09
+531,Police (Australia),Use conventional military force,Citizen (Australia),2007-06-09
+532,South Africa,Host a visit,Movement for Democratic Change,2007-06-20
+533,Movement for Democratic Change,Make a visit,South Africa,2007-06-20
+534,Kazakhstan,Consult,Iran,2007-06-21
+535,Iran,Express intent to meet or negotiate,Kazakhstan,2007-06-21
+536,Mahmoud Abbas,Make a visit,United Arab Emirates,2007-06-26
+537,United Arab Emirates,Host a visit,Mahmoud Abbas,2007-06-26
+538,Daniel Scioli,Make a visit,France,2007-07-02
+539,France,Host a visit,Daniel Scioli,2007-07-02
+540,Joon Young Woo,Make a visit,China,2007-07-05
+541,China,Host a visit,Joon Young Woo,2007-07-05
+542,Iraq,Make an appeal or request,Iran,2007-07-08
+543,Iran,Host a visit,Iraq,2007-07-08
+544,Laos,Engage in diplomatic cooperation,Vietnam,2007-07-11
+545,Vietnam,Express intent to cooperate,Laos,2007-07-11
+546,Gurbanguly Berdymukhammedov,Make a visit,China,2007-07-19
+547,China,Host a visit,Gurbanguly Berdymukhammedov,2007-07-19
+548,Japan,Express intent to meet or negotiate,China,2007-08-06
+549,China,Consult,Japan,2007-08-06
+550,Japan,Express intent to cooperate,China,2007-08-06
+551,Angela Merkel,Make a visit,Japan,2007-08-07
+552,Japan,Host a visit,Angela Merkel,2007-08-07
+553,Benazir Bhutto,Demand,Pervez Musharraf,2007-08-16
+554,Benazir Bhutto,Make an appeal or request,Pervez Musharraf,2007-08-16
+555,Pervez Musharraf,Consult,Benazir Bhutto,2007-08-16
+556,Laos,Consult,Thailand,2007-08-22
+557,Thailand,Express intent to cooperate,Laos,2007-08-22
+558,Pervez Musharraf,Engage in negotiation,Benazir Bhutto,2007-08-31
+559,Benazir Bhutto,Demand,Pervez Musharraf,2007-08-31
+560,Tony Blair,Make a visit,Middle East,2007-09-04
+561,Middle East,Host a visit,Tony Blair,2007-09-04
+562,Police (Tanzania),Use conventional military force,Criminal (Tanzania),2007-09-06
+563,Criminal (Tanzania),fight with small arms and light weapons,Police (Tanzania),2007-09-06
+564,Ethiopia,Make a visit,The Hague,2007-09-10
+565,The Hague,Consult,Ethiopia,2007-09-10
+566,China,Engage in diplomatic cooperation,South Korea,2007-09-14
+567,South Korea,Express intent to cooperate,China,2007-09-14
+568,Mahmoud Ahmadinejad,Make statement,Iran,2007-09-15
+569,Iran,Host a visit,Mahmoud Ahmadinejad,2007-09-15
+570,Agriculture / Fishing / Forestry Ministry (Vietnam),Make a visit,China,2007-09-17
+571,China,Host a visit,Agriculture / Fishing / Forestry Ministry (Vietnam),2007-09-17
+572,Vietnam,Consult,Cambodia,2007-09-21
+573,Cambodia,Host a visit,Vietnam,2007-09-21
+574,Romania,Host a visit,Patricio Walker,2007-09-25
+575,Patricio Walker,Make a visit,Romania,2007-09-25
+576,Protester (Myanmar),Demonstrate or rally,Military (Myanmar),2007-09-29
+577,Military (Myanmar),fight with small arms and light weapons,Protester (Myanmar),2007-09-29
+578,Citizen (Australia),Express accord,Lawyer/Attorney (Australia),2007-10-04
+579,Lawyer/Attorney (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2007-10-04
+580,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2007-10-18
+581,Citizen (Australia),Accuse,Police (Australia),2007-10-18
+582,Portugal,Host a visit,New Democracy,2007-10-20
+583,New Democracy,Make a visit,Portugal,2007-10-20
+584,China,Consult,Japan,2007-10-28
+585,Japan,Make statement,China,2007-10-28
+586,Japan,Host a visit,Ma Ying Jeou,2007-10-29
+587,Ma Ying Jeou,Express intent to meet or negotiate,Japan,2007-10-29
+588,China,Engage in negotiation,Tzipi Livni,2007-10-30
+589,Tzipi Livni,Make statement,China,2007-10-30
+590,China,Engage in symbolic act,Defense / Security Ministry (United States),2007-11-05
+591,Umaru Musa Yar'Adua,Criticize or denounce,Citizen (Nigeria),2007-11-05
+592,Citizen (Nigeria),Make an appeal or request,Umaru Musa Yar'Adua,2007-11-05
+593,Defense / Security Ministry (United States),Host a visit,China,2007-11-05
+594,China,Host a visit,European Central Bank,2007-11-13
+595,European Central Bank,Make a visit,China,2007-11-13
+596,Portugal,Host a visit,Aguinaldo Jaime,2007-11-13
+597,Aguinaldo Jaime,Make a visit,Portugal,2007-11-13
+598,Ethiopia,Use conventional military force,Armed Rebel (Somalia),2007-11-13
+599,Armed Rebel (Somalia),Use unconventional violence,Ethiopia,2007-11-13
+600,Pervez Musharraf,Engage in negotiation,Benazir Bhutto,2007-11-14
+601,Benazir Bhutto,Make statement,Pervez Musharraf,2007-11-14
+602,Citizen (Australia),Use unconventional violence,Police (Australia),2007-11-19
+603,Police (Australia),Engage in material cooperation,Citizen (Australia),2007-11-19
+604,Yasuo Fukuda,Express intent to engage in diplomatic cooperation (such as policy support),Roh Moo Hyun,2007-11-21
+605,Roh Moo Hyun,Meet at a 'third' location,Yasuo Fukuda,2007-11-21
+606,Protester (India),"Protest violently, riot",Police (Malaysia),2007-11-25
+607,Police (Malaysia),Use tactics of violent repression,Protester (India),2007-11-25
+608,South Korea,Host a visit,China,2007-11-26
+609,China,Express intent to cooperate economically,South Korea,2007-11-26
+610,Middle East,Host a visit,Saud bin Faisal bin Abdul-Aziz,2007-11-27
+611,Saud bin Faisal bin Abdul-Aziz,Make a visit,Middle East,2007-11-27
+612,Samsung,Deny responsibility,Lawyer/Attorney (South Korea),2007-11-28
+613,Lawyer/Attorney (South Korea),Investigate,Samsung,2007-11-28
+614,Pervez Musharraf,Criticize or denounce,Opposition Supporter (Pakistan),2007-11-29
+615,Opposition Supporter (Pakistan),Praise or endorse,Pervez Musharraf,2007-11-29
+616,China,Express intent to cooperate,Japan,2007-12-03
+617,Japan,Consult,China,2007-12-03
+618,China,Make statement,Japan,2007-12-03
+619,China,Engage in diplomatic cooperation,Japan,2007-12-06
+620,Japan,Express intent to cooperate,China,2007-12-06
+621,Japan,Praise or endorse,China,2007-12-09
+622,Japan,Criticize or denounce,China,2007-12-09
+623,China,Host a visit,Japan,2007-12-09
+624,Bolivia,Host a visit,Evo Morales,2007-12-22
+625,Evo Morales,Make a visit,Bolivia,2007-12-22
+626,African Union,Make a visit,Sudan,2007-12-24
+627,Sudan,Engage in diplomatic cooperation,African Union,2007-12-24
+628,Thailand,Host a visit,Anupong Paochinda,2007-12-25
+629,Anupong Paochinda,Make a visit,Thailand,2007-12-25
+630,Yasuo Fukuda,Express intent to engage in diplomatic cooperation (such as policy support),Wen Jiabao,2007-12-28
+631,Wen Jiabao,Make statement,Yasuo Fukuda,2007-12-28
+632,Yasuo Fukuda,Engage in negotiation,Wen Jiabao,2007-12-28
+633,Wen Jiabao,Engage in negotiation,Yasuo Fukuda,2007-12-28
+634,Yasuo Fukuda,Make a visit,South Korea,2008-01-07
+635,South Korea,Host a visit,Yasuo Fukuda,2008-01-07
+636,Malawi,Engage in diplomatic cooperation,China,2008-01-16
+637,China,Engage in negotiation,Malawi,2008-01-16
+638,Sudan,Host a visit,African Union,2008-01-17
+639,African Union,Make a visit,Sudan,2008-01-17
+640,Georgios Papandreou,Make an appeal or request,Head of Government (Greece),2008-01-18
+641,Head of Government (Greece),Make statement,Georgios Papandreou,2008-01-18
+642,Rupiah Banda,Make a visit,Angola,2008-01-28
+643,Angola,Host a visit,Rupiah Banda,2008-01-28
+644,China,Consult,South Korea,2008-01-31
+645,South Korea,Sign formal agreement,China,2008-01-31
+646,Women (Australia),Threaten,Police (Australia),2008-01-31
+647,Police (Australia),Investigate,Women (Australia),2008-01-31
+648,Armed Opposition (Mauritania),Use unconventional violence,Foreign Affairs (Israel),2008-02-01
+649,Foreign Affairs (Israel),Make statement,Armed Opposition (Mauritania),2008-02-01
+650,Citizen (Thailand),Reject,Party Member (Thailand),2008-02-08
+651,Party Member (Thailand),Criticize or denounce,Citizen (Thailand),2008-02-08
+652,Police (Australia),Accuse,Citizen (Australia),2008-02-16
+653,Citizen (Australia),Use unconventional violence,Police (Australia),2008-02-16
+654,Abdullah Gül,Express intent to meet or negotiate,Abdoulaye Wade,2008-02-19
+655,Abdoulaye Wade,Make a visit,Abdullah Gül,2008-02-19
+656,Police (Australia),fight with small arms and light weapons,Citizen (Australia),2008-02-20
+657,Citizen (Australia),Use unconventional violence,Police (Australia),2008-02-20
+658,China,Make a visit,Sudan,2008-02-25
+659,Lee Myung Bak,Praise or endorse,Yasuo Fukuda,2008-02-25
+660,Yasuo Fukuda,Express intent to cooperate economically,Lee Myung Bak,2008-02-25
+661,Sudan,Host a visit,China,2008-02-25
+662,Yasuo Fukuda,Engage in symbolic act,Lee Myung Bak,2008-02-25
+663,Japan,Consult,China,2008-02-26
+664,China,Engage in diplomatic cooperation,Japan,2008-02-26
+665,Iran,Cooperate economically,Iraq,2008-03-03
+666,Iraq,Engage in negotiation,Mahmoud Ahmadinejad,2008-03-03
+667,Mahmoud Ahmadinejad,Make a visit,Iraq,2008-03-03
+668,Iraq,Engage in diplomatic cooperation,Iran,2008-03-03
+669,Iraq,Host a visit,Mahmoud Ahmadinejad,2008-03-03
+670,China,Make optimistic comment,Japan,2008-03-04
+671,Rafael Correa,Make statement,Colombia,2008-03-04
+672,Rafael Correa,Make a visit,Colombia,2008-03-04
+673,Colombia,Make statement,Rafael Correa,2008-03-04
+674,Japan,Engage in diplomatic cooperation,China,2008-03-04
+675,Colombia,Host a visit,Rafael Correa,2008-03-04
+676,Iran,Express intent to engage in diplomatic cooperation (such as policy support),Iraq,2008-03-05
+677,Iraq,Host a visit,Iran,2008-03-05
+678,Colombia,Host a visit,Rafael Correa,2008-03-07
+679,Rafael Correa,Criticize or denounce,Colombia,2008-03-07
+680,Rafael Correa,Make a visit,Colombia,2008-03-07
+681,Richard Boucher,Make a visit,Iraq,2008-04-02
+682,Iraq,Host a visit,Richard Boucher,2008-04-02
+683,Angola,Grant diplomatic recognition,Vietnam,2008-04-07
+684,Vietnam,Make a visit,Angola,2008-04-07
+685,Yasuo Fukuda,Express accord,Head of Government (South Korea),2008-04-21
+686,Head of Government (South Korea),Consult,Yasuo Fukuda,2008-04-21
+687,Japan,Host a visit,Head of Government (South Korea),2008-04-23
+688,Head of Government (South Korea),Make a visit,Japan,2008-04-23
+689,United Arab Emirates,Host a visit,Ruling Coalition (Pakistan),2008-04-30
+690,Ruling Coalition (Pakistan),Make a visit,United Arab Emirates,2008-04-30
+691,China,Engage in diplomatic cooperation,Japan,2008-05-06
+692,Japan,Express intent to meet or negotiate,China,2008-05-06
+693,Japan,Host a visit,China,2008-05-06
+694,Yemen,Host a visit,Pervez Musharraf,2008-05-07
+695,Pervez Musharraf,Make statement,Yemen,2008-05-07
+696,Iran,Host a visit,UN Security Council,2008-05-08
+697,UN Security Council,"Impose embargo, boycott, or sanctions",Iran,2008-05-08
+698,China,Host a visit,South Korea,2008-05-13
+699,Citizen (Sudan),Express intent to meet or negotiate,Sudan,2008-05-13
+700,Sudan,Make an appeal or request,Citizen (Sudan),2008-05-13
+701,South Korea,Express intent to provide humanitarian aid,China,2008-05-13
+702,China,Host a visit,Dmitry Anatolyevich Medvedev,2008-05-21
+703,Dmitry Anatolyevich Medvedev,Make statement,China,2008-05-21
+704,African Union,Make a visit,Ethiopia,2008-05-22
+705,Ethiopia,Host a visit,African Union,2008-05-22
+706,South Korea,Host a visit,Lee Myung Bak,2008-05-26
+707,Lee Myung Bak,Make a visit,South Korea,2008-05-26
+708,Lee Myung Bak,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2008-06-02
+709,Japan,Engage in negotiation,Lee Myung Bak,2008-06-02
+710,João Baptista Kussumua,Make a visit,Angola,2008-06-11
+711,Angola,Host a visit,João Baptista Kussumua,2008-06-11
+712,Javier Solana,Express intent to meet or negotiate,Iran,2008-06-14
+713,Iran,Host a visit,Javier Solana,2008-06-14
+714,China,Express intent to cooperate,Japan,2008-06-16
+715,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2008-06-16
+716,South Korea,Express intent to cooperate,Japan,2008-06-16
+717,Iran,Host a visit,Ahmed Abdallah Sambi,2008-06-16
+718,Japan,Make optimistic comment,South Korea,2008-06-16
+719,Japan,Express intent to settle dispute,China,2008-06-16
+720,Ahmed Abdallah Sambi,Make a visit,Iran,2008-06-16
+721,Xi Jinping,Make a visit,Qatar,2008-06-18
+722,Qatar,Host a visit,Xi Jinping,2008-06-18
+723,China,Make a visit,Maldives,2008-06-26
+724,Maldives,Host a visit,China,2008-06-26
+725,Iraq,Host a visit,Barack Obama,2008-06-29
+726,Barack Obama,Express intent to meet or negotiate,Iraq,2008-06-29
+727,Ingrid Betancourt Pulecio,Make a visit,Ricardo Alarcón de Quesada,2008-07-02
+728,Ricardo Alarcón de Quesada,Host a visit,Ingrid Betancourt Pulecio,2008-07-02
+729,Japan,Host a visit,Yasuo Fukuda,2008-07-04
+730,Yasuo Fukuda,Make a visit,Japan,2008-07-04
+731,France,Host a visit,Ingrid Betancourt Pulecio,2008-07-06
+732,Ingrid Betancourt Pulecio,Make statement,France,2008-07-06
+733,China,Demand,South Korea,2008-07-12
+734,South Korea,Make statement,China,2008-07-12
+735,Ruhakana Rugunda,Appeal for diplomatic cooperation (such as policy support),Citizen (Uganda),2008-07-16
+736,Citizen (Uganda),Make an appeal or request,Ruhakana Rugunda,2008-07-16
+737,Ma Ying Jeou,Express intent to meet or negotiate,China,2008-07-17
+738,China,Engage in negotiation,Ma Ying Jeou,2008-07-17
+739,Straits Exchange Foundation,Make a visit,China,2008-07-18
+740,China,Host a visit,Straits Exchange Foundation,2008-07-18
+741,Japan,Make an appeal or request,China,2008-07-22
+742,China,Consult,Japan,2008-07-22
+743,Japan,Express intent to cooperate,China,2008-07-22
+744,China,Express intent to cooperate,Japan,2008-07-22
+745,Thailand,Consult,Cambodia,2008-07-23
+746,Cambodia,Rally opposition against,Thailand,2008-07-23
+747,Cambodia,Reduce relations,Thailand,2008-07-23
+748,Police (Australia),Accuse,Citizen (Australia),2008-08-05
+749,Citizen (Australia),Use unconventional violence,Police (Australia),2008-08-05
+750,Police (Australia),Make an appeal or request,Citizen (Australia),2008-08-05
+751,Thailand,Express intent to meet or negotiate,Cambodia,2008-08-06
+752,Cambodia,Express intent to cooperate,Thailand,2008-08-06
+753,Police (Australia),Accuse,Women (Australia),2008-08-07
+754,Women (Australia),Use unconventional violence,Police (Australia),2008-08-07
+755,Thailand,Express intent to meet or negotiate,Cambodia,2008-08-12
+756,Cambodia,Reject,Thailand,2008-08-12
+757,Ma Ying Jeou,Make a visit,Dominican Republic,2008-08-13
+758,Dominican Republic,Host a visit,Ma Ying Jeou,2008-08-13
+759,Abdullah Gül,Engage in symbolic act,Mahmoud Ahmadinejad,2008-08-14
+760,Mahmoud Ahmadinejad,Express intent to meet or negotiate,Abdullah Gül,2008-08-14
+761,Angela Merkel,Consult,Dmitry Anatolyevich Medvedev,2008-08-14
+762,Dmitry Anatolyevich Medvedev,Express intent to meet or negotiate,Angela Merkel,2008-08-14
+763,Citizen (Sudan),Make an appeal or request,Sudan,2008-08-24
+764,Sudan,Express intent to meet or negotiate,Citizen (Sudan),2008-08-24
+765,Islam Karimov,Make a visit,South Korea,2008-08-27
+766,South Korea,Host a visit,Islam Karimov,2008-08-27
+767,Jakaya Mrisho Kikwete,Make a visit,Sudan,2008-09-08
+768,Sudan,Host a visit,Jakaya Mrisho Kikwete,2008-09-08
+769,Sudan,Consult,Jakaya Mrisho Kikwete,2008-09-08
+770,Jack Straw,Host a visit,Media Personnel (Pakistan),2008-09-17
+771,Media Personnel (Pakistan),Make a visit,Jack Straw,2008-09-17
+772,Oman,Host a visit,Ministry (Iran),2008-09-24
+773,Ministry (Iran),Engage in negotiation,Oman,2008-09-24
+774,Japan,Host a visit,Naval (United States),2008-09-27
+775,Naval (United States),Make a visit,Japan,2008-09-27
+776,China,Express intent to meet or negotiate,Japan,2008-10-05
+777,Japan,Express intent to cooperate,China,2008-10-05
+778,Sudan,Host a visit,High Commission for Refugees,2008-10-07
+779,High Commission for Refugees,Make a visit,Sudan,2008-10-07
+780,Abu Sayyaf,Use conventional military force,Police (Philippines),2008-10-12
+781,Police (Philippines),Make statement,Abu Sayyaf,2008-10-12
+782,Ian Paisley,Make a visit,Bertie Ahern,2008-10-13
+783,Bertie Ahern,Host a visit,Ian Paisley,2008-10-13
+784,Japan,Engage in diplomatic cooperation,South Korea,2008-10-21
+785,South Korea,Express intent to meet or negotiate,Japan,2008-10-21
+786,Japan,Engage in negotiation,South Korea,2008-10-21
+787,South Korea,Express intent to meet or negotiate,China,2008-11-02
+788,China,Consult,South Korea,2008-11-02
+789,Barack Obama,Retreat or surrender militarily,Iraq,2008-11-05
+790,Iraq,Praise or endorse,Barack Obama,2008-11-05
+791,China,Consult,Ma Ying Jeou,2008-11-06
+792,Ma Ying Jeou,Make statement,China,2008-11-06
+793,Kuwait,Express intent to meet or negotiate,Mohamed Ould Abdel Aziz,2008-11-11
+794,Lee Myung Bak,Express intent to engage in diplomatic cooperation (such as policy support),Barack Obama,2008-11-11
+795,Mohamed Ould Abdel Aziz,Make a visit,Kuwait,2008-11-11
+796,Barack Obama,Discuss by telephone,Lee Myung Bak,2008-11-11
+797,Carlos Alberto Pires Tiny,Make a visit,Antonio Paulo Kassoma,2008-11-14
+798,Antonio Paulo Kassoma,Host a visit,Carlos Alberto Pires Tiny,2008-11-14
+799,China,Consult,Japan,2008-11-21
+800,Japan,Express intent to meet or negotiate,China,2008-11-21
+801,Thailand,Host a visit,Association of Southeast Asian Nations,2008-11-27
+802,Association of Southeast Asian Nations,Make a visit,Thailand,2008-11-27
+803,Citizen (Australia),Threaten,Police (Australia),2008-11-28
+804,Police (Australia),Accuse,Citizen (Australia),2008-11-28
+805,Citizen (Australia),Make optimistic comment,Police (Australia),2008-11-28
+806,Ingrid Betancourt Pulecio,Make a visit,Cristina Fernández de Kirchner,2008-12-04
+807,Cristina Fernández de Kirchner,Host a visit,Ingrid Betancourt Pulecio,2008-12-04
+808,Oman,Host a visit,Youssef Al-Ibrahim,2008-12-06
+809,Henry M. Paulson,Make a visit,China,2008-12-06
+810,Youssef Al-Ibrahim,Make a visit,Oman,2008-12-06
+811,China,Host a visit,Henry M. Paulson,2008-12-06
+812,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2008-12-11
+813,China,Consult,Japan,2008-12-11
+814,China,Express intent to cooperate,Japan,2008-12-12
+815,Japan,Consult,China,2008-12-12
+816,Japan,Sign formal agreement,China,2008-12-13
+817,China,Consult,Japan,2008-12-13
+818,South Africa,Make statement,Police (South Africa),2008-12-22
+819,Police (South Africa),Impose administrative sanctions,South Africa,2008-12-22
+820,Nuri al-Maliki,Make a visit,Ministry (Iran),2009-01-03
+821,Ministry (Iran),Praise or endorse,Nuri al-Maliki,2009-01-03
+822,Tony Blair,Make a visit,Mahmoud Abbas,2009-01-05
+823,Mahmoud Abbas,Host a visit,Tony Blair,2009-01-05
+824,Japan,Consult,China,2009-01-07
+825,Thailand,Reject,Citizen (Thailand),2009-01-07
+826,China,Express intent to cooperate,Japan,2009-01-07
+827,Citizen (Thailand),Express intent to engage in diplomatic cooperation (such as policy support),Thailand,2009-01-07
+828,Citizen (Thailand),Demonstrate or rally,Thailand,2009-01-07
+829,Association of Southeast Asian Nations,Make a visit,Thailand,2009-01-08
+830,Thailand,Host a visit,Association of Southeast Asian Nations,2009-01-08
+831,Police (Egypt),Physically assault,Protester (Egypt),2009-01-12
+832,Protester (Egypt),Demonstrate or rally,Police (Egypt),2009-01-12
+833,Colombia,Express intent to meet or negotiate,Mexico,2009-01-16
+834,Mexico,Express intent to engage in diplomatic cooperation (such as policy support),Colombia,2009-01-16
+835,Ethiopia,Host a visit,African Union,2009-01-28
+836,African Union,Make a visit,Ethiopia,2009-01-28
+837,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2009-01-30
+838,South Korea,Consult,Japan,2009-01-30
+839,Abdullah Gül,Engage in symbolic act,Dmitry Anatolyevich Medvedev,2009-02-13
+840,Dmitry Anatolyevich Medvedev,Express intent to engage in diplomatic cooperation (such as policy support),Abdullah Gül,2009-02-13
+841,Jakaya Mrisho Kikwete,Express intent to cooperate,M.R. Sharma,2009-02-20
+842,M.R. Sharma,Consult,Jakaya Mrisho Kikwete,2009-02-20
+843,Thailand,Host a visit,Laos,2009-02-21
+844,Laos,Make a visit,Thailand,2009-02-21
+845,South Korea,Express intent to meet or negotiate,Japan,2009-02-22
+846,Japan,Meet at a 'third' location,South Korea,2009-02-22
+847,Jack Lang,Make a visit,Raúl Castro,2009-02-26
+848,Raúl Castro,Consult,Jack Lang,2009-02-26
+849,Japan,Criticize or denounce,China,2009-02-28
+850,China,Express intent to cooperate,Japan,2009-02-28
+851,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2009-02-28
+852,Iran,Host a visit,Rehman Malik,2009-03-01
+853,Rehman Malik,Make a visit,Iran,2009-03-01
+854,Information / Communication / Transparency Ministry (Russia),Make a visit,South Korea,2009-03-02
+855,South Korea,Host a visit,Information / Communication / Transparency Ministry (Russia),2009-03-02
+856,Economic Cooperation Organization,Make a visit,Iran,2009-03-04
+857,Iran,Host a visit,Economic Cooperation Organization,2009-03-04
+858,Kazakhstan,Engage in diplomatic cooperation,Vietnam,2009-03-16
+859,Vietnam,Consider policy option,Kazakhstan,2009-03-16
+860,China,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2009-03-20
+861,Japan,Make an appeal or request,China,2009-03-20
+862,China,Express intent to engage in diplomatic cooperation (such as policy support),Vietnam,2009-03-20
+863,Vietnam,Express intent to cooperate,China,2009-03-20
+864,Barack Obama,Express intent to engage in diplomatic cooperation (such as policy support),Iran,2009-03-25
+865,Iran,Consult,Barack Obama,2009-03-25
+866,Barack Obama,Consult,Dmitry Anatolyevich Medvedev,2009-03-26
+867,Dmitry Anatolyevich Medvedev,Express intent to meet or negotiate,Barack Obama,2009-03-26
+868,Mahmoud Ahmadinejad,Make a visit,Iran,2009-04-01
+869,Iran,Host a visit,Mahmoud Ahmadinejad,2009-04-01
+870,Dmitry Anatolyevich Medvedev,Express intent to cooperate,Barack Obama,2009-04-02
+871,Dmitry Anatolyevich Medvedev,Praise or endorse,Barack Obama,2009-04-02
+872,Dmitry Anatolyevich Medvedev,Express intent to cooperate,Mahmoud Abbas,2009-04-02
+873,Mahmoud Abbas,Express intent to meet or negotiate,Dmitry Anatolyevich Medvedev,2009-04-02
+874,Dmitry Anatolyevich Medvedev,Consult,Barack Obama,2009-04-02
+875,Dmitry Anatolyevich Medvedev,Express intent to engage in diplomatic cooperation (such as policy support),Barack Obama,2009-04-02
+876,Barack Obama,Express intent to meet or negotiate,Dmitry Anatolyevich Medvedev,2009-04-02
+877,Japan,Make an appeal or request,South Korea,2009-04-03
+878,South Korea,Engage in diplomatic cooperation,Japan,2009-04-03
+879,Sudan,Host a visit,Envoy (United States),2009-04-04
+880,Envoy (United States),Make statement,Sudan,2009-04-04
+881,Dmitry Anatolyevich Medvedev,Sign formal agreement,Head of Government (Chile),2009-04-04
+882,Head of Government (Chile),Make statement,Dmitry Anatolyevich Medvedev,2009-04-04
+883,Abdullah Gül,Express intent to meet or negotiate,Barack Obama,2009-04-06
+884,Iraq,Host a visit,Mahmoud Abbas,2009-04-06
+885,Mahmoud Abbas,Consult,Iraq,2009-04-06
+886,Barack Obama,Engage in negotiation,Abdullah Gül,2009-04-06
+887,Mahmoud Ahmadinejad,Make a visit,Kazakhstan,2009-04-07
+888,Kazakhstan,Engage in negotiation,Mahmoud Ahmadinejad,2009-04-07
+889,Barack Obama,Make statement,Iraq,2009-04-08
+890,Iraq,Host a visit,Barack Obama,2009-04-08
+891,China,Halt negotiations,Association of Southeast Asian Nations,2009-04-11
+892,South Korea,Engage in diplomatic cooperation,Japan,2009-04-11
+893,Association of Southeast Asian Nations,Express intent to cooperate economically,China,2009-04-11
+894,Japan,Engage in negotiation,South Korea,2009-04-11
+895,South Korea,Express intent to cooperate,China,2009-04-12
+896,China,Consult,South Korea,2009-04-12
+897,Iran,Host a visit,Ministry (Oman),2009-04-13
+898,Ministry (Oman),Make a visit,Iran,2009-04-13
+899,South Korea,Express intent to meet or negotiate,Japan,2009-04-14
+900,Japan,Consult,South Korea,2009-04-14
+901,Other Authorities / Officials (Mexico),Engage in negotiation,Barack Obama,2009-04-16
+902,Barack Obama,Express intent to engage in diplomatic cooperation (such as policy support),Other Authorities / Officials (Mexico),2009-04-16
+903,Raúl Castro,Make a visit,Evo Morales,2009-04-17
+904,Evo Morales,Host a visit,Raúl Castro,2009-04-17
+905,Iran,Make a visit,Eritrea,2009-04-18
+906,Eritrea,Host a visit,Iran,2009-04-18
+907,Vietnam,Express intent to engage in diplomatic cooperation (such as policy support),China,2009-04-20
+908,China,Engage in diplomatic cooperation,Vietnam,2009-04-20
+909,Sali Berisha,Express intent to meet or negotiate,China,2009-04-21
+910,China,Host a visit,Sali Berisha,2009-04-21
+911,Citizen (Thailand),Demonstrate for leadership change,Abhisit Vejjajiva,2009-04-24
+912,Abhisit Vejjajiva,Make an appeal or request,Citizen (Thailand),2009-04-24
+913,Nuri al-Maliki,Make a visit,France,2009-05-03
+914,France,Host a visit,Nuri al-Maliki,2009-05-03
+915,China,Express intent to cooperate,Japan,2009-05-04
+916,Japan,Grant diplomatic recognition,China,2009-05-04
+917,China,Express intent to cooperate,Portugal,2009-05-06
+918,Portugal,Praise or endorse,China,2009-05-06
+919,Barack Obama,Express intent to meet or negotiate,Shimon Peres,2009-05-06
+920,Shimon Peres,Engage in negotiation,Barack Obama,2009-05-06
+921,China,Host a visit,Envoy (United States),2009-05-08
+922,Lawyer/Attorney (Australia),Consult,Mike Rann,2009-05-08
+923,Envoy (United States),Make a visit,China,2009-05-08
+924,Mike Rann,Make statement,Lawyer/Attorney (Australia),2009-05-08
+925,Stephen W. Bosworth,Make a visit,Japan,2009-05-15
+926,Japan,Host a visit,Stephen W. Bosworth,2009-05-15
+927,Barack Obama,Make an appeal or request,Benjamin Netanyahu,2009-05-18
+928,Benjamin Netanyahu,Make a visit,Barack Obama,2009-05-18
+929,Barack Obama,Praise or endorse,Benjamin Netanyahu,2009-05-18
+930,Iran,Host a visit,Nuri al-Maliki,2009-05-21
+931,Nuri al-Maliki,Make a visit,Iran,2009-05-21
+932,Japan,Sign formal agreement,China,2009-05-22
+933,China,Praise or endorse,Japan,2009-05-22
+934,Vietnam,Make a visit,Japan,2009-05-22
+935,Japan,Host a visit,Vietnam,2009-05-22
+936,Mahmoud Ahmadinejad,Express intent to meet or negotiate,Barack Obama,2009-05-26
+937,Barack Obama,Consult,Mahmoud Ahmadinejad,2009-05-26
+938,Benjamin Netanyahu,Make a visit,Barack Obama,2009-05-29
+939,Barack Obama,Make optimistic comment,Benjamin Netanyahu,2009-05-29
+940,Barack Obama,Make an appeal or request,Benjamin Netanyahu,2009-05-29
+941,Benjamin Netanyahu,Criticize or denounce,Barack Obama,2009-05-29
+942,China,Consult,Japan,2009-06-01
+943,Japan,Express intent to meet or negotiate,China,2009-06-01
+944,Lee Myung Bak,Express intent to engage in diplomatic cooperation (such as policy support),Barack Obama,2009-06-08
+945,Barack Obama,Express intent to meet or negotiate,Lee Myung Bak,2009-06-08
+946,Police (Uganda),Sexually assault,Citizen (Uganda),2009-06-09
+947,Citizen (Uganda),Appeal for easing of administrative sanctions,Police (Uganda),2009-06-09
+948,China,Host a visit,Wen Jiabao,2009-06-15
+949,Wen Jiabao,Make a visit,China,2009-06-15
+950,Mahmoud Ahmadinejad,Halt negotiations,Dmitry Anatolyevich Medvedev,2009-06-16
+951,Dmitry Anatolyevich Medvedev,Reduce or break diplomatic relations,Mahmoud Ahmadinejad,2009-06-16
+952,China,Make optimistic comment,Thailand,2009-06-25
+953,Thailand,Sign formal agreement,China,2009-06-25
+954,Head of Government (South Korea),Make a visit,Japan,2009-06-28
+955,Japan,Host a visit,Head of Government (South Korea),2009-06-28
+956,Lawyer/Attorney (Australia),Accuse,Citizen (Australia),2009-06-30
+957,China,Host a visit,Abdullah Gül,2009-06-30
+958,Citizen (Australia),Express intent to meet or negotiate,Lawyer/Attorney (Australia),2009-06-30
+959,Abdullah Gül,Make statement,China,2009-06-30
+960,Dmitry Anatolyevich Medvedev,Engage in negotiation,Barack Obama,2009-07-03
+961,Barack Obama,Express intent to meet or negotiate,Dmitry Anatolyevich Medvedev,2009-07-03
+962,Mexico,Express intent to meet or negotiate,China,2009-07-08
+963,China,Make pessimistic comment,Mexico,2009-07-08
+964,Sudan,Host a visit,Qatar,2009-07-09
+965,Qatar,Meet at a 'third' location,Sudan,2009-07-09
+966,China,Consult,South Africa,2009-07-09
+967,South Africa,Express intent to meet or negotiate,China,2009-07-09
+968,Qatar,Make statement,Sudan,2009-07-09
+969,Abhisit Vejjajiva,Make a visit,Vietnam,2009-07-13
+970,Vietnam,Host a visit,Abhisit Vejjajiva,2009-07-13
+971,Abhisit Vejjajiva,Express intent to meet or negotiate,Vietnam,2009-07-13
+972,Nuri al-Maliki,Consult,Barack Obama,2009-07-15
+973,Barack Obama,Express intent to meet or negotiate,Nuri al-Maliki,2009-07-15
+974,Vietnam,Make a visit,China,2009-07-18
+975,China,Engage in negotiation,Vietnam,2009-07-18
+976,Nuri al-Maliki,Make an appeal or request,UN Security Council,2009-07-22
+977,UN Security Council,Consult,Nuri al-Maliki,2009-07-22
+978,Japan,Host a visit,Barack Obama,2009-07-31
+979,Barack Obama,Make a visit,Japan,2009-07-31
+980,Shimon Peres,Make a visit,Dmitry Anatolyevich Medvedev,2009-08-18
+981,Dmitry Anatolyevich Medvedev,Praise or endorse,Shimon Peres,2009-08-18
+982,Barack Obama,Make an appeal or request,Benjamin Netanyahu,2009-08-18
+983,Dmitry Anatolyevich Medvedev,Express intent to meet or negotiate,Shimon Peres,2009-08-18
+984,Benjamin Netanyahu,Reject,Barack Obama,2009-08-18
+985,Iran,Praise or endorse,Mahmoud Ahmadinejad,2009-08-20
+986,Mahmoud Ahmadinejad,Make a visit,Iran,2009-08-20
+987,China,Host a visit,Head of Government (Gabon),2009-08-28
+988,Head of Government (Gabon),Make a visit,China,2009-08-28
+989,Cambodia,Host a visit,Itthaporn Subhawong,2009-09-15
+990,Itthaporn Subhawong,Make a visit,Cambodia,2009-09-15
+991,Vietnam,Make a visit,Laos,2009-09-27
+992,Laos,Host a visit,Vietnam,2009-09-27
+993,France,Meet at a 'third' location,China,2009-10-02
+994,China,Consult,France,2009-10-02
+995,Hashim Thaçi,Praise or endorse,Sali Berisha,2009-10-06
+996,Sali Berisha,Consult,Hashim Thaçi,2009-10-06
+997,China,Consult,South Korea,2009-10-10
+998,South Korea,Engage in negotiation,China,2009-10-10
+999,South Korea,Express intent to engage in diplomatic cooperation (such as policy support),China,2009-10-10
+1000,Barack Obama,Make a visit,South Korea,2009-10-13
+1001,South Korea,Host a visit,Barack Obama,2009-10-13
+1002,Police (Australia),Make an appeal or request,Citizen (Australia),2009-10-20
+1003,Citizen (Australia),"Reject proposal to meet, discuss, or negotiate",Police (Australia),2009-10-20
+1004,Representatives (Russia),Make a visit,Bolivia,2009-10-29
+1005,Bolivia,Host a visit,Representatives (Russia),2009-10-29
+1006,South Africa,Host a visit,Neal S. Wolin,2009-10-30
+1007,Neal S. Wolin,Make a visit,South Africa,2009-10-30
+1008,Cambodia,Reduce or break diplomatic relations,Thailand,2009-11-06
+1009,Thailand,Consider policy option,Cambodia,2009-11-06
+1010,Cambodia,Accuse,Thailand,2009-11-06
+1011,Thailand,Express intent to release persons or property,Cambodia,2009-11-06
+1012,China,Express intent to engage in diplomatic cooperation (such as policy support),Japan,2009-11-08
+1013,Japan,Make statement,China,2009-11-08
+1014,Sergey Kuzhugetovich Shoygu,Make a visit,Raúl Castro,2009-11-13
+1015,Raúl Castro,Host a visit,Sergey Kuzhugetovich Shoygu,2009-11-13
+1016,Okada Katsuya,Make an appeal or request,Japan,2009-11-16
+1017,Japan,Consult,Okada Katsuya,2009-11-16
+1018,Sudan,Host a visit,Envoy (United States),2009-11-17
+1019,Envoy (United States),Express intent to meet or negotiate,Sudan,2009-11-17
+1020,Mahmoud Ahmadinejad,Make statement,Iran,2009-11-23
+1021,Iran,Host a visit,Mahmoud Ahmadinejad,2009-11-23
+1022,Barack Obama,Make a visit,China,2009-11-29
+1023,China,Host a visit,Barack Obama,2009-11-29
+1024,Abhisit Vejjajiva,Make a visit,Malaysia,2009-12-08
+1025,Malaysia,Host a visit,Abhisit Vejjajiva,2009-12-08
+1026,Vuk Jeremić,Praise or endorse,Maxime Verhagen,2009-12-16
+1027,Maxime Verhagen,Consult,Vuk Jeremić,2009-12-16
+1028,Barack Obama,Make statement,Yemen,2010-01-02
+1029,Yemen,Host a visit,Barack Obama,2010-01-02
+1030,Japan,Consult,China,2010-01-08
+1031,China,Make statement,Japan,2010-01-08
+1032,Iran,Host a visit,Mohamed Ould Abdel Aziz,2010-01-27
+1033,Mohamed Ould Abdel Aziz,Make a visit,Iran,2010-01-27
+1034,Barack Obama,Make a visit,China,2010-02-01
+1035,China,Host a visit,Barack Obama,2010-02-01
+1036,Congress (Argentina),Express intent to engage in diplomatic cooperation (such as policy support),Cristina Fernández de Kirchner,2010-02-03
+1037,Cristina Fernández de Kirchner,Make optimistic comment,Congress (Argentina),2010-02-03
+1038,Georgios Papandreou,Make a visit,France,2010-02-10
+1039,France,Host a visit,Georgios Papandreou,2010-02-10
+1040,Vietnam,Host a visit,Military (Cambodia),2010-02-15
+1041,Military (Cambodia),Make a visit,Vietnam,2010-02-15
+1042,City Mayor (New Zealand),Make a visit,Japan,2010-02-27
+1043,Japan,Host a visit,City Mayor (New Zealand),2010-02-27
+1044,Dmitry Anatolyevich Medvedev,Discuss by telephone,Barack Obama,2010-03-26
+1045,Barack Obama,Sign formal agreement,Dmitry Anatolyevich Medvedev,2010-03-26
+1046,Citizen (Thailand),"Reject plan, agreement to settle dispute",Abhisit Vejjajiva,2010-03-29
+1047,Abhisit Vejjajiva,Reject,Citizen (Thailand),2010-03-29
+1048,Norodom Sihanouk,Make a visit,China,2010-03-31
+1049,China,Host a visit,Norodom Sihanouk,2010-03-31
+1050,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2010-03-31
+1051,South Korea,Criticize or denounce,Japan,2010-03-31
+1052,Mexico,Host a visit,Gloria Trevi,2010-03-31
+1053,Gloria Trevi,Make a visit,Mexico,2010-03-31
+1054,Police (Australia),Make pessimistic comment,Citizen (Australia),2010-04-01
+1055,Citizen (Australia),Demand,Police (Australia),2010-04-01
+1056,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2010-04-01
+1057,Police (Indonesia),Accuse,Lawyer/Attorney (Indonesia),2010-04-16
+1058,Lawyer/Attorney (Indonesia),"Arrest, detain, or charge with legal action",Police (Indonesia),2010-04-16
+1059,Barack Obama,Consult,Benjamin Netanyahu,2010-04-22
+1060,Benjamin Netanyahu,Make statement,Barack Obama,2010-04-22
+1061,France,Demand,China,2010-04-29
+1062,China,Host a visit,France,2010-04-29
+1063,China,Praise or endorse,Yemen,2010-05-07
+1064,Yemen,Engage in diplomatic cooperation,China,2010-05-07
+1065,South Korea,Cooperate militarily,China,2010-05-14
+1066,China,Engage in negotiation,South Korea,2010-05-14
+1067,China,Consult,Japan,2010-05-17
+1068,Japan,Criticize or denounce,China,2010-05-17
+1069,Wen Jiabao,Consult,Lee Myung Bak,2010-05-30
+1070,Lee Myung Bak,Express intent to engage in diplomatic cooperation (such as policy support),Wen Jiabao,2010-05-30
+1071,Mahmoud Abbas,Make an appeal or request,Barack Obama,2010-06-02
+1072,Barack Obama,Consult,Mahmoud Abbas,2010-06-02
+1073,China,Engage in diplomatic cooperation,Lee Myung Bak,2010-06-03
+1074,Lee Myung Bak,Express intent to meet or negotiate,China,2010-06-03
+1075,Barack Obama,Express intent to cooperate,Angela Merkel,2010-06-22
+1076,Angela Merkel,Discuss by telephone,Barack Obama,2010-06-22
+1077,Citizen (Australia),Accuse,Julia Gillard,2010-06-25
+1078,Julia Gillard,Criticize or denounce,Citizen (Australia),2010-06-25
+1079,Vietnam,Express intent to engage in diplomatic cooperation (such as policy support),China,2010-07-01
+1080,Grigol Vashadze,Make a visit,Northern Ireland,2010-07-01
+1081,Northern Ireland,Host a visit,Grigol Vashadze,2010-07-01
+1082,China,Express intent to cooperate,Vietnam,2010-07-01
+1083,Criminal (China),Make a visit,Vietnam,2010-07-02
+1084,Vietnam,Host a visit,Criminal (China),2010-07-02
+1085,Sudan,Make a visit,Eritrea,2010-07-10
+1086,Eritrea,Host a visit,Sudan,2010-07-10
+1087,Angela Merkel,Consult,Dmitry Anatolyevich Medvedev,2010-07-15
+1088,Dmitry Anatolyevich Medvedev,Host a visit,Angela Merkel,2010-07-15
+1089,South Korea,Make statement,Japan,2010-07-23
+1090,Japan,Make an appeal or request,South Korea,2010-07-23
+1091,Citizen (Australia),Criticize or denounce,Police (Australia),2010-08-05
+1092,Japan,Provide military aid,Iraq,2010-08-05
+1093,Police (Australia),Make optimistic comment,Citizen (Australia),2010-08-05
+1094,Iraq,Receive deployment of peacekeepers,Japan,2010-08-05
+1095,Benjamin Netanyahu,Consult,Mahmoud Abbas,2010-08-20
+1096,Mahmoud Abbas,Express intent to meet or negotiate,Benjamin Netanyahu,2010-08-20
+1097,Evo Morales,Make a visit,Bolivia,2010-08-27
+1098,Bolivia,Host a visit,Evo Morales,2010-08-27
+1099,Mahmoud Ahmadinejad,Express intent to meet or negotiate,Qatar,2010-08-31
+1100,Qatar,Engage in negotiation,Mahmoud Ahmadinejad,2010-08-31
+1101,Benjamin Netanyahu,Express intent to meet or negotiate,Barack Obama,2010-09-01
+1102,Barack Obama,Engage in negotiation,Benjamin Netanyahu,2010-09-01
+1103,Mahmoud Abbas,Consult,Benjamin Netanyahu,2010-09-05
+1104,Benjamin Netanyahu,Express intent to cooperate,Mahmoud Abbas,2010-09-05
+1105,Protester (Egypt),"Protest violently, riot",Police (Egypt),2010-09-07
+1106,Police (Egypt),Use tactics of violent repression,Protester (Egypt),2010-09-07
+1107,Elizabeth II,Praise or endorse,Benedict XVI,2010-09-16
+1108,Benedict XVI,Make a visit,Elizabeth II,2010-09-16
+1109,Head of Government (Ghana),Make a visit,China,2010-09-20
+1110,Head of Government (Ghana),Express intent to meet or negotiate,China,2010-09-20
+1111,China,Host a visit,Head of Government (Ghana),2010-09-20
+1112,Head of Government (Egypt),Host a visit,Angela Merkel,2010-09-22
+1113,Angela Merkel,Make a visit,Head of Government (Egypt),2010-09-22
+1114,Wen Jiabao,Make statement,Japan,2010-09-23
+1115,Japan,Consult,Wen Jiabao,2010-09-23
+1116,Lawyer/Attorney (Australia),Make statement,Police (Australia),2010-09-24
+1117,Police (Australia),Express accord,Lawyer/Attorney (Australia),2010-09-24
+1118,Thailand,"Reject plan, agreement to settle dispute",Cambodia,2010-09-26
+1119,Cambodia,Consult,Thailand,2010-09-26
+1120,Rafael Correa,Make statement,Armed Rebel (Ecuador),2010-10-01
+1121,Armed Rebel (Ecuador),"Arrest, detain, or charge with legal action",Rafael Correa,2010-10-01
+1122,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2010-10-05
+1123,Mexico,Host a visit,Vietnam,2010-10-05
+1124,China,Express intent to cooperate,Japan,2010-10-05
+1125,Vietnam,Make a visit,Mexico,2010-10-05
+1126,Citizen (Nigeria),Make pessimistic comment,Boko Haram,2010-10-11
+1127,Boko Haram,Use conventional military force,Citizen (Nigeria),2010-10-11
+1128,Thailand,Meet at a 'third' location,Cambodia,2010-10-13
+1129,Cambodia,Express intent to cooperate,Thailand,2010-10-13
+1130,China,Engage in diplomatic cooperation,Japan,2010-10-18
+1131,Japan,Make an appeal or request,China,2010-10-18
+1132,Police (Australia),"Investigate crime, corruption",Citizen (Australia),2010-10-26
+1133,Citizen (Australia),Demand,Police (Australia),2010-10-26
+1134,UN Security Council,Make a visit,Sudan,2010-10-26
+1135,Sudan,Host a visit,UN Security Council,2010-10-26
+1136,Vietnam,Host a visit,Wen Jiabao,2010-10-28
+1137,Wen Jiabao,Make a visit,Vietnam,2010-10-28
+1138,Japan,Make an appeal or request,Dmitry Anatolyevich Medvedev,2010-10-30
+1139,Dmitry Anatolyevich Medvedev,Express intent to meet or negotiate,Japan,2010-10-30
+1140,"Children (Palestinian Territory, Occupied)",Use unconventional violence,Police (Israel),2010-11-02
+1141,Police (Israel),Use conventional military force,"Children (Palestinian Territory, Occupied)",2010-11-02
+1142,Barack Obama,Express intent to meet or negotiate,South Korea,2010-11-09
+1143,South Korea,Host a visit,Barack Obama,2010-11-09
+1144,Julia Gillard,Make a visit,South Korea,2010-11-11
+1145,South Korea,Host a visit,Julia Gillard,2010-11-11
+1146,Dmitry Anatolyevich Medvedev,Express intent to engage in diplomatic cooperation (such as policy support),Barack Obama,2010-11-14
+1147,Barack Obama,Express intent to cooperate,Dmitry Anatolyevich Medvedev,2010-11-14
+1148,Police (Australia),fight with small arms and light weapons,Citizen (Australia),2010-11-16
+1149,Citizen (Australia),Make an appeal or request,Police (Australia),2010-11-16
+1150,South Korea,Engage in negotiation,Japan,2010-11-18
+1151,Dmitry Anatolyevich Medvedev,Consult,Mahmoud Ahmadinejad,2010-11-18
+1152,Mahmoud Ahmadinejad,Meet at a 'third' location,Dmitry Anatolyevich Medvedev,2010-11-18
+1153,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2010-11-18
+1154,Iran,Sign formal agreement,Evo Morales,2010-11-22
+1155,Evo Morales,Make statement,Iran,2010-11-22
+1156,China,Engage in negotiation,South Korea,2010-11-29
+1157,South Korea,Make statement,China,2010-11-29
+1158,China,Express intent to meet or negotiate,Japan,2010-11-30
+1159,Japan,Express intent to engage in diplomatic cooperation (such as policy support),China,2010-11-30
+1160,Mahmoud Abbas,Consult,Georgios Papandreou,2010-12-08
+1161,Iran,Consult,China,2010-12-08
+1162,Dmitry Anatolyevich Medvedev,Host a visit,Head of Government (Germany),2010-12-08
+1163,China,Praise or endorse,Iran,2010-12-08
+1164,Georgios Papandreou,Make statement,Mahmoud Abbas,2010-12-08
+1165,Head of Government (Germany),Make a visit,Dmitry Anatolyevich Medvedev,2010-12-08
+1166,Lee Myung Bak,Make a visit,South Korea,2010-12-13
+1167,South Korea,Host a visit,Lee Myung Bak,2010-12-13
+1168,Legislature (Iraq),Praise or endorse,Nuri al-Maliki,2010-12-21
+1169,Nuri al-Maliki,Demand,Legislature (Iraq),2010-12-21
+1170,Sudan,Receive deployment of peacekeepers,Foreign Affairs (Hungary),2011-01-05
+1171,Dmitry Anatolyevich Medvedev,Discuss by telephone,Shimon Peres,2011-01-05
+1172,Foreign Affairs (Hungary),Provide military protection or peacekeeping,Sudan,2011-01-05
+1173,Shimon Peres,Express intent to cooperate,Dmitry Anatolyevich Medvedev,2011-01-05
+1174,Police (Egypt),Use conventional military force,Protester (Egypt),2011-01-26
+1175,Protester (Egypt),Demonstrate or rally,Police (Egypt),2011-01-26
+1176,Protester (Egypt),"Protest violently, riot",Police (Egypt),2011-01-26
+1177,Cabinet / Council of Ministers / Advisors (United States),Make a visit,Sudan,2011-02-02
+1178,Government (Nigeria),Accuse,Citizen (Nigeria),2011-02-02
+1179,Sudan,Host a visit,Cabinet / Council of Ministers / Advisors (United States),2011-02-02
+1180,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2011-02-02
+1181,Protester (Egypt),Appeal for change in leadership,Head of Government (Egypt),2011-02-03
+1182,Head of Government (Egypt),Make statement,Protester (Egypt),2011-02-03
+1183,Bhutan,Host a visit,Foreign Affairs (India),2011-02-05
+1184,Foreign Affairs (India),Make a visit,Bhutan,2011-02-05
+1185,Cambodia,Accuse,Thailand,2011-02-14
+1186,Thailand,Use conventional military force,Cambodia,2011-02-14
+1187,Thailand,Express intent to cooperate,Cambodia,2011-02-15
+1188,Cambodia,Use conventional military force,Thailand,2011-02-15
+1189,Jaroslav Baska,Make statement,Lubomír Galko,2011-02-15
+1190,Lubomír Galko,Make an appeal or request,Jaroslav Baska,2011-02-15
+1191,Benjamin Netanyahu,Express intent to meet or negotiate,Tony Blair,2011-02-28
+1192,Tony Blair,Consult,Benjamin Netanyahu,2011-02-28
+1193,South Korea,Consult,Japan,2011-03-20
+1194,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2011-03-20
+1195,Intelligence (Egypt),Make a visit,France,2011-04-09
+1196,France,Host a visit,Intelligence (Egypt),2011-04-09
+1197,China,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2011-04-24
+1198,South Korea,Consult,China,2011-04-24
+1199,Julia Gillard,Make pessimistic comment,Wen Jiabao,2011-04-26
+1200,Wen Jiabao,Make an appeal or request,Julia Gillard,2011-04-26
+1201,France,Host a visit,Benjamin Netanyahu,2011-05-04
+1202,Benjamin Netanyahu,Express intent to meet or negotiate,France,2011-05-04
+1203,Government (Nigeria),Praise or endorse,Citizen (Nigeria),2011-05-09
+1204,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2011-05-09
+1205,France,Host a visit,International Monetary Fund,2011-05-15
+1206,International Monetary Fund,Make a visit,France,2011-05-15
+1207,Barack Obama,Make a visit,France,2011-05-27
+1208,France,Host a visit,Barack Obama,2011-05-27
+1209,Ali Bongo Ondimba,Express intent to meet or negotiate,Barack Obama,2011-06-09
+1210,Barack Obama,Praise or endorse,Ali Bongo Ondimba,2011-06-09
+1211,Citizen (Uganda),"Protest violently, riot",Police (Uganda),2011-06-09
+1212,Police (Uganda),"Return, release person(s)",Citizen (Uganda),2011-06-09
+1213,China,Host a visit,Agustín Carstens,2011-06-10
+1214,Agustín Carstens,Make a visit,China,2011-06-10
+1215,Democratic Party,"Reject plan, agreement to settle dispute",Lee Myung Bak,2011-06-27
+1216,Lee Myung Bak,Consult,Democratic Party,2011-06-27
+1217,Xi Jinping,Make a visit,Cabinet / Council of Ministers / Advisors (United States),2011-06-28
+1218,Cabinet / Council of Ministers / Advisors (United States),Host a visit,Xi Jinping,2011-06-28
+1219,Middle East,Host a visit,Vic Toews,2011-07-04
+1220,Vic Toews,Make a visit,Middle East,2011-07-04
+1221,Foreign Affairs (Syria),Consult,Foreign Affairs (France),2011-07-10
+1222,Foreign Affairs (France),Criticize or denounce,Foreign Affairs (Syria),2011-07-10
+1223,South Korea,Make statement,China,2011-07-15
+1224,Farm Worker (Taiwan),Host a visit,Ma Ying Jeou,2011-07-15
+1225,Ma Ying Jeou,Make a visit,Farm Worker (Taiwan),2011-07-15
+1226,China,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2011-07-15
+1227,China,Accuse,Barack Obama,2011-07-16
+1228,Barack Obama,Reject,China,2011-07-16
+1229,Muhammad VI,Consult,Islam Karimov,2011-07-28
+1230,Islam Karimov,Make empathetic comment,Muhammad VI,2011-07-28
+1231,Government (Nigeria),Express intent to cooperate,Citizen (Nigeria),2011-08-02
+1232,Government (Nigeria),Impose restrictions on political freedoms,Citizen (Nigeria),2011-08-02
+1233,Citizen (Nigeria),Threaten,Government (Nigeria),2011-08-02
+1234,Supreme Council (Iraq),Make a visit,Kuwait,2011-08-18
+1235,Kuwait,Host a visit,Supreme Council (Iraq),2011-08-18
+1236,Mswati III,Make a visit,João Baptista Kussumua,2011-08-22
+1237,João Baptista Kussumua,Host a visit,Mswati III,2011-08-22
+1238,Sheikh Hamad bin Khalifa al-Thani,Make a visit,Iran,2011-08-26
+1239,Iran,Host a visit,Sheikh Hamad bin Khalifa al-Thani,2011-08-26
+1240,Ministry (Sri Lanka),Make a visit,Head of Government (Cameroon),2011-09-05
+1241,Head of Government (Cameroon),Host a visit,Ministry (Sri Lanka),2011-09-05
+1242,Iran,Host a visit,Mahmoud Ahmadinejad,2011-09-11
+1243,Mahmoud Ahmadinejad,Make a visit,Iran,2011-09-11
+1244,Angola,Host a visit,Angela Merkel,2011-09-15
+1245,Angela Merkel,Make a visit,Angola,2011-09-15
+1246,Yoshihiko Noda,Make statement,Lee Myung Bak,2011-09-22
+1247,Lee Myung Bak,Express intent to engage in diplomatic cooperation (such as policy support),Yoshihiko Noda,2011-09-22
+1248,Iran,Host a visit,Mahmoud Ahmadinejad,2011-09-26
+1249,Mahmoud Ahmadinejad,Make statement,Iran,2011-09-26
+1250,Military Personnel - Special (Philippines),Use conventional military force,Militant (Philippines),2011-10-02
+1251,Militant (Philippines),Use unconventional violence,Military Personnel - Special (Philippines),2011-10-02
+1252,Herman Van Rompuy,Discuss by telephone,Wen Jiabao,2011-10-21
+1253,Nuri al-Maliki,Reject,Barack Obama,2011-10-21
+1254,Wen Jiabao,Express intent to meet or negotiate,Herman Van Rompuy,2011-10-21
+1255,Barack Obama,Express intent to engage in diplomatic cooperation (such as policy support),Nuri al-Maliki,2011-10-21
+1256,Citizen (Australia),Use unconventional violence,Police (Australia),2011-10-24
+1257,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2011-10-24
+1258,Barack Obama,Express intent to meet or negotiate,Angela Merkel,2011-10-31
+1259,Angela Merkel,Consult,Barack Obama,2011-10-31
+1260,Military Personnel - Special (Afghanistan),fight with small arms and light weapons,Attacker (Afghanistan),2011-11-03
+1261,Military Personnel - Special (Afghanistan),Use conventional military force,Attacker (Afghanistan),2011-11-03
+1262,Attacker (Afghanistan),Use unconventional violence,Military Personnel - Special (Afghanistan),2011-11-03
+1263,Lee Myung Bak,Make a visit,France,2011-11-05
+1264,France,Host a visit,Lee Myung Bak,2011-11-05
+1265,Qatar,Host a visit,Mahmoud Ahmadinejad,2011-11-15
+1266,Mahmoud Ahmadinejad,Make a visit,Qatar,2011-11-15
+1267,Foreign Affairs (Israel),Use conventional military force,Foreign Affairs (France),2011-11-16
+1268,Foreign Affairs (France),Consult,Foreign Affairs (Israel),2011-11-16
+1269,UN Security Council,Make a visit,Ethiopia,2011-11-17
+1270,Ethiopia,Host a visit,UN Security Council,2011-11-17
+1271,Police (Egypt),Use conventional military force,Protester (Egypt),2011-11-27
+1272,Protester (Egypt),"Protest violently, riot",Police (Egypt),2011-11-27
+1273,Abdelilah Benkirane,Consult,Muhammad VI,2011-11-29
+1274,Muhammad VI,Host a visit,Abdelilah Benkirane,2011-11-29
+1275,Nuri al-Maliki,Make a visit,Barack Obama,2011-12-13
+1276,Barack Obama,Praise or endorse,Nuri al-Maliki,2011-12-13
+1277,Malaysia,Host a visit,Gurbanguly Berdymukhammedov,2011-12-13
+1278,Gurbanguly Berdymukhammedov,Make a visit,Malaysia,2011-12-13
+1279,Colombia,Express intent to cooperate,Mexico,2011-12-15
+1280,Mexico,Express intent to cooperate economically,Colombia,2011-12-15
+1281,Police (Egypt),Use tactics of violent repression,Protester (Egypt),2011-12-20
+1282,Protester (Egypt),Demonstrate or rally,Police (Egypt),2011-12-20
+1283,South Korea,Express intent to cooperate,China,2011-12-22
+1284,China,Engage in negotiation,South Korea,2011-12-22
+1285,Japan,Sign formal agreement,China,2011-12-25
+1286,China,Make optimistic comment,Japan,2011-12-25
+1287,Yoshihiko Noda,Make a visit,China,2011-12-26
+1288,Yoshihiko Noda,Make optimistic comment,China,2011-12-26
+1289,China,Consult,Yoshihiko Noda,2011-12-26
+1290,Angola,Host a visit,Japan,2012-01-09
+1291,Japan,Make a visit,Angola,2012-01-09
+1292,China,Host a visit,Head of Government (South Korea),2012-01-10
+1293,Head of Government (South Korea),Make an appeal or request,China,2012-01-10
+1294,Wen Jiabao,Make a visit,United Arab Emirates,2012-01-19
+1295,United Arab Emirates,Host a visit,Wen Jiabao,2012-01-19
+1296,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2012-01-31
+1297,Citizen (Australia),Accuse,Police (Australia),2012-01-31
+1298,Ma Ying Jeou,Demand diplomatic cooperation (such as policy support),China,2012-02-01
+1299,China,Sign formal agreement,Ma Ying Jeou,2012-02-01
+1300,Head of Government (Pakistan),Make a visit,Qatar,2012-02-06
+1301,Qatar,Host a visit,Head of Government (Pakistan),2012-02-06
+1302,Government (Nigeria),Express intent to provide economic aid,Citizen (Nigeria),2012-02-15
+1303,Citizen (Nigeria),Demand diplomatic cooperation (such as policy support),Government (Nigeria),2012-02-15
+1304,Japan,Express intent to cooperate,China,2012-02-20
+1305,China,Engage in diplomatic cooperation,Japan,2012-02-20
+1306,Benjamin Netanyahu,Express intent to meet or negotiate,Barack Obama,2012-03-01
+1307,Barack Obama,Consult,Benjamin Netanyahu,2012-03-01
+1308,Barack Obama,Consult,Benjamin Netanyahu,2012-03-07
+1309,Sudan,Receive deployment of peacekeepers,Ethiopia,2012-03-07
+1310,Benjamin Netanyahu,Make a visit,Barack Obama,2012-03-07
+1311,Ethiopia,Provide military protection or peacekeeping,Sudan,2012-03-07
+1312,Campbell Newman,"Accuse of crime, corruption",Citizen (Australia),2012-03-15
+1313,Citizen (Australia),Make an appeal or request,Campbell Newman,2012-03-15
+1314,UN Security Council,Make statement,Iran,2012-03-22
+1315,Iran,Express intent to engage in diplomatic cooperation (such as policy support),UN Security Council,2012-03-22
+1316,Qatar,Host a visit,Iraq,2012-04-03
+1317,Iraq,Make a visit,Qatar,2012-04-03
+1318,Barack Obama,Make a visit,Colombia,2012-04-14
+1319,Colombia,Host a visit,Barack Obama,2012-04-14
+1320,Sudan,Employ aerial weapons,South Sudan,2012-04-19
+1321,South Sudan,Use conventional military force,Sudan,2012-04-19
+1322,Sudan,Occupy territory,South Sudan,2012-04-23
+1323,Sudan,Employ aerial weapons,South Sudan,2012-04-23
+1324,South Sudan,Use conventional military force,Sudan,2012-04-23
+1325,Police (Australia),Make an appeal or request,Citizen (Australia),2012-04-24
+1326,Citizen (Australia),Physically assault,Police (Australia),2012-04-24
+1327,Citizen (Norway),Demonstrate or rally,Anders Breivik,2012-04-25
+1328,Anders Breivik,Use unconventional violence,Citizen (Norway),2012-04-25
+1329,South Sudan,Praise or endorse,China,2012-04-25
+1330,China,Engage in diplomatic cooperation,South Sudan,2012-04-25
+1331,Citizen (Thailand),Host a visit,Abhisit Vejjajiva,2012-04-30
+1332,Abhisit Vejjajiva,Make a visit,Citizen (Thailand),2012-04-30
+1333,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2012-05-08
+1334,South Korea,Sign formal agreement,Japan,2012-05-08
+1335,Lee Myung Bak,Engage in negotiation,Wen Jiabao,2012-05-12
+1336,China,Host a visit,Yoshihiko Noda,2012-05-12
+1337,Yoshihiko Noda,Make a visit,China,2012-05-12
+1338,Wen Jiabao,Express intent to cooperate,Lee Myung Bak,2012-05-12
+1339,Wen Jiabao,Express intent to cooperate,Yoshihiko Noda,2012-05-15
+1340,Yoshihiko Noda,Consult,Wen Jiabao,2012-05-15
+1341,Iraq,Host a visit,Ministry (Iran),2012-05-16
+1342,Ministry (Iran),Make a visit,Iraq,2012-05-16
+1343,Citizen (Nigeria),Use unconventional violence,Farm Worker (Nigeria),2012-05-22
+1344,Farm Worker (Nigeria),Use conventional military force,Citizen (Nigeria),2012-05-22
+1345,Iran,Make a visit,China,2012-06-06
+1346,China,Host a visit,Iran,2012-06-06
+1347,Mexico,Host a visit,Lee Myung Bak,2012-06-11
+1348,Lee Myung Bak,Make a visit,Mexico,2012-06-11
+1349,Iraq,Host a visit,Agence France-Presse,2012-06-13
+1350,Agence France-Presse,Make a visit,Iraq,2012-06-13
+1351,Alexis Tsipras,Engage in negotiation,Antonis Samaras,2012-06-18
+1352,Antonis Samaras,Express intent to meet or negotiate,Alexis Tsipras,2012-06-18
+1353,Barack Obama,Make a visit,Mexico,2012-06-18
+1354,Mexico,Engage in negotiation,Barack Obama,2012-06-18
+1355,Citizen (Australia),Use unconventional violence,Police (Australia),2012-06-20
+1356,Police (Australia),Make an appeal or request,Citizen (Australia),2012-06-20
+1357,Bolivia,Engage in negotiation,Mahmoud Ahmadinejad,2012-06-20
+1358,Mahmoud Ahmadinejad,Make a visit,Bolivia,2012-06-20
+1359,Police (Australia),Accuse,Citizen (Australia),2012-06-20
+1360,Wen Jiabao,Consult,Cristina Fernández de Kirchner,2012-06-25
+1361,Cristina Fernández de Kirchner,Praise or endorse,Wen Jiabao,2012-06-25
+1362,Cristina Fernández de Kirchner,Host a visit,Wen Jiabao,2012-06-25
+1363,Mehr News Agency,Engage in negotiation,Iran,2012-06-26
+1364,Iran,Express intent to cooperate,Mehr News Agency,2012-06-26
+1365,Nonaligned Movement,Make a visit,Iran,2012-06-29
+1366,Iran,Host a visit,Nonaligned Movement,2012-06-29
+1367,Iraq,Engage in diplomatic cooperation,Iran,2012-07-01
+1368,Iran,Sign formal agreement,Iraq,2012-07-01
+1369,Japan,Criticize or denounce,Dmitry Anatolyevich Medvedev,2012-07-03
+1370,Dmitry Anatolyevich Medvedev,Express intent to meet or negotiate,Japan,2012-07-03
+1371,Iran,Consult,Mahmoud Abbas,2012-07-12
+1372,Mahmoud Abbas,Express intent to meet or negotiate,Iran,2012-07-12
+1373,Iran,Host a visit,Nonaligned Movement,2012-07-15
+1374,Nonaligned Movement,Praise or endorse,Iran,2012-07-15
+1375,Cristina Fernández de Kirchner,Make a visit,Bolivia,2012-07-19
+1376,Bolivia,Host a visit,Cristina Fernández de Kirchner,2012-07-19
+1377,Criminal (Israel),Engage in negotiation,Police (Israel),2012-07-31
+1378,Police (Israel),Confiscate property,Criminal (Israel),2012-07-31
+1379,Nonaligned Movement,Make a visit,Iran,2012-08-18
+1380,Iran,Express intent to meet or negotiate,Nonaligned Movement,2012-08-18
+1381,Nonaligned Movement,Make a visit,Iran,2012-08-22
+1382,Iran,Express intent to meet or negotiate,Nonaligned Movement,2012-08-22
+1383,Nonaligned Movement,Make a visit,Iran,2012-09-03
+1384,Iran,Host a visit,Nonaligned Movement,2012-09-03
+1385,Iran,Make statement,Nonaligned Movement,2012-09-04
+1386,Nonaligned Movement,Express intent to meet or negotiate,Iran,2012-09-04
+1387,China,Host a visit,Cabinet / Council of Ministers / Advisors (United States),2012-09-06
+1388,Cabinet / Council of Ministers / Advisors (United States),Consult,China,2012-09-06
+1389,China,Host a visit,Wen Jiabao,2012-09-11
+1390,Wen Jiabao,Make a visit,China,2012-09-11
+1391,Japan,"Reject proposal to meet, discuss, or negotiate",China,2012-09-26
+1392,China,Consult,Japan,2012-09-26
+1393,Sudan,Sign formal agreement,South Sudan,2012-09-26
+1394,South Sudan,Express intent to engage in diplomatic cooperation (such as policy support),Sudan,2012-09-26
+1395,South Sudan,Accuse,Sudan,2012-09-26
+1396,Japan,Engage in diplomatic cooperation,China,2012-09-28
+1397,China,Accuse,Japan,2012-09-28
+1398,Angela Merkel,Consult,Antonis Samaras,2012-10-09
+1399,Head of Government (Greece),Engage in negotiation,Angela Merkel,2012-10-09
+1400,Antonis Samaras,Express intent to engage in diplomatic cooperation (such as policy support),Angela Merkel,2012-10-09
+1401,Antonis Samaras,Host a visit,Angela Merkel,2012-10-09
+1402,Angela Merkel,Consult,Head of Government (Greece),2012-10-09
+1403,Defense / Security Ministry (United States),Make a visit,Iraq,2012-10-18
+1404,Iraq,Host a visit,Defense / Security Ministry (United States),2012-10-18
+1405,Government (Nigeria),Make pessimistic comment,Citizen (Nigeria),2012-10-24
+1406,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2012-10-24
+1407,Government (Nigeria),Provide humanitarian aid,Citizen (Nigeria),2012-10-25
+1408,Citizen (Nigeria),Bring lawsuit against,Government (Nigeria),2012-10-25
+1409,Government (Nigeria),Accuse,Citizen (Nigeria),2012-10-25
+1410,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2012-10-31
+1411,South Korea,Make pessimistic comment,Japan,2012-10-31
+1412,Herman Van Rompuy,Make a visit,Vietnam,2012-11-01
+1413,Vietnam,Host a visit,Herman Van Rompuy,2012-11-01
+1414,Wen Jiabao,Praise or endorse,Barack Obama,2012-11-20
+1415,Barack Obama,Meet at a 'third' location,Wen Jiabao,2012-11-20
+1416,South Sudan,Host a visit,Envoy (United States),2012-12-02
+1417,Envoy (United States),Make a visit,South Sudan,2012-12-02
+1418,Xi Jinping,Make a visit,China,2012-12-07
+1419,Cabinet / Council of Ministers / Advisors (United States),Express intent to meet or negotiate,Northern Ireland,2012-12-07
+1420,China,Make statement,Xi Jinping,2012-12-07
+1421,Northern Ireland,Engage in symbolic act,Cabinet / Council of Ministers / Advisors (United States),2012-12-07
+1422,South Sudan,Make statement,Sudan,2013-01-04
+1423,Sudan,Consult,South Sudan,2013-01-04
+1424,South Sudan,Express intent to cooperate,Sudan,2013-01-05
+1425,Sudan,Consult,South Sudan,2013-01-05
+1426,Ed Royce,Make a visit,South Korea,2013-01-08
+1427,South Korea,Host a visit,Ed Royce,2013-01-08
+1428,Ed Royce,Consider policy option,South Korea,2013-01-08
+1429,Iran,Host a visit,Mahmoud Ahmadinejad,2013-01-09
+1430,Mahmoud Ahmadinejad,Make a visit,Iran,2013-01-09
+1431,Mahmoud Ahmadinejad,Make statement,Iran,2013-01-09
+1432,Abdirahman Mohamed Farole,Make a visit,Djibouti,2013-01-24
+1433,Djibouti,Host a visit,Abdirahman Mohamed Farole,2013-01-24
+1434,Thailand,Host a visit,Barack Obama,2013-02-07
+1435,Barack Obama,Make a visit,Thailand,2013-02-07
+1436,Head of Government (Pakistan),Consult,Ministry (Iran),2013-02-20
+1437,Ministry (Iran),Consider policy option,Head of Government (Pakistan),2013-02-20
+1438,Police (Egypt),Use conventional military force,Protester (Egypt),2013-03-05
+1439,Protester (Egypt),Demonstrate or rally,Police (Egypt),2013-03-05
+1440,Yoani Sánchez,Make a visit,Mexico,2013-03-10
+1441,Mexico,Host a visit,Yoani Sánchez,2013-03-10
+1442,Evangelos Meimarakis,Praise or endorse,Nicos Anastasiades,2013-03-11
+1443,Nicos Anastasiades,Consult,Evangelos Meimarakis,2013-03-11
+1444,Citizen (Australia),Use unconventional violence,Police (Australia),2013-03-18
+1445,International Monetary Fund,Host a visit,Hisham Qandil,2013-03-18
+1446,Police (Australia),Accuse,Citizen (Australia),2013-03-18
+1447,Hisham Qandil,Engage in negotiation,International Monetary Fund,2013-03-18
+1448,Barack Obama,Express intent to meet or negotiate,Benjamin Netanyahu,2013-03-20
+1449,Benjamin Netanyahu,Engage in negotiation,Barack Obama,2013-03-20
+1450,Xi Jinping,Express intent to cooperate,Jakaya Mrisho Kikwete,2013-03-25
+1451,Jakaya Mrisho Kikwete,Consult,Xi Jinping,2013-03-25
+1452,Sergey Kuzhugetovich Shoygu,Discuss by telephone,Chuck Hagel,2013-03-26
+1453,Chuck Hagel,Consult,Sergey Kuzhugetovich Shoygu,2013-03-26
+1454,Michael Sata,Host a visit,Yu Zhengsheng,2013-04-10
+1455,Yu Zhengsheng,Make a visit,Michael Sata,2013-04-10
+1456,Chuck Hagel,Make a visit,Middle East,2013-04-24
+1457,Abdel Fattah Al-Sisi,Consult,Chuck Hagel,2013-04-24
+1458,Chuck Hagel,Engage in negotiation,Abdel Fattah Al-Sisi,2013-04-24
+1459,Middle East,Host a visit,Chuck Hagel,2013-04-24
+1460,China,Host a visit,Catherine Ashton,2013-04-26
+1461,Catherine Ashton,Make a visit,China,2013-04-26
+1462,China,Make statement,Japan,2013-04-26
+1463,Japan,Express intent to meet or negotiate,China,2013-04-26
+1464,Northern Ireland,Host a visit,Barack Obama,2013-05-10
+1465,Barack Obama,Make a visit,Northern Ireland,2013-05-10
+1466,Xi Jinping,Make an appeal or request,China,2013-05-15
+1467,China,Host a visit,Mahmoud Abbas,2013-05-15
+1468,Mahmoud Abbas,Make a visit,China,2013-05-15
+1469,China,Host a visit,Xi Jinping,2013-05-15
+1470,Mahmoud Ahmadinejad,Make statement,Iran,2013-05-18
+1471,Iran,Host a visit,Mahmoud Ahmadinejad,2013-05-18
+1472,Xi Jinping,Express intent to settle dispute,Barack Obama,2013-06-08
+1473,Barack Obama,Make an appeal or request,Xi Jinping,2013-06-08
+1474,Xi Jinping,Make optimistic comment,Barack Obama,2013-06-08
+1475,Barack Obama,Express intent to engage in diplomatic cooperation (such as policy support),Xi Jinping,2013-06-09
+1476,Xi Jinping,Consult,Barack Obama,2013-06-09
+1477,Ministry (Nigeria),Express intent to cooperate,Citizen (Nigeria),2013-06-10
+1478,Citizen (Nigeria),Use unconventional violence,Farm Worker (Nigeria),2013-06-10
+1479,Citizen (Nigeria),Accuse,Ministry (Nigeria),2013-06-10
+1480,Farm Worker (Nigeria),Use conventional military force,Citizen (Nigeria),2013-06-10
+1481,Barack Obama,Demand,Xi Jinping,2013-06-11
+1482,Xi Jinping,Consult,Barack Obama,2013-06-11
+1483,Northern Ireland,Host a visit,Japan,2013-06-18
+1484,Japan,Make a visit,Northern Ireland,2013-06-18
+1485,South Africa,Host a visit,Barack Obama,2013-06-27
+1486,Barack Obama,Make a visit,South Africa,2013-06-27
+1487,Wang Yi,Host a visit,John Baird,2013-07-02
+1488,John Baird,Make a visit,Wang Yi,2013-07-02
+1489,Evo Morales,Reduce or break diplomatic relations,Bolivia,2013-07-05
+1490,Bolivia,Make statement,Evo Morales,2013-07-05
+1491,International Monetary Fund,Express intent to meet or negotiate,Romania,2013-07-10
+1492,Romania,Appeal for diplomatic cooperation (such as policy support),International Monetary Fund,2013-07-10
+1493,Iraq,Host a visit,Mahmoud Ahmadinejad,2013-07-16
+1494,Mahmoud Ahmadinejad,Make a visit,Iraq,2013-07-16
+1495,Nuri al-Maliki,Consult,Mahmoud Ahmadinejad,2013-07-19
+1496,Mahmoud Ahmadinejad,Engage in negotiation,Nuri al-Maliki,2013-07-19
+1497,Japan,Make pessimistic comment,China,2013-08-13
+1498,United Arab Emirates,Engage in diplomatic cooperation,Iran,2013-08-13
+1499,Iran,Consult,United Arab Emirates,2013-08-13
+1500,China,Criticize or denounce,Japan,2013-08-13
+1501,Oluṣẹgun Ọbasanjọ,Make a visit,Guinea-Bissau,2013-08-23
+1502,Guinea-Bissau,Host a visit,Oluṣẹgun Ọbasanjọ,2013-08-23
+1503,Xi Jinping,Consult,Islam Karimov,2013-09-09
+1504,Islam Karimov,Sign formal agreement,Xi Jinping,2013-09-09
+1505,Envoy (United States),Make a visit,South Sudan,2013-09-14
+1506,South Sudan,Host a visit,Envoy (United States),2013-09-14
+1507,Iran,Criticize or denounce,Barack Obama,2013-09-17
+1508,Barack Obama,Consult,Iran,2013-09-17
+1509,Barack Obama,Praise or endorse,Malaysia,2013-10-02
+1510,Malaysia,Host a visit,Barack Obama,2013-10-02
+1511,Malaysia,Host a visit,Barack Obama,2013-10-04
+1512,Barack Obama,Halt negotiations,Malaysia,2013-10-04
+1513,Barack Obama,Reduce or break diplomatic relations,Malaysia,2013-10-04
+1514,Protester (Egypt),"Protest violently, riot",Police (Egypt),2013-10-06
+1515,Police (Egypt),Use tactics of violent repression,Protester (Egypt),2013-10-06
+1516,Special Court (Sierra Leone),Host a visit,Charles Taylor,2013-10-28
+1517,Charles Taylor,Make a visit,Special Court (Sierra Leone),2013-10-28
+1518,Ethiopia,Consult,Sudan,2013-11-05
+1519,Sudan,Engage in diplomatic cooperation,Ethiopia,2013-11-05
+1520,Uhuru Muigai Kenyatta,Make a visit,China,2013-11-06
+1521,China,Host a visit,Uhuru Muigai Kenyatta,2013-11-06
+1522,South Korea,Make a visit,China,2013-11-13
+1523,China,Express intent to meet or negotiate,South Korea,2013-11-13
+1524,Benjamin Netanyahu,Engage in negotiation,France,2013-11-17
+1525,France,Make a visit,Benjamin Netanyahu,2013-11-17
+1526,Member of Legislative (Govt) (Lebanon),Consult,Iran,2013-11-26
+1527,Iran,Host a visit,Member of Legislative (Govt) (Lebanon),2013-11-26
+1528,Head of Government (Turkmenistan),Make a visit,Thailand,2013-11-29
+1529,Thailand,Host a visit,Head of Government (Turkmenistan),2013-11-29
+1530,Nuri al-Maliki,Make a visit,Iran,2013-12-04
+1531,Iran,Host a visit,Nuri al-Maliki,2013-12-04
+1532,Association of Southeast Asian Nations,Consult,Japan,2013-12-12
+1533,Japan,Express intent to provide economic aid,Association of Southeast Asian Nations,2013-12-12
+1534,Xi Jinping,Sign formal agreement,Evo Morales,2013-12-20
+1535,Evo Morales,Consult,Xi Jinping,2013-12-20
+1536,Chuck Hagel,Make a visit,Middle East,2013-12-21
+1537,Middle East,Host a visit,Chuck Hagel,2013-12-21
+1538,Women (China),Use unconventional violence,China,2014-01-21
+1539,China,"Arrest, detain, or charge with legal action",Women (China),2014-01-21
+1540,Police (Bosnia and Herzegovina),Use tactics of violent repression,Protester (Bosnia and Herzegovina),2014-02-07
+1541,Protester (Bosnia and Herzegovina),Demonstrate or rally,Police (Bosnia and Herzegovina),2014-02-07
+1542,Police (Australia),"Arrest, detain, or charge with legal action",Citizen (Australia),2014-02-12
+1543,Citizen (Australia),Threaten,Police (Australia),2014-02-12
+1544,Cabinet / Council of Ministers / Advisors (United States),Engage in negotiation,Mahmoud Abbas,2014-02-21
+1545,Mahmoud Abbas,Meet at a 'third' location,Cabinet / Council of Ministers / Advisors (United States),2014-02-21
+1546,Thailand,Engage in symbolic act,Citizen (Thailand),2014-02-24
+1547,Citizen (Thailand),Express intent to meet or negotiate,Thailand,2014-02-24
+1548,Qatar,Make a visit,Iran,2014-02-25
+1549,Iran,Host a visit,Qatar,2014-02-25
+1550,Dmitry Anatolyevich Medvedev,Consult,Arseniy Yatsenyuk,2014-03-01
+1551,Arseniy Yatsenyuk,Make statement,Dmitry Anatolyevich Medvedev,2014-03-01
+1552,Qatar,Host a visit,Isaias Afewerki,2014-03-02
+1553,Isaias Afewerki,Express intent to meet or negotiate,Qatar,2014-03-02
+1554,Government (Nigeria),Provide humanitarian aid,Citizen (Nigeria),2014-03-03
+1555,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2014-03-03
+1556,Irakli Alasania,Make a visit,Japan,2014-03-05
+1557,Japan,Host a visit,Irakli Alasania,2014-03-05
+1558,Militant (Syria),Host a visit,Benjamin Netanyahu,2014-03-10
+1559,Benjamin Netanyahu,Make a visit,Militant (Syria),2014-03-10
+1560,Oman,Consult,Iran,2014-03-12
+1561,South Korea,Express intent to cooperate economically,Japan,2014-03-12
+1562,Iran,Express intent to engage in diplomatic cooperation (such as policy support),Oman,2014-03-12
+1563,Japan,Make a visit,South Korea,2014-03-12
+1564,Barack Obama,Host a visit,Head of Government (Ukraine),2014-03-12
+1565,Head of Government (Ukraine),Engage in negotiation,Barack Obama,2014-03-12
+1566,Head of Government (Ukraine),Meet at a 'third' location,Barack Obama,2014-03-13
+1567,Barack Obama,Consult,Head of Government (Ukraine),2014-03-13
+1568,Barack Obama,Demand,Mahmoud Abbas,2014-03-18
+1569,Barack Obama,Make an appeal or request,Mahmoud Abbas,2014-03-18
+1570,Mahmoud Abbas,Engage in negotiation,Barack Obama,2014-03-18
+1571,Barack Obama,Express intent to meet or negotiate,Mahmoud Abbas,2014-03-18
+1572,Barack Obama,Make statement,Mahmoud Abbas,2014-03-18
+1573,Mahmoud Abbas,Make a visit,Barack Obama,2014-03-18
+1574,Barack Obama,Consult,Mahmoud Abbas,2014-03-20
+1575,Mahmoud Abbas,Make an appeal or request,Barack Obama,2014-03-20
+1576,The Hague,Express intent to meet or negotiate,Barack Obama,2014-03-24
+1577,Barack Obama,Make a visit,The Hague,2014-03-24
+1578,High Commission for Refugees,Investigate,South Sudan,2014-03-31
+1579,South Sudan,Host a visit,High Commission for Refugees,2014-03-31
+1580,Government (Nigeria),Make an appeal or request,Citizen (Nigeria),2014-04-03
+1581,Citizen (Nigeria),Criticize or denounce,Government (Nigeria),2014-04-03
+1582,Vietnam,Consult,Mekong River Commission,2014-04-05
+1583,Mekong River Commission,Make a visit,Vietnam,2014-04-05
+1584,Vietnam,Host a visit,Mekong River Commission,2014-04-05
+1585,Mekong River Commission,Consult,Vietnam,2014-04-05
+1586,Chuck Hagel,Make a visit,China,2014-04-06
+1587,China,Host a visit,Chuck Hagel,2014-04-06
+1588,South Korea,Express intent to meet or negotiate,Japan,2014-04-16
+1589,Japan,Make a visit,South Korea,2014-04-16
+1590,South Korea,Consult,Japan,2014-04-16
+1591,South Korea,Engage in negotiation,Japan,2014-04-16
+1592,China,Host a visit,Naval (Bangladesh),2014-04-21
+1593,Naval (Bangladesh),Make a visit,China,2014-04-21
+1594,Citizen (Nigeria),Engage in diplomatic cooperation,Government (Nigeria),2014-05-02
+1595,Government (Nigeria),Appeal for diplomatic cooperation (such as policy support),Citizen (Nigeria),2014-05-02
+1596,Government (Nigeria),Express intent to cooperate,Citizen (Nigeria),2014-05-02
+1597,"Children (Palestinian Territory, Occupied)",Use unconventional violence,Israeli Defense Forces,2014-05-05
+1598,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2014-05-05
+1599,Government (Nigeria),Express intent to release persons or property,Citizen (Nigeria),2014-05-05
+1600,Israeli Defense Forces,Use conventional military force,"Children (Palestinian Territory, Occupied)",2014-05-05
+1601,Iran,Host a visit,Nuri al-Maliki,2014-05-09
+1602,South Sudan,Make a visit,Ethiopia,2014-05-09
+1603,Pope Tawadros II,Express intent to meet or negotiate,United Arab Emirates,2014-05-09
+1604,Ethiopia,Host a visit,South Sudan,2014-05-09
+1605,Nuri al-Maliki,Make a visit,Iran,2014-05-09
+1606,United Arab Emirates,Host a visit,Pope Tawadros II,2014-05-09
+1607,Ramtane Lamamra,Make a visit,Mauritania,2014-05-16
+1608,Mauritania,Host a visit,Ramtane Lamamra,2014-05-16
+1609,Ramtane Lamamra,Express intent to meet or negotiate,Mauritania,2014-05-16
+1610,Tzipi Livni,Meet at a 'third' location,Mahmoud Abbas,2014-05-18
+1611,Mahmoud Abbas,Consult,Tzipi Livni,2014-05-18
+1612,Citizen (Nigeria),Appeal for change in leadership,Government (Nigeria),2014-05-19
+1613,Government (Nigeria),Provide aid,Citizen (Nigeria),2014-05-19
+1614,Citizen (Nigeria),Criticize or denounce,Government (Nigeria),2014-05-28
+1615,Government (Nigeria),"Return, release person(s)",Citizen (Nigeria),2014-05-28
+1616,Military (Ukraine),Use conventional military force,Armed Rebel (Russia),2014-05-29
+1617,Armed Rebel (Russia),Use unconventional violence,Military (Ukraine),2014-05-29
+1618,Government (Nigeria),"Arrest, detain, or charge with legal action",Citizen (Nigeria),2014-06-05
+1619,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2014-06-05
+1620,China,Consult,South Korea,2014-06-17
+1621,South Korea,Engage in negotiation,China,2014-06-17
+1622,China,Host a visit,Royal Administration (Spain),2014-06-19
+1623,Royal Administration (Spain),Make a visit,China,2014-06-19
+1624,Barack Obama,Make statement,Mexico,2014-06-20
+1625,Mexico,Discuss by telephone,Barack Obama,2014-06-20
+1626,Citizen (Nigeria),Accuse,Boko Haram,2014-06-24
+1627,Boko Haram,Use conventional military force,Citizen (Nigeria),2014-06-24
+1628,Barack Obama,Make an appeal or request,Iraq,2014-07-03
+1629,Iraq,Receive deployment of peacekeepers,Barack Obama,2014-07-03
+1630,Head of Government (Germany),Make a visit,China,2014-07-07
+1631,China,Host a visit,Head of Government (Germany),2014-07-07
+1632,Abdel Fattah Al-Sisi,Make a visit,Sudan,2014-07-08
+1633,Sudan,Host a visit,Abdel Fattah Al-Sisi,2014-07-08
+1634,China,Host a visit,Japan,2014-07-23
+1635,Japan,Make a visit,China,2014-07-23
+1636,Moro Islamic Liberation Front,Make statement,Military (Philippines),2014-07-29
+1637,Military (Philippines),Violate ceasefire,Moro Islamic Liberation Front,2014-07-29
+1638,Le Hong Anh,Make a visit,China,2014-08-26
+1639,China,Host a visit,Le Hong Anh,2014-08-26
+1640,Le Hong Anh,Express intent to meet or negotiate,China,2014-08-26
+1641,Japan,Consult,China,2014-09-01
+1642,China,Praise or endorse,Japan,2014-09-01
+1643,South Korea,Express intent to meet or negotiate,Japan,2014-09-04
+1644,Japan,Engage in diplomatic cooperation,South Korea,2014-09-04
+1645,South Korea,Sign formal agreement,China,2014-09-06
+1646,China,Express intent to meet or negotiate,South Korea,2014-09-06
+1647,Mexico,Consult,Guatemala,2014-09-09
+1648,Guatemala,Express intent to cooperate,Mexico,2014-09-09
+1649,China,Host a visit,Xi Jinping,2014-09-18
+1650,Xi Jinping,Make statement,China,2014-09-18
+1651,Japan,Express intent to cooperate,South Korea,2014-09-19
+1652,South Korea,Engage in negotiation,Japan,2014-09-19
+1653,Barack Obama,Consult,Royal Administration (Spain),2014-09-23
+1654,Royal Administration (Spain),Express intent to meet or negotiate,Barack Obama,2014-09-23
+1655,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2014-09-26
+1656,Government (Nigeria),Provide humanitarian aid,Citizen (Nigeria),2014-09-26
+1657,Frank Bainimarama,Meet at a 'third' location,Kamalesh Sharma,2014-09-29
+1658,Kamalesh Sharma,Praise or endorse,Frank Bainimarama,2014-09-29
+1659,China,Host a visit,Ashraf Ghani Ahmadzai,2014-10-23
+1660,Ashraf Ghani Ahmadzai,Express intent to meet or negotiate,China,2014-10-23
+1661,China,Host a visit,Ashraf Ghani Ahmadzai,2014-10-27
+1662,Ashraf Ghani Ahmadzai,Express intent to meet or negotiate,China,2014-10-27
+1663,Police (Australia),Criticize or denounce,Citizen (Australia),2014-10-28
+1664,Citizen (Australia),Use unconventional violence,Police (Australia),2014-10-28
+1665,China,Host a visit,Ashraf Ghani Ahmadzai,2014-10-30
+1666,Ashraf Ghani Ahmadzai,Consult,China,2014-10-30
+1667,Japan,Engage in negotiation,China,2014-11-07
+1668,China,Make statement,Japan,2014-11-07
+1669,China,Host a visit,Head of Government (Chile),2014-11-12
+1670,Head of Government (Chile),Make a visit,China,2014-11-12
+1671,China,Consult,Association of Southeast Asian Nations,2014-11-13
+1672,Association of Southeast Asian Nations,Sign formal agreement,China,2014-11-13
+1673,Qatar,Host a visit,Head of Government (Gambia),2014-11-18
+1674,Head of Government (Gambia),Make a visit,Qatar,2014-11-18
+1675,Qatar,Host a visit,Head of Government (Gambia),2014-11-19
+1676,Head of Government (Gambia),Make a visit,Qatar,2014-11-19
+1677,Barack Obama,Praise or endorse,Head of Government (Pakistan),2014-11-22
+1678,Head of Government (Pakistan),Engage in negotiation,Barack Obama,2014-11-22
+1679,France,Express intent to cooperate,China,2014-11-24
+1680,China,Express intent to meet or negotiate,France,2014-11-24
+1681,United Arab Emirates,Host a visit,Uhuru Muigai Kenyatta,2014-11-27
+1682,Uhuru Muigai Kenyatta,Make a visit,United Arab Emirates,2014-11-27
+1683,Thailand,Express intent to cooperate,Malaysia,2014-12-01
+1684,Malaysia,Express intent to engage in diplomatic cooperation (such as policy support),Thailand,2014-12-01
+1685,Benjamin Netanyahu,Make statement,Yair Lapid,2014-12-03
+1686,Yair Lapid,Criticize or denounce,Benjamin Netanyahu,2014-12-03
+1687,João Manuel Gonçalves Lourenço,Make a visit,United Arab Emirates,2014-12-17
+1688,United Arab Emirates,Host a visit,João Manuel Gonçalves Lourenço,2014-12-17
+1689,China,Express intent to engage in diplomatic cooperation (such as policy support),Thailand,2014-12-25
+1690,Thailand,Sign formal agreement,China,2014-12-25
+1691,Japan,Express intent to cooperate,South Korea,2014-12-29
+1692,South Korea,Express intent to meet or negotiate,Japan,2014-12-29
+1693,Kuwait,Host a visit,Abdel Fattah Al-Sisi,2015-01-07
+1694,Abdel Fattah Al-Sisi,Make a visit,Kuwait,2015-01-07
+1695,China,Host a visit,Abdel Fattah Al-Sisi,2015-01-12
+1696,Abdel Fattah Al-Sisi,Make a visit,China,2015-01-12
+1697,Government (Nigeria),Make an appeal or request,Citizen (Nigeria),2015-01-15
+1698,Citizen (Nigeria),Bring lawsuit against,Government (Nigeria),2015-01-15
+1699,Sergey Kuzhugetovich Shoygu,Praise or endorse,Iran,2015-01-22
+1700,Iran,Host a visit,Sergey Kuzhugetovich Shoygu,2015-01-22
+1701,Police (Egypt),Use tactics of violent repression,Protester (Egypt),2015-01-25
+1702,Protester (Egypt),Make statement,Police (Egypt),2015-01-25
+1703,Angela Merkel,Express intent to meet or negotiate,Barack Obama,2015-02-02
+1704,Barack Obama,Consult,Angela Merkel,2015-02-02
+1705,Mahmoud Abbas,Express intent to meet or negotiate,Head of Government (Sweden),2015-02-10
+1706,Barack Obama,Praise or endorse,Angela Merkel,2015-02-10
+1707,Head of Government (Sweden),Engage in negotiation,Mahmoud Abbas,2015-02-10
+1708,Angela Merkel,Make a visit,Barack Obama,2015-02-10
+1709,Citizen (Nigeria),Deny responsibility,Government (Nigeria),2015-02-11
+1710,Government (Nigeria),"Arrest, detain, or charge with legal action",Citizen (Nigeria),2015-02-11
+1711,Iraq,Engage in diplomatic cooperation,Iran,2015-02-16
+1712,Iraq,Host a visit,Eshaq Jahangiri,2015-02-16
+1713,Eshaq Jahangiri,Make statement,Iraq,2015-02-16
+1714,Iran,Praise or endorse,Iraq,2015-02-16
+1715,Foreign Affairs (Israel),Consult,Algirdas Butkevičius,2015-02-17
+1716,Algirdas Butkevičius,Host a visit,Foreign Affairs (Israel),2015-02-17
+1717,Citizen (Nigeria),Make an appeal or request,Muslim (Nigeria),2015-02-19
+1718,Muslim (Nigeria),Use conventional military force,Citizen (Nigeria),2015-02-19
+1719,Citizen (Nigeria),Accuse,Government (Nigeria),2015-02-26
+1720,Government (Nigeria),Express intent to cooperate,Citizen (Nigeria),2015-02-26
+1721,Boko Haram,Use conventional military force,Citizen (Nigeria),2015-02-27
+1722,Citizen (Nigeria),Use unconventional violence,Boko Haram,2015-02-27
+1723,France,Host a visit,Iran,2015-03-04
+1724,Iran,Make a visit,France,2015-03-04
+1725,Iran,Engage in negotiation,Barack Obama,2015-03-04
+1726,Barack Obama,Meet at a 'third' location,Iran,2015-03-04
+1727,Angela Merkel,Make a visit,Japan,2015-03-09
+1728,Japan,Host a visit,Angela Merkel,2015-03-09
+1729,Police (South Africa),Use conventional military force,Men (South Africa),2015-03-10
+1730,Men (South Africa),fight with small arms and light weapons,Police (South Africa),2015-03-10
+1731,Police (South Africa),"Arrest, detain, or charge with legal action",Men (South Africa),2015-03-10
+1732,Vietnam,Express intent to settle dispute,China,2015-03-11
+1733,China,Criticize or denounce,Vietnam,2015-03-11
+1734,Phil Hogan,Make a visit,Romania,2015-03-13
+1735,Romania,Host a visit,Phil Hogan,2015-03-13
+1736,Nir Barkat,Make a visit,South Africa,2015-03-13
+1737,South Africa,Host a visit,Nir Barkat,2015-03-13
+1738,China,Express intent to meet or negotiate,Japan,2015-03-17
+1739,Japan,Consult,China,2015-03-17
+1740,Barack Obama,Express intent to cooperate,Benjamin Netanyahu,2015-03-19
+1741,Benjamin Netanyahu,Criticize or denounce,Barack Obama,2015-03-19
+1742,Japan,Consult,China,2015-03-20
+1743,China,Make an appeal or request,Japan,2015-03-20
+1744,China,Criticize or denounce,Japan,2015-03-20
+1745,South Korea,Host a visit,China,2015-03-21
+1746,China,Consult,South Korea,2015-03-21
+1747,South Korea,Host a visit,Japan,2015-03-21
+1748,Japan,Engage in diplomatic cooperation,South Korea,2015-03-21
+1749,Japan,Engage in diplomatic cooperation,China,2015-03-22
+1750,China,Make a visit,South Korea,2015-03-22
+1751,Japan,Sign formal agreement,China,2015-03-22
+1752,South Korea,Host a visit,China,2015-03-22
+1753,China,Engage in negotiation,Japan,2015-03-22
+1754,Angela Merkel,Host a visit,Alexis Tsipras,2015-03-23
+1755,Angela Merkel,Express intent to engage in diplomatic cooperation (such as policy support),Alexis Tsipras,2015-03-23
+1756,Alexis Tsipras,Express intent to meet or negotiate,Angela Merkel,2015-03-23
+1757,Military (Middle East),Mobilize or increase armed forces,Yemen,2015-03-24
+1758,Yemen,Make statement,Military (Middle East),2015-03-24
+1759,Japan,Engage in diplomatic cooperation,China,2015-03-26
+1760,China,Meet at a 'third' location,Japan,2015-03-26
+1761,Benjamin Netanyahu,Consult,Barack Obama,2015-04-04
+1762,Barack Obama,Discuss by telephone,Benjamin Netanyahu,2015-04-04
+1763,Citizen (Nigeria),Engage in symbolic act,Muhammadu Buhari,2015-04-06
+1764,Muhammadu Buhari,Make an appeal or request,Citizen (Nigeria),2015-04-06
+1765,Government (Nigeria),Accuse,Citizen (Nigeria),2015-04-07
+1766,Citizen (Nigeria),Make optimistic comment,Government (Nigeria),2015-04-07
+1767,Bernd Lange,Make a visit,Vietnam,2015-04-10
+1768,Vietnam,Host a visit,Bernd Lange,2015-04-10
+1769,Barack Obama,Meet at a 'third' location,Raúl Castro,2015-04-11
+1770,Raúl Castro,Make statement,Barack Obama,2015-04-11
+1771,Raúl Castro,Engage in negotiation,Barack Obama,2015-04-13
+1772,Barack Obama,Consult,Raúl Castro,2015-04-13
+1773,Raúl Castro,Engage in negotiation,Barack Obama,2015-04-15
+1774,Barack Obama,Consult,Raúl Castro,2015-04-15
+1775,Gen Tanasak Patimapragorn,Make a visit,The Hague,2015-04-15
+1776,The Hague,Host a visit,Gen Tanasak Patimapragorn,2015-04-15
+1777,Japan,Consult,China,2015-04-24
+1778,China,Express intent to cooperate economically,Japan,2015-04-24
+1779,Abdel Fattah Al-Sisi,Consult,Royal Administration (Spain),2015-05-01
+1780,Royal Administration (Spain),Host a visit,Abdel Fattah Al-Sisi,2015-05-01
+1781,Citizen (Nigeria),Make an appeal or request,Government (Nigeria),2015-05-08
+1782,Government (Nigeria),Provide humanitarian aid,Citizen (Nigeria),2015-05-08
+1783,International Court of Justice,Make a visit,The Hague,2015-05-10
+1784,The Hague,Host a visit,International Court of Justice,2015-05-10
+1785,Armed Gang (Macedonia),Use unconventional violence,Police (Macedonia),2015-05-11
+1786,Police (Macedonia),Use conventional military force,Armed Gang (Macedonia),2015-05-11
+1787,Yemen,Make statement,Iran,2015-05-13
+1788,Iran,Express intent to provide humanitarian aid,Yemen,2015-05-13
+1789,Citizen (Nigeria),Bring lawsuit against,Government (Nigeria),2015-05-14
+1790,Government (Nigeria),Give ultimatum,Citizen (Nigeria),2015-05-14
+1791,Citizen (Sudan),Make an appeal or request,Government (Sudan),2015-05-18
+1792,Government (Sudan),"Arrest, detain, or charge with legal action",Citizen (Sudan),2015-05-18
+1793,France,Host a visit,Klaus Johannis,2015-05-29
+1794,Klaus Johannis,Make a visit,France,2015-05-29
+1795,International Monetary Fund,Express intent to engage in diplomatic cooperation (such as policy support),European Central Bank,2015-06-02
+1796,European Central Bank,Consult,International Monetary Fund,2015-06-02
+1797,Head of Government (Egypt),Make a visit,Joachim Gauck,2015-06-03
+1798,Joachim Gauck,Host a visit,Head of Government (Egypt),2015-06-03
+1799,Abdel Fattah Al-Sisi,Make a visit,Viktor Orban,2015-06-05
+1800,Viktor Orban,Host a visit,Abdel Fattah Al-Sisi,2015-06-05
+1801,Werner Faymann,Express intent to meet or negotiate,Alexis Tsipras,2015-06-17
+1802,Alexis Tsipras,Make a visit,Werner Faymann,2015-06-17
+1803,Citizen (Saudi Arabia),Make a visit,Iran,2015-06-17
+1804,Iran,Host a visit,Citizen (Saudi Arabia),2015-06-17
+1805,Massoud Barzani,Make a visit,Kuwait,2015-06-18
+1806,Kuwait,Host a visit,Massoud Barzani,2015-06-18
+1807,Japan,Express intent to cooperate,South Korea,2015-06-21
+1808,South Korea,Make a visit,Japan,2015-06-21
+1809,Japan,Consult,South Korea,2015-06-22
+1810,Japan,Reduce relations,South Korea,2015-06-22
+1811,South Korea,Engage in diplomatic cooperation,Japan,2015-06-22
+1812,Japan,Express intent to engage in diplomatic cooperation (such as policy support),South Korea,2015-06-22
+1813,South Africa,Host a visit,African Union,2015-06-25
+1814,African Union,Consult,South Africa,2015-06-25
+1815,Bank (Greece),Host a visit,European Central Bank,2015-06-28
+1816,European Central Bank,Make a visit,Bank (Greece),2015-06-28
+1817,Alexis Tsipras,Accuse,Citizen (Greece),2015-06-29
+1818,Alexis Tsipras,Criticize or denounce,Citizen (Greece),2015-06-29
+1819,Citizen (Greece),Reject,Alexis Tsipras,2015-06-29
+1820,Barack Obama,Discuss by telephone,Angela Merkel,2015-07-07
+1821,Angela Merkel,Consult,Barack Obama,2015-07-07
+1822,South Africa,Express intent to meet or negotiate,China,2015-07-09
+1823,China,Sign formal agreement,South Africa,2015-07-09
+1824,Militant (Taliban),Use unconventional violence,Military Personnel - Special (Afghanistan),2015-07-10
+1825,Military Personnel - Special (Afghanistan),Use conventional military force,Militant (Taliban),2015-07-10
+1826,Shura Council,Make a visit,Sheikh Hamad bin Isa al Khalifah,2015-07-14
+1827,Sheikh Hamad bin Isa al Khalifah,Host a visit,Shura Council,2015-07-14
+1828,Barack Obama,Engage in negotiation,Iran,2015-07-15
+1829,Iran,Sign formal agreement,Barack Obama,2015-07-15
+1830,Criminal (China),Threaten with military force,China,2015-07-20
+1831,China,Engage in diplomatic cooperation,Thailand,2015-07-20
+1832,Thailand,Make a visit,China,2015-07-20
+1833,China,Make statement,Criminal (China),2015-07-20
+1834,Barack Obama,Host a visit,Muhammadu Buhari,2015-07-23
+1835,Muhammadu Buhari,Make an appeal or request,Barack Obama,2015-07-23
+1836,Thailand,Sign formal agreement,China,2015-07-25
+1837,China,Express intent to engage in diplomatic cooperation (such as policy support),Thailand,2015-07-25
+1838,Barack Obama,Make a visit,Uhuru Muigai Kenyatta,2015-07-26
+1839,Uhuru Muigai Kenyatta,Engage in negotiation,Barack Obama,2015-07-26
+1840,Ethiopia,Consult,Barack Obama,2015-07-27
+1841,Barack Obama,Criticize or denounce,Ethiopia,2015-07-27
+1842,Foreign Affairs (France),Make a visit,Iran,2015-07-29
+1843,Iran,Host a visit,Foreign Affairs (France),2015-07-29
+1844,Foreign Affairs (Israel),Make a visit,Gurbanguly Berdymukhammedov,2015-08-18
+1845,Gurbanguly Berdymukhammedov,Host a visit,Foreign Affairs (Israel),2015-08-18
+1846,Iran,Host a visit,France,2015-08-18
+1847,France,Make a visit,Iran,2015-08-18
+1848,Head of Government (India),Make a visit,United Arab Emirates,2015-08-19
+1849,United Arab Emirates,Host a visit,Head of Government (India),2015-08-19
+1850,Philip Hammond,Engage in negotiation,Iran,2015-08-23
+1851,Iran,Consult,Philip Hammond,2015-08-23
+1852,Philip Hammond,Make a visit,Iran,2015-08-23
+1853,Iran,Make a visit,South Africa,2015-08-29
+1854,South Africa,Host a visit,Iran,2015-08-29
+1855,Government (Nigeria),"Arrest, detain, or charge with legal action",Citizen (Nigeria),2015-09-02
+1856,Citizen (Nigeria),Criticize or denounce,Muhammadu Buhari,2015-09-02
+1857,Muhammadu Buhari,Appeal for diplomatic cooperation (such as policy support),Citizen (Nigeria),2015-09-02
+1858,Citizen (Nigeria),Appeal for rights,Government (Nigeria),2015-09-02
+1859,Abdel Fattah Al-Sisi,Consult,Xi Jinping,2015-09-03
+1860,Xi Jinping,Praise or endorse,Abdel Fattah Al-Sisi,2015-09-03
+1861,Ram Gopal Yadav,Make statement,Amit Shah,2015-09-03
+1862,Amit Shah,Consult,Ram Gopal Yadav,2015-09-03
+1863,Tanzania,Make a visit,Vietnam,2015-09-04
+1864,Vietnam,Host a visit,Tanzania,2015-09-04
+1865,South Korea,Appeal for diplomatic cooperation (such as policy support),China,2015-09-05
+1866,China,Consult,South Korea,2015-09-05
+1867,Citizen (Uganda),Demonstrate or rally,Police (Uganda),2015-09-11
+1868,Police (Uganda),Use conventional military force,Citizen (Uganda),2015-09-11
+1869,Police (Australia),Express intent to meet or negotiate,Citizen (Australia),2015-09-20
+1870,Citizen (Australia),Threaten,Police (Australia),2015-09-20
+1871,France,Make a visit,Iran,2015-09-21
+1872,France,Express intent to meet or negotiate,Iran,2015-09-21
+1873,France,Sign formal agreement,Iran,2015-09-21
+1874,Iran,Engage in diplomatic cooperation,France,2015-09-21
+1875,Barack Obama,Criticize or denounce,Xi Jinping,2015-09-25
+1876,Barack Obama,Threaten,Xi Jinping,2015-09-25
+1877,Xi Jinping,Express intent to settle dispute,Barack Obama,2015-09-25
+1878,Barack Obama,Make empathetic comment,Joanne Liu,2015-10-08
+1879,Joanne Liu,Discuss by telephone,Barack Obama,2015-10-08
+1880,Israeli Defense Forces,fight with small arms and light weapons,"Women (Palestinian Territory, Occupied)",2015-10-11
+1881,"Women (Palestinian Territory, Occupied)",Use unconventional violence,Israeli Defense Forces,2015-10-11
+1882,France,Express intent to engage in diplomatic cooperation (such as policy support),Iran,2015-10-14
+1883,Iran,Engage in diplomatic cooperation,France,2015-10-14
+1884,Mahmoud Abbas,Engage in negotiation,Benjamin Netanyahu,2015-10-23
+1885,Benjamin Netanyahu,Accuse,Mahmoud Abbas,2015-10-23
+1886,South Korea,Host a visit,China,2015-10-29
+1887,China,Engage in negotiation,South Korea,2015-10-29
+1888,Islam Karimov,Consult,Cabinet / Council of Ministers / Advisors (United States),2015-11-01
+1889,Cabinet / Council of Ministers / Advisors (United States),Host a visit,Islam Karimov,2015-11-01
+1890,South Korea,Consult,Japan,2015-11-02
+1891,Japan,Engage in negotiation,South Korea,2015-11-02
+1892,Xi Jinping,Engage in negotiation,Ma Ying Jeou,2015-11-07
+1893,Ma Ying Jeou,Demand,Xi Jinping,2015-11-07
+1894,Ma Ying Jeou,Criticize or denounce,Xi Jinping,2015-11-07
+1895,Xi Jinping,Engage in negotiation,Ma Ying Jeou,2015-11-08
+1896,Ma Ying Jeou,Make statement,Xi Jinping,2015-11-08
+1897,Mexico,Host a visit,Raúl Castro,2015-11-09
+1898,Mahmoud Abbas,Make statement,Abdel Fattah Al-Sisi,2015-11-09
+1899,Raúl Castro,Make a visit,Mexico,2015-11-09
+1900,Abdel Fattah Al-Sisi,Engage in negotiation,Mahmoud Abbas,2015-11-09
+1901,Government (Nigeria),Impose administrative sanctions,Citizen (Nigeria),2015-11-10
+1902,Barack Obama,Make statement,Benjamin Netanyahu,2015-11-10
+1903,Citizen (Nigeria),Criticize or denounce,Government (Nigeria),2015-11-10
+1904,Benjamin Netanyahu,"Reject proposal to meet, discuss, or negotiate",Barack Obama,2015-11-10
+1905,Benjamin Netanyahu,Express intent to cooperate,Barack Obama,2015-11-11
+1906,Barack Obama,Consult,Benjamin Netanyahu,2015-11-11
+1907,Foreign Affairs (France),Make a visit,Head of Government (Mongolia),2015-11-19
+1908,Head of Government (Mongolia),Host a visit,Foreign Affairs (France),2015-11-19
+1909,Algirdas Butkevičius,Make statement,Saulius Skvernelis,2015-11-30
+1910,Saulius Skvernelis,Consult,Algirdas Butkevičius,2015-11-30
+1911,Citizen (Australia),Criticize or denounce,Police (Australia),2015-12-03
+1912,Police (Australia),Make optimistic comment,Citizen (Australia),2015-12-03
+1913,China,Express intent to meet or negotiate,South Korea,2015-12-05
+1914,South Korea,Engage in negotiation,China,2015-12-05
+1915,Thailand,Host a visit,Alhaji Lai Mohammed,2015-12-06
+1916,Alhaji Lai Mohammed,Make a visit,Thailand,2015-12-06
+1917,Joanne Liu,Make an appeal or request,Barack Obama,2015-12-09
+1918,Barack Obama,Make empathetic comment,Joanne Liu,2015-12-09
+1919,Barack Obama,Discuss by telephone,Xi Jinping,2015-12-11
+1920,Xi Jinping,Express intent to cooperate,Barack Obama,2015-12-11
+1921,Attacker (Afghanistan),Use unconventional violence,Military Personnel - Special (Afghanistan),2015-12-12
+1922,Military Personnel - Special (Afghanistan),fight with small arms and light weapons,Attacker (Afghanistan),2015-12-12
+1923,Uhuru Muigai Kenyatta,Host a visit,Barack Obama,2015-12-31
+1924,Barack Obama,Make a visit,Uhuru Muigai Kenyatta,2015-12-31

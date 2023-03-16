@@ -1,0 +1,15 @@
+relation test,relation train,#temporal inverse,#rel_test,percentage
+Reject,Reject request for humanitarian aid,0,443,0.0
+Make a visit,Host a visit,1958,2481,0.7891979040709391
+Host a visit,Make a visit,1986,2497,0.7953544253103725
+Host a visit,Demand economic cooperation,0,2497,0.0
+Make a visit,Receive inspectors,1,2481,0.00040306328093510683
+Make statement,"Reject request for change in institutions, regime",0,7736,0.0
+Consult,Appeal for military cooperation,0,4925,0.0
+Consult,Reject request for humanitarian aid,0,4925,0.0
+Provide military protection or peacekeeping,Receive deployment of peacekeepers,38,49,0.7755102040816326
+Receive deployment of peacekeepers,Provide military protection or peacekeeping,35,51,0.6862745098039216
+Praise or endorse,Reject request for humanitarian aid,0,1738,0.0
+Sign formal agreement,Express intent to allow international involvement (non-mediation),0,975,0.0
+Sign formal agreement,Reject request for humanitarian aid,0,975,0.0
+Investigate,Receive inspectors,1,682,0.001466275659824047
