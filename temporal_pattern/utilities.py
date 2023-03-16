@@ -33,6 +33,8 @@ class AnalysisTools:
         self.save_path = '../results/{}/statistics/'.format(self.dataset)
         self.static_rel = pd.read_csv('../results/{}/pattern sets/train/stat_t_rel.csv'.format(self.dataset))
         self.temporal_rel = pd.read_csv('../results/{}/pattern sets/train/stat_t_rel.csv'.format(self.dataset))
+        if not os.path.exists('../results/{}/summary/{}'.format(self.dataset, self.pattern)):
+            os.makedirs('../results/{}/summary/{}'.format(self.dataset, self.pattern))
 
     @ staticmethod
     def occurance_pattern(target_pattern, stat_t_rel, pattern_name):
@@ -71,9 +73,11 @@ class AnalysisTools:
                 stat_t_pattern.reset_index(drop=True).to_csv(
                     '{}/freq_{}.csv'.format(path_list['d_%s' % self.pattern], self.pattern),
                     index=False)
-
+                set_t_pattern.reset_index(drop=True).to_csv(
+                    '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
                 stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
                     '{}/freq_rel.csv'.format(path_list['d_rel']), index=False)
+
             else:
                 set_pattern = pd.read_csv(r'../results/{}/pattern sets/{}/set {}.csv'
                                             .format(self.dataset, by, self.pattern))
@@ -86,7 +90,11 @@ class AnalysisTools:
                                                        index=False)
                 stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
                                     '{}/freq_rel.csv'.format(path_list['s_rel']), index=False)
+                set_pattern.reset_index(drop=True).to_csv(
+                    '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
 
+            stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
+                    '../results/{}/summary/freq_rel.csv'.format(self.dataset), index=False)
     def pattern_pair_analyse(self):
         def cal_comb(relations: pd.Series) -> list:
             return list(combinations([i for i in relations], 2))
@@ -163,8 +171,8 @@ class AnalysisTools:
             , 'd_rel': save_path + '/dynamic'
                               }
         for p in path_list.values():
-            if not os.path.exists(p):
-                os.makedirs(p)
+            if not os.path.exists('{}/pair/'.format(p)):
+                os.makedirs('{}/pair/'.format(p))
         set_pattern = pd.read_csv(r'../results/{}/pattern sets/train/set {}.csv'
                                   .format(self.dataset, self.pattern))
         res = pattern_pair(set_pattern)
@@ -175,13 +183,16 @@ class AnalysisTools:
                     index=False)
             res_2d.to_csv('{}/pair/pair2d_{}.csv'.format(path_list['d_%s' % self.pattern], self.pattern),
                     index=True)
-
         else:
             res.to_csv('{}/pair/pair_{}.csv'.format(path_list['s_%s' % self.pattern], self.pattern),
                            index=False)
             res_2d.to_csv('{}/pair/pair2d_{}.csv'.format(path_list['s_%s' % self.pattern], self.pattern),
                           index=True)
 
+        res.to_csv('../results/{}/summary/{}/pair_{}.csv'.format(self.dataset, self.pattern, self.pattern),
+                   index=False)
+        res_2d.to_csv('../results/{}/summary/{}/pair2d_{}.csv'.format(self.dataset, self.pattern, self.pattern),
+                      index=True)
 
     def conclusion_premise_paar(self, threshold):
         save_path = '../results/{}/statistics/con_pre_pair'.format(self.dataset)
@@ -266,8 +277,12 @@ class AnalysisTools:
                             stat = pd.concat([stat, temp], axis=0)
 
             else:
-                relations = pd.read_csv('../results/{}/statistics/train/static/pair/pair_{}.csv'.format(
-                    self.dataset, self.pattern))
+                if self.pattern == 'evolve':
+                    relations = pd.read_csv('../results/{}/statistics/train/dynamic/pair/pair_{}.csv'.format(
+                        self.dataset, self.pattern))
+                else:
+                    relations = pd.read_csv('../results/{}/statistics/train/static/pair/pair_{}.csv'.format(
+                        self.dataset, self.pattern))
                 relations = relations[relations['P one direction'] >= threshold]
                 if self.pattern == 'inverse':
                     temp = relations.loc[:, 'relation j']
@@ -310,6 +325,8 @@ class AnalysisTools:
         stat.to_csv(save_path + '/{}.csv'.format(self.pattern), index=False)
         subset.to_csv(save_path + '/{}.txt'.format(self.pattern), sep='\t', index=False)
 
+        stat.to_csv('../results/{}/summary/{}/{}.csv'.format(self.dataset, self.pattern, self.pattern), index=False)
+        subset.to_csv('../results/{}/summary/{}/{}.txt'.format(self.dataset, self.pattern, self.pattern), sep='\t', index=False)
 
 
 
@@ -390,10 +407,18 @@ class PlotTools:
 
             save_path = '../results/{}/statistics/'.format(self.dataset)
             plt.savefig(save_path + '%s_Distribution.png' % s, dpi=300)
+            plt.savefig('../results/{}/summary/{}/{}_Distribution.png'.format(self.dataset, self.pattern, self.pattern), dpi=300)
             # plt.show()
 
     # def plot_pair(self):
     #     load_path = '../results/{}/statistics/train/{}/'.format(self.dataset
     #                                                             , 'dynamic' if (self.pattern == 'evolve' or self.pattern.split[0] == 'temporal') else 'static'
     #     load_path += 'pair_%s.csv' % self.pattern
+
+class FolderChange:
+    def __init__(self, dataset, pattern):
+        self.pattern = pattern
+        self.dataset = dataset
+
+
 

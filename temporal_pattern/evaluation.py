@@ -50,10 +50,12 @@ def plot_distribution(dataset, pattern):
 
 
 def main(dataset, pattern, threshold):
+    print('Analyse begin: {}'.format(pattern))
     analysis = AnalysisTools(dataset, pattern)
     analysis.pattern_analyse()
     analysis.pattern_pair_analyse()
     analysis.conclusion_premise_paar(threshold)
+    print('Analyse end: {}'.format(pattern))
 
 
     # ptool = PlotTools(dataset, pattern)
