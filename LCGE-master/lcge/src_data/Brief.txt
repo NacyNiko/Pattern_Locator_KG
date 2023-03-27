@@ -1,0 +1,1 @@
+./ICEWS14/train, valid ::: ./static_data/staticgraph_icews -----> ./rulelearning/ICEWS14/triples.tsv (append all train, valid set and ignore time)
