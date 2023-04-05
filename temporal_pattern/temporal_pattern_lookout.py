@@ -8,6 +8,7 @@ import pandas as pd
 import os
 from scipy.special import comb
 import time
+import pickle
 
 
 class TemporalPatternLookout:
@@ -216,6 +217,19 @@ class TemporalPatternLookout:
         self.num_t_relations = len(s_t_rel)
         return s_t_rel
 
+    def find_entity_relation(self):
+        assert self.original is not None, 'please run "initialize" first'
+        instances = self.original.groupby(['head', 'relation'])
+        entity_relation_dict = dict()
+        for ins in instances:
+            temp = list()
+            for idx, each in ins[1].iterrows():
+                temp.append(tuple([each['tail'], each['time']]))
+            entity_relation_dict[ins[0]] = temp
+        return entity_relation_dict
+
+
+
 
 def makedir(path):
     if not os.path.exists(path):
@@ -245,6 +259,7 @@ def main(dataname):
         set_t_implication = patternlooker.find_temporal_implication()
         set_t_inverse = patternlooker.find_temporal_inverse()
         set_t_relation = patternlooker.find_temporal_relation()
+        set_entity_relation = patternlooker.find_entity_relation()
         end = time.time()
 
         stat_dict = {
@@ -279,6 +294,8 @@ def main(dataname):
         set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
         set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
         pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
+        with open(set_path + '/set_entity_relation.pkl', 'wb') as f:
+            pickle.dump(set_entity_relation, f)
         patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
 
         print('It takes {} seconds on {}'.format(end - start, data))
