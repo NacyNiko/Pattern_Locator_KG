@@ -3,6 +3,7 @@
 # @Author : Yinan 
 # @File : utilities.py
 import os
+import pickle
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -36,8 +37,14 @@ class AnalysisTools:
         if not os.path.exists('../results/{}/summary/{}'.format(self.dataset, self.pattern)):
             os.makedirs('../results/{}/summary/{}'.format(self.dataset, self.pattern))
 
+    """ occurrence of certain pattern for each relation in train set
+        INPUT: target_pattern: pattern set,  a subset of original training set and obey this pattern.
+                stat_t_rel: name of relations and their number.
+                pattern_name: on which pattern working on. 
+        OUTPUT: Frequency of each relation for certain pattern in training set, sorted by descending.
+    """
     @ staticmethod
-    def occurance_pattern(target_pattern, stat_t_rel, pattern_name):
+    def occurrence_pattern(target_pattern: pd.DataFrame, stat_t_rel: pd.DataFrame, pattern_name: str):
         counts_num = stat_t_rel.copy().set_index('relation')
         counts_num.sort_index(inplace=True)
         pattern_set = pd.DataFrame(target_pattern.value_counts('relation')).rename(columns={0: 'number'})
@@ -50,7 +57,7 @@ class AnalysisTools:
         stat['number of {}'.format(pattern_name)] = stat['number of {}'.format(pattern_name)].astype(int)
         return stat.sort_values(by='number of relation', ascending=False)
 
-    def pattern_analyse(self):
+    def pattern_frequency_analyse(self):
         for by in ['train', 'test']:
             save_path = self.save_path + by
             path_list = {'s_%s' % self.pattern: save_path + '/static'
@@ -67,35 +74,34 @@ class AnalysisTools:
                                             .format(self.dataset, by, self.pattern))
                 stat_t_rel = pd.read_csv(r'../results/{}/pattern sets/{}/stat_t_rel.csv'
                                          .format(self.dataset, by))
-                stat_t_pattern = self.occurance_pattern(set_t_pattern, stat_t_rel, '%s' % self.pattern)
+                stat_t_pattern = self.occurrence_pattern(set_t_pattern, stat_t_rel, '%s' % self.pattern)
 
-                # save states fo symmetric
                 stat_t_pattern.reset_index(drop=True).to_csv(
                     '{}/freq_{}.csv'.format(path_list['d_%s' % self.pattern], self.pattern),
                     index=False)
-                set_t_pattern.reset_index(drop=True).to_csv(
-                    '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
-                stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
-                    '{}/freq_rel.csv'.format(path_list['d_rel']), index=False)
+                # set_t_pattern.reset_index(drop=True).to_csv(
+                #     '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
+                # stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
+                #     '{}/freq_rel.csv'.format(path_list['d_rel']), index=False)
 
             else:
                 set_pattern = pd.read_csv(r'../results/{}/pattern sets/{}/set {}.csv'
                                             .format(self.dataset, by, self.pattern))
                 stat_t_rel = pd.read_csv(r'../results/{}/pattern sets/{}/stat_t_rel.csv'
                                        .format(self.dataset, by))
-                stat_pattern = self.occurance_pattern(set_pattern, stat_t_rel, '%s' % self.pattern)
+                stat_pattern = self.occurrence_pattern(set_pattern, stat_t_rel, '%s' % self.pattern)
 
-                # save states fo symmetric
                 stat_pattern.reset_index(drop=True).to_csv('{}/freq_{}.csv'.format(path_list['s_%s' % self.pattern], self.pattern),
                                                        index=False)
-                stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
-                                    '{}/freq_rel.csv'.format(path_list['s_rel']), index=False)
-                set_pattern.reset_index(drop=True).to_csv(
-                    '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
+                # stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
+                #                     '{}/freq_rel.csv'.format(path_list['s_rel']), index=False)
+                # set_pattern.reset_index(drop=True).to_csv(
+                #     '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
 
             stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
                     '../results/{}/summary/freq_rel.csv'.format(self.dataset), index=False)
-    def pattern_pair_analyse(self):
+
+    def pattern_dictionary(self):
         def cal_comb(relations: pd.Series) -> list:
             return list(combinations([i for i in relations], 2))
 
@@ -217,6 +223,7 @@ class AnalysisTools:
             intersected = pd.merge(train_set, test_reversed, how='inner'
                                    , on=['head', 'relation', 'tail'] if self.pattern == 'symmetric' else ['head', 'relation', 'tail', 'time'])
             subset = pd.concat([subset, intersected.iloc[:, :4].drop_duplicates()])
+            subset.rename(columns={'time_x': 'time'}, inplace=True)
             if self.pattern == 'symmetric':
                 intersected.drop_duplicates(subset=['time_x'], inplace=True)
 
@@ -253,10 +260,11 @@ class AnalysisTools:
                             intersected_temp = intersected[(intersected['relation_x'] == rel_i)
                                                            & (intersected['relation_y'] == rel_j)]
                             temp = pd.DataFrame([[rel_j, rel_i, intersected_temp.shape[0], test_vc[rel_j]
-                                                    , intersected_temp.shape[0]/test_vc[rel_j]]]
+                                                    , intersected_temp.shape[0] / test_vc[rel_j]]]
                                                  , columns=['relation test', 'relation train', '#%s' % self.pattern,
                                                             '#rel_test', 'percentage'])
-                            subset = pd.concat([subset, intersected_temp.iloc[:, :4].drop_duplicates()])
+                            subset = pd.concat([subset, intersected_temp.rename({'relation_x': 'relation'}
+                                                                                , inplace=True).iloc[:, :4].drop_duplicates()])
                             stat = pd.concat([stat, temp], axis=0)
                 else:
                     temp = relations.loc[:, 'relation j']
@@ -328,7 +336,36 @@ class AnalysisTools:
         stat.to_csv('../results/{}/summary/{}/{}.csv'.format(self.dataset, self.pattern, self.pattern), index=False)
         subset.to_csv('../results/{}/summary/{}/{}.txt'.format(self.dataset, self.pattern, self.pattern), sep='\t', index=False)
 
+    def find_missing_instances(self, length=3):
+        set_path = '../results/{}/pattern sets/train'.format(self.dataset)
+        test_set = pd.read_table('./data/{}/test2id.txt'.format(self.dataset)
+                                 , header=None, names=['head', 'relation', 'tail', 'time'], index_col=False)
+        with open(set_path + '/set_entity_relation.pkl', 'rb') as f:
+            entity_relation = pickle.load(f)
+        selected_keys = [key for key, value in entity_relation.items() if len(value) >= length]
+        col1, col2 = zip(*selected_keys)
+        data_dict = {'head': col1, 'relation': col2}
 
+        head_relation = pd.DataFrame(data_dict)
+        selected_instances = pd.merge(test_set, head_relation, how='inner', on=['head', 'relation'])
+        selected_instances.to_csv('../results/{}/summary/missing_instances.txt'.format(self.dataset), sep='\t', index=False)
+
+    def temporal_symmetric_finding(self, threshold_num, threshold_percentage):
+        if not os.path.exists('../results/{}/summary/temporal_symmetric_instances_selected.txt'.format(self.dataset)):
+            freq_table = pd.read_csv(r'../results/{}/statistics/train/dynamic/freq_temporal symmetric.csv'.format(self.dataset))
+            selected_rel = freq_table[(freq_table['number of temporal symmetric'] >= threshold_num) & (freq_table['percentage'] >= threshold_percentage)]
+            test_set = pd.read_table(r'./data/{}/test2id.txt'.format(self.dataset), header=None
+                                     , names=['head', 'relation', 'tail', 'time'], index_col=False)
+            train_set = pd.read_table(r'./data/{}/train2id.txt'.format(self.dataset), header=None
+                                     , names=['head', 'relation', 'tail', 'time'], index_col=False)
+
+            instance_in_test = test_set[test_set['relation'].isin(selected_rel['relation'])]
+            inverse_instance_in_test = instance_in_test.copy()
+            inverse_instance_in_test['head'], inverse_instance_in_test['tail'] = inverse_instance_in_test['tail'].copy()\
+                , inverse_instance_in_test['head'].copy()
+
+            overlapping_train_set = pd.merge(train_set, inverse_instance_in_test, how='inner')
+            overlapping_train_set.to_csv('../results/{}/summary/temporal_symmetric_instances_selected.txt'.format(self.dataset), sep='\t', index=False)
 
 
 class PlotTools:
@@ -414,6 +451,7 @@ class PlotTools:
     #     load_path = '../results/{}/statistics/train/{}/'.format(self.dataset
     #                                                             , 'dynamic' if (self.pattern == 'evolve' or self.pattern.split[0] == 'temporal') else 'static'
     #     load_path += 'pair_%s.csv' % self.pattern
+
 
 class FolderChange:
     def __init__(self, dataset, pattern):

@@ -52,9 +52,15 @@ def plot_distribution(dataset, pattern):
 def main(dataset, pattern, threshold):
     print('Analyse begin: {}'.format(pattern))
     analysis = AnalysisTools(dataset, pattern)
-    analysis.pattern_analyse()
-    analysis.pattern_pair_analyse()
-    analysis.conclusion_premise_paar(threshold)
+    # calculate frequency of each relation for certain pattern
+    # analysis.pattern_frequency_analyse()
+    # construct pattern dictionary, which shows percentage #(ri -> rj, pattern) / #(ri in training set)
+    # analysis.pattern_dictionary()
+    #
+    # analysis.conclusion_premise_paar(threshold)
+    #
+    # analysis.find_missing_instances()
+    analysis.temporal_symmetric_finding(100, 0.5)
     print('Analyse end: {}'.format(pattern))
 
 

@@ -308,7 +308,6 @@ Barack Obama	Meet at a 'third' location	North Atlantic Treaty Organization	2014-
 Ashraf Ghani Ahmadzai	Consult	Abdullah Abdullah	2014-10-23
 Catherine Ashton	Consult	Mohammad Javad Zarif	2014-11-30
 Catherine Ashton	Meet at a 'third' location	Mohammad Javad Zarif	2014-06-17
-China	Express intent to settle dispute	Vietnam	2014-02-25
 North Korea	Express intent to cooperate	Japan	2014-06-02
 Mohammad Javad Zarif	Consult	Catherine Ashton	2014-02-01
 Defense / Security Ministry (Iraq)	Consult	Haider Al-Abadi	2014-09-16
@@ -753,7 +752,6 @@ Catherine Ashton	Express intent to cooperate	John Kerry	2014-04-19
 Mohammad Javad Zarif	Consult	John Kerry	2014-11-23
 Sergey Viktorovich Lavrov	Express intent to cooperate	Cabinet / Council of Ministers / Advisors (United States)	2014-07-19
 Ministry (Czech Republic)	Engage in negotiation	Labor Union (Czech Republic)	2014-12-30
-Michael D. Higgins	Express intent to settle dispute	Xi Jinping	2014-12-10
 Media (Africa)	Consult	Royal Administration (Nigeria)	2014-10-13
 Philippe Couillard	Consult	Kathleen Wynne	2014-11-21
 John Kerry	Engage in negotiation	Benjamin Netanyahu	2014-03-31
@@ -1115,7 +1113,6 @@ Cabinet / Council of Ministers / Advisors (United States)	Consult	Sergey Viktoro
 Party Member (Czech Republic)	Engage in negotiation	Milos Zeman	2014-03-17
 Government (Haiti)	Consult	Indigenous People (United States)	2014-07-20
 Tony Blair	Meet at a 'third' location	Foreign Affairs (United States)	2014-01-06
-Military (France)	Declare truce, ceasefire	Peacekeeping Troop (Africa)	2014-01-28
 Bahrain	Engage in diplomatic cooperation	Iraq	2014-03-04
 Foreign Affairs (Norway)	Consult	Morteza Sarmadi	2014-04-08
 Government Official (United States)	Consult	Pham Binh Minh	2014-05-09
@@ -1293,7 +1290,6 @@ Pham Binh Minh	Consult	Philippines	2014-10-17
 Pavlo Klimkin	Consult	Federica Mogherini	2014-11-17
 Sergey Viktorovich Lavrov	Discuss by telephone	John Kerry	2014-03-08
 Nuri al-Maliki	Consult	China	2014-02-23
-South Sudan	Declare truce, ceasefire	Sudan	2014-04-11
 Vietnam	Consult	Ministry (Russia)	2014-11-20
 Business (South Korea)	Consult	Nguyen Phu Trong	2014-10-03
 China	Consult	Foreign Affairs (United States)	2014-03-05

@@ -2,7 +2,7 @@
 # xxx.txt:     
 the permise instances, which have a conclusion in test set with >=50% probability in dictionary.
 # xxx_test_train_pair.csv:      
-(ri -> rj) has pattern xxx, where ri in train set, rj in test set. And all relation pari have >=50% probability in dictionary.
+(ri -> rj) has pattern xxx, where ri in train set, rj in test set. And all relation pairs have >=50% probability in dictionary.
 # freq_xxx.csv:      
 compute how many relation (ri --> ?) has pattern xxx in train set.
 # pair_xxx.csv:      

@@ -278,8 +278,9 @@ def main(dataname):
 
         save_path = '../results/{}/statistics'.format(dataname)
         makedir(save_path)
-        with open(save_path + '/stats_{}.txt'.format(data[:-7]), 'w') as file:
-            file.write(str(stat_dict))
+        if not os.path.exists(save_path + '/stats_{}.txt'.format(data[:-7])):
+            with open(save_path + '/stats_{}.txt'.format(data[:-7]), 'w') as file:
+                file.write(str(stat_dict))
 
         # save sets
         set_path = '../results/{}/pattern sets/{}'.format(dataname, data[:-7])
