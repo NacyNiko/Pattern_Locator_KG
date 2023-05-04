@@ -13,9 +13,12 @@ import numpy as np
 import torch
 from models_lcge import TKBCModel
 
+import os
 
-DATA_PATH = pkg_resources.resource_filename('lcge', 'data/')
+# DATA_PATH = pkg_resources.resource_filename('lcge', 'data/')
 # DATA_PATH = 'E:\Software\Studium\Hiwi\code\LCGE-master\lcge\data'
+DATA_PATH = os.path.realpath(__file__)
+DATA_PATH = Path(DATA_PATH).parent / 'data'
 
 
 class TemporalDataset(object):
