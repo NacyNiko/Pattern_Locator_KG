@@ -14,8 +14,10 @@ import torch
 from models_lcge import TKBCModel
 
 
-# DATA_PATH = pkg_resources.resource_filename('lcge', 'data/')
-DATA_PATH = 'E:\Software\Studium\Hiwi\code\LCGE-master\lcge\data'
+DATA_PATH = pkg_resources.resource_filename('lcge', 'data/')
+# DATA_PATH = 'E:\Software\Studium\Hiwi\code\LCGE-master\lcge\data'
+
+
 class TemporalDataset(object):
     def __init__(self, name: str):
         self.root = Path(DATA_PATH) / name

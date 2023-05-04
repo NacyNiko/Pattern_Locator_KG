@@ -28,6 +28,8 @@ class TemporalPatternLookout:
         self.num_implication = None
         self.num_t_implication = None
         self.num_t_relations = None
+        self.num_star = None
+        self.num_hierarchy = None
         self.timeline = None
         self.stat_t_rel = None
 
@@ -217,17 +219,72 @@ class TemporalPatternLookout:
         self.num_t_relations = len(s_t_rel)
         return s_t_rel
 
-    def find_entity_relation(self):
+    def find_star(self):
         assert self.original is not None, 'please run "initialize" first'
         instances = self.original.groupby(['head', 'relation'])
-        entity_relation_dict = dict()
+        star_dict = dict()
         for ins in instances:
             temp = list()
             for idx, each in ins[1].iterrows():
                 temp.append(tuple([each['tail'], each['time']]))
-            entity_relation_dict[ins[0]] = temp
-        return entity_relation_dict
+            star_dict[ins[0]] = temp
+        self.num_star = len(star_dict)
+        return star_dict
 
+    def find_hierarchy(self):
+        self.num_hierarchy = 0
+        relations = self.original['relation'].drop_duplicates()
+        for rel in relations:
+            rels = self.original[self.original['relation'] == rel]
+            rel_group_h = rels.groupby('head')
+            dic = {}
+            for each in rel_group_h:
+                dic[each[0]] = each[1]
+
+            result = []
+            for parent, children in dic.items():
+                if len(children) >= 2:
+                    i = 0
+                    for idx, n in children.loc[:, ['tail', 'time']].iterrows():
+                        child, time_ = n['tail'], n['time']
+                        if i == 2:
+                            if child1 in dic and child2 in dic:
+                                grand_child1 = dic[child1].loc[:, ['tail', 'time']]
+                                grand_child1 = grand_child1[grand_child1['time'] > time1]
+                                grand_child2 = dic[child2].loc[:, ['tail', 'time']]
+                                grand_child2 = grand_child2[grand_child2['time'] > time2]
+
+                                leaf1 = (grand_child1.apply(lambda row: tuple(row), axis=1).tolist())
+                                leaf2 = (grand_child2.apply(lambda row: tuple(row), axis=1).tolist())
+                                if len(leaf1) >= 2 and len(leaf2) >= 2:
+                                    result.append({'root': parent, 'child1': (child1, time1), 'child2': (child2, time2)
+                                                      , 'leaf1': leaf1, 'leaf2': leaf2})
+                                    self.num_hierarchy += 1
+                                    break
+                                else:
+                                    if len(leaf1) < 2 and len(leaf2) < 2:
+                                        i = 0
+                                    elif len(leaf1) < 2:
+                                        child1, time1 = child2, time2
+                                        i -= 1
+                                    elif len(leaf2) < 2:
+                                        i -= 1
+                                    continue
+                            elif child1 not in dic and child2 not in dic:
+                                i = 0
+                            elif child1 not in dic:
+                                child1, time1 = child2, time2
+                                i -= 1
+                            elif child2 not in dic:
+                                i -= 1
+                        if child in dic and len(dic[child]) >= 2:
+                            if i == 0 and child != parent:
+                                child1 = child
+                                time1 = time_
+                            elif i == 1 and child != child1 and child != parent:
+                                child2 = child
+                                time2 = time_
+                            i += 1
 
 
 
@@ -246,22 +303,23 @@ def main(dataname):
 
         patternlooker.initialize(dataset)
 
-        # Static Logical Temporal Patterns
-        set_symmetric = patternlooker.find_symmetric()
+        """ Static Logical Temporal Patterns """
+        # set_symmetric = patternlooker.find_symmetric()
+        #
+        # set_reflexive = patternlooker.find_reflexive()
+        # set_inverse = patternlooker.find_inverse()
+        # set_implication = patternlooker.find_implication()
 
-        set_reflexive = patternlooker.find_reflexive()
-        set_inverse = patternlooker.find_inverse()
-        set_implication = patternlooker.find_implication()
-
-        # Dynamic Logical Temporal Patterns
-        set_t_symmetric = patternlooker.find_temporal_symmetric()
-        set_evolve = patternlooker.find_evolve()
-        set_t_implication = patternlooker.find_temporal_implication()
-        set_t_inverse = patternlooker.find_temporal_inverse()
-        set_t_relation = patternlooker.find_temporal_relation()
-        set_entity_relation = patternlooker.find_entity_relation()
+        """ Dynamic Logical Temporal Patterns """
+        # set_t_symmetric = patternlooker.find_temporal_symmetric()
+        # set_evolve = patternlooker.find_evolve()
+        # set_t_implication = patternlooker.find_temporal_implication()
+        # set_t_inverse = patternlooker.find_temporal_inverse()
+        # set_t_relation = patternlooker.find_temporal_relation()
+        set_star = patternlooker.find_star()
+        patternlooker.find_hierarchy()
         end = time.time()
-
+        print('star:{}, hierarchy:{}'.format(patternlooker.num_star, patternlooker.num_hierarchy))
         stat_dict = {
             'number of static symmetric': patternlooker.num_symmetric
             , 'number of static inverse': patternlooker.num_inverse
@@ -276,39 +334,28 @@ def main(dataname):
             , 'number of temporal implication': patternlooker.num_t_implication
             , 'number of evolve': patternlooker.num_evolve}
 
-        save_path = '../results/{}/statistics'.format(dataname)
-        makedir(save_path)
-        if not os.path.exists(save_path + '/stats_{}.txt'.format(data[:-7])):
-            with open(save_path + '/stats_{}.txt'.format(data[:-7]), 'w') as file:
-                file.write(str(stat_dict))
+        # save_path = '../results/{}/statistics'.format(dataname)
+        # makedir(save_path)
+        # if not os.path.exists(save_path + '/stats_{}.txt'.format(data[:-7])):
+        #     with open(save_path + '/stats_{}.txt'.format(data[:-7]), 'w') as file:
+        #         file.write(str(stat_dict))
 
-        # save sets
-        set_path = '../results/{}/pattern sets/{}'.format(dataname, data[:-7])
-        makedir(set_path)
-
-        set_reflexive.to_csv(set_path + '/set reflexive.csv', index=False)
-        set_symmetric.to_csv(set_path + '/set symmetric.csv', index=False)
-        set_inverse.to_csv(set_path + '/set inverse.csv', index=False)
-        set_implication.to_csv(set_path + '/set implication.csv', index=False)
-        set_t_inverse.to_csv(set_path + '/set temporal inverse.csv', index=False)
-        set_t_symmetric.to_csv(set_path + '/set temporal symmetric.csv', index=False)
-        set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
-        set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
-        pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
-        with open(set_path + '/set_entity_relation.pkl', 'wb') as f:
-            pickle.dump(set_entity_relation, f)
-        patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
+        # # save sets
+        # set_path = '../results/{}/pattern sets/{}'.format(dataname, data[:-7])
+        # makedir(set_path)
+        #
+        # set_reflexive.to_csv(set_path + '/set reflexive.csv', index=False)
+        # set_symmetric.to_csv(set_path + '/set symmetric.csv', index=False)
+        # set_inverse.to_csv(set_path + '/set inverse.csv', index=False)
+        # set_implication.to_csv(set_path + '/set implication.csv', index=False)
+        # set_t_inverse.to_csv(set_path + '/set temporal inverse.csv', index=False)
+        # set_t_symmetric.to_csv(set_path + '/set temporal symmetric.csv', index=False)
+        # set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
+        # set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
+        # pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
+        # with open(set_path + '/set_entity_relation.pkl', 'wb') as f:
+        #     pickle.dump(set_entity_relation, f)
+        # patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
 
         print('It takes {} seconds on {}'.format(end - start, data))
-    #     print('Number of symmetric is: {} \n'
-    #           'Number of anti_symmetric is: {} \n'
-    #           'Number of reflexive is: {} \n'
-    #           'Number of inverse is: {} \n'
-    #           'Number of temporal inverse is: {} \n'
-    #           'Number of temporal implication is: {} \n'
-    #           'Number of evolves is: {} \n'
-    #           'Number of temporal relation is: {} \n'.format(patternlooker.num_symmetric, patternlooker.num_anti_symmetric,
-    #                                                          patternlooker.num_reflexive, patternlooker.num_inverse,
-    #                                                          patternlooker.num_t_inverse, patternlooker.num_implication,
-    #                                                          patternlooker.num_evolve, patternlooker.num_t_relations))
     print('----------------Data Reprocess Finish-------------------------------------------')
