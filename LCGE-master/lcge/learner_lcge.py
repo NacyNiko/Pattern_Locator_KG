@@ -2,6 +2,7 @@
 
 import os
 import argparse
+import time
 from typing import Dict
 import logging
 from numpy.core.fromnumeric import _size_dispatcher
@@ -35,9 +36,12 @@ def save_best_model(model, params, best_mrr, best_hit, dataset_name, model_name)
     )
     print(f"The best model and parameters have been saved to {file_name}.")
 
+def count_trainable_params(model):
+    return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 def main(args):
-    weight_static_values = [0.0, 0.3, 0.6, 0.9, 1.2, 1.5]
+    # weight_static_values = [0.0, 0.3, 0.6, 0.9, 1.2, 1.5]
+    weight_static_values = [0.6]
 
     best_global_mrr = 0.0
     best_global_hit = 0.0
@@ -106,6 +110,13 @@ def main(args):
         }[args.model]
         model = model.cuda()
 
+        if not os.path.exists('trainable_params.txt'):
+            output_file = "trainable_params.txt"
+            trainable_params = count_trainable_params(model)
+            print("Number of trainable parameters:", trainable_params)
+            with open(output_file, "w") as f:
+                f.write(f"Number of trainable parameters: {trainable_params}\n")
+
         opt = optim.Adagrad(model.parameters(), lr=args.learning_rate)
 
         emb_reg = N3(args.emb_reg)
@@ -116,68 +127,76 @@ def main(args):
         best_hit = 0.
         early_stopping = 0
 
-        for epoch in range(args.max_epochs):
-            examples = torch.from_numpy(
-                dataset.get_train().astype('int64')
-            )
-            # print("\nexamples:\n", examples.size())
-
-            model.train()
-            if dataset.has_intervals():
-                optimizer = IKBCOptimizer(
-                    model, emb_reg, time_reg, opt, dataset,
-                    batch_size=args.batch_size
+        output_file = "epoch_time.txt"
+        with open(output_file, "w") as f:
+            for epoch in range(args.max_epochs):
+                start = time.time()
+                examples = torch.from_numpy(
+                    dataset.get_train().astype('int64')
                 )
-                optimizer.epoch(examples)
+                # print("\nexamples:\n", examples.size())
 
-            else:
-                optimizer = TKBCOptimizer(
-                    model, emb_reg, time_reg, rule_reg, opt,
-                    batch_size=args.batch_size
-                )
-                optimizer.epoch(examples)
-
-            def avg_both(mrrs: Dict[str, float], hits: Dict[str, torch.FloatTensor]):
-                """
-                aggregate metrics for missing lhs and rhs
-                :param mrrs: d
-                :param hits:
-                :return:
-                """
-                m = (mrrs['lhs'] + mrrs['rhs']) / 2.
-                h = (hits['lhs'] + hits['rhs']) / 2.
-                return {'MRR': m, 'hits@[1,3,10]': h}
-
-            if epoch < 0 or (epoch + 1) % args.valid_freq == 0:
+                model.train()
                 if dataset.has_intervals():
-                    valid, test, train = [
-                        dataset.eval(model, split, -1 if split != 'train' else 50000)
-                        for split in ['valid', 'test', 'train']
-                    ]
-                    print("valid: ", valid)
-                    print("test: ", test)
-                    print("train: ", train)
+                    optimizer = IKBCOptimizer(
+                        model, emb_reg, time_reg, opt, dataset,
+                        batch_size=args.batch_size
+                    )
+                    optimizer.epoch(examples)
 
                 else:
-                    valid, test, train = [
-                        avg_both(*dataset.eval(model, split, -1 if split != 'train' else 50000))
-                        for split in ['valid', 'test', 'train']
-                    ]
-                    print("epoch: ", epoch + 1)
-                    print("valid: ", valid['MRR'])
-                    print("test: ", test['MRR'])
-                    print("train: ", train['MRR'])
+                    optimizer = TKBCOptimizer(
+                        model, emb_reg, time_reg, rule_reg, opt,
+                        batch_size=args.batch_size
+                    )
+                    optimizer.epoch(examples)
 
-                    print("test hits@n:\t", test['hits@[1,3,10]'])
-                    if test['MRR'] > best_mrr:
-                        best_mrr = test['MRR']
-                        best_hit = test['hits@[1,3,10]']
-                        early_stopping = 0
+                def avg_both(mrrs: Dict[str, float], hits: Dict[str, torch.FloatTensor]):
+                    """
+                    aggregate metrics for missing lhs and rhs
+                    :param mrrs: d
+                    :param hits:
+                    :return:
+                    """
+                    m = (mrrs['lhs'] + mrrs['rhs']) / 2.
+                    h = (hits['lhs'] + hits['rhs']) / 2.
+                    return {'MRR': m, 'hits@[1,3,10]': h}
+
+                if epoch < 0 or (epoch + 1) % args.valid_freq == 0:
+                    if dataset.has_intervals():
+                        valid, test, train = [
+                            dataset.eval(model, split, -1 if split != 'train' else 50000)
+                            for split in ['valid', 'test', 'train']
+                        ]
+                        print("valid: ", valid)
+                        print("test: ", test)
+                        print("train: ", train)
+
                     else:
-                        early_stopping += 1
-                    if early_stopping > 10:
-                        print("early stopping!")
-                        break
+                        valid, test, train = [
+                            avg_both(*dataset.eval(model, split, -1 if split != 'train' else 50000))
+                            for split in ['valid', 'test', 'train']
+                        ]
+                        print("epoch: ", epoch + 1)
+                        print("valid: ", valid['MRR'])
+                        print("test: ", test['MRR'])
+                        print("train: ", train['MRR'])
+
+                        print("test hits@n:\t", test['hits@[1,3,10]'])
+                        if test['MRR'] > best_mrr:
+                            best_mrr = test['MRR']
+                            best_hit = test['hits@[1,3,10]']
+                            early_stopping = 0
+                        else:
+                            early_stopping += 1
+                        if early_stopping > 10:
+                            print("early stopping!")
+                            break
+                # save epoch time
+                end = time.time()
+                spend = end - start
+                print("epoch_time:", spend)
+                f.write(f"epoch {epoch}_time: {spend}\n")
 
         if best_mrr > best_global_mrr:
             best_global_mrr = best_mrr

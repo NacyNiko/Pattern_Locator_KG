@@ -62,14 +62,14 @@ def main(args):
             'LCGE': LCGE(sizes, args.rank, args.weight_static, no_time_emb=args.no_time_emb),
         }[args.model]
 
+        model = model.cuda()
+
         if not os.path.exists('trainable_params.txt'):
             output_file = "trainable_params.txt"
             trainable_params = count_trainable_params(model)
             print("Number of trainable parameters:", trainable_params)
             with open(output_file, "w") as f:
                 f.write(f"Number of trainable parameters: {trainable_params}\n")
-
-        model = model.cuda()
 
         opt = optim.Adagrad(model.parameters(), lr=args.learning_rate)
 
