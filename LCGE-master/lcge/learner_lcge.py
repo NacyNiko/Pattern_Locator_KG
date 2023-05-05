@@ -109,9 +109,10 @@ def main(args):
             'LCGE': LCGE(sizes, args.rank, rules, args.weight_static, no_time_emb=args.no_time_emb),
         }[args.model]
         model = model.cuda()
-
-        if not os.path.exists('comparision/{}_trainable_params.txt'):
-            output_file = "comparision/{}_trainable_params.txt"
+        if not os.path.exists('./comparision'):
+            os.makedirs('./comparision')
+        if not os.path.exists(f'./comparision/{args.dataset}_trainable_params.txt'):
+            output_file = f"./comparision/{args.dataset}_trainable_params.txt"
             trainable_params = count_trainable_params(model)
             print("Number of trainable parameters:", trainable_params)
             with open(output_file, "w") as f:
@@ -127,7 +128,7 @@ def main(args):
         best_hit = 0.
         early_stopping = 0
 
-        output_file = "comparision/{}_epoch_time.txt".format(args.dataset)
+        output_file = "./comparision/{}_epoch_time.txt".format(args.dataset)
         with open(output_file, "w") as f:
             for epoch in range(args.max_epochs):
                 start = time.time()
@@ -151,6 +152,11 @@ def main(args):
                     )
                     optimizer.epoch(examples)
 
+                # save epoch time
+                end = time.time()
+                spend = end - start
+                print("epoch_time:", spend)
+                f.write(f"epoch {epoch}_time: {spend}\n")
                 def avg_both(mrrs: Dict[str, float], hits: Dict[str, torch.FloatTensor]):
                     """
                     aggregate metrics for missing lhs and rhs
@@ -192,11 +198,7 @@ def main(args):
                         if early_stopping > 10:
                             print("early stopping!")
                             break
-                # save epoch time
-                end = time.time()
-                spend = end - start
-                print("epoch_time:", spend)
-                f.write(f"epoch {epoch}_time: {spend}\n")
+
 
         if best_mrr > best_global_mrr:
             best_global_mrr = best_mrr
