@@ -41,7 +41,7 @@ def count_trainable_params(model):
 
 def main(args):
     # weight_static_values = [0.0, 0.3, 0.6, 0.9, 1.2, 1.5]
-    weight_static_values = [0.6]
+    weight_static_values = [0.9]
 
     best_global_mrr = 0.0
     best_global_hit = 0.0
@@ -110,8 +110,8 @@ def main(args):
         }[args.model]
         model = model.cuda()
 
-        if not os.path.exists('trainable_params.txt'):
-            output_file = "trainable_params.txt"
+        if not os.path.exists('comparision/{}_trainable_params.txt'):
+            output_file = "comparision/{}_trainable_params.txt"
             trainable_params = count_trainable_params(model)
             print("Number of trainable parameters:", trainable_params)
             with open(output_file, "w") as f:
@@ -127,7 +127,7 @@ def main(args):
         best_hit = 0.
         early_stopping = 0
 
-        output_file = "epoch_time.txt"
+        output_file = "comparision/{}_epoch_time.txt".format(args.dataset)
         with open(output_file, "w") as f:
             for epoch in range(args.max_epochs):
                 start = time.time()

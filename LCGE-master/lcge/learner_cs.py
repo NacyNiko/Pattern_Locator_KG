@@ -64,8 +64,8 @@ def main(args):
 
         model = model.cuda()
 
-        if not os.path.exists('trainable_params.txt'):
-            output_file = "trainable_params.txt"
+        if not os.path.exists('comparision/ICEWS14_trainable_params.txt'):
+            output_file = "comparision/ICEWS14_trainable_params.txt"
             trainable_params = count_trainable_params(model)
             print("Number of trainable parameters:", trainable_params)
             with open(output_file, "w") as f:
@@ -80,7 +80,7 @@ def main(args):
         best_hit = 0.
         early_stopping = 0
 
-        output_file = "epoch_time.txt"
+        output_file = "comparision/ICEWS14_epoch_time.txt"
         with open(output_file, "w") as f:
             for epoch in range(args.max_epochs):
                 start = time.time()
