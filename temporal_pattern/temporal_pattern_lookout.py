@@ -140,7 +140,7 @@ class TemporalPatternLookout:
         inv.rename(columns={'time_x': 'time'}, inplace=True)
         inv = pd.merge(self.original, inv.iloc[:, :4], how='inner').drop_duplicates()
         # self.num_inverse = self.count(inv)
-        self.num_inverse = int(self.num_inverse)
+        # self.num_inverse = int(self.num_inverse)
         return inv
 
     def find_temporal_inverse(self):
