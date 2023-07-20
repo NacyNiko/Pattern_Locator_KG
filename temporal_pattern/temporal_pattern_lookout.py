@@ -139,7 +139,7 @@ class TemporalPatternLookout:
         inv.rename(columns={'relation_x': 'relation'}, inplace=True)
         inv.rename(columns={'time_x': 'time'}, inplace=True)
         inv = pd.merge(self.original, inv.iloc[:, :4], how='inner').drop_duplicates()
-        self.num_inverse = self.count(inv)
+        # self.num_inverse = self.count(inv)
         self.num_inverse = int(self.num_inverse)
         return inv
 
@@ -154,12 +154,12 @@ class TemporalPatternLookout:
         num_t_inverse = 0
         set_inv = pd.DataFrame()
         inv_t = inv.groupby('time')
-        for _, data_t in inv_t:
-            cnt = self.count(data_t)
-            num_t_inverse += cnt
-            if cnt:
-                set_inv = pd.concat([set_inv, data_t], axis=0)
-        self.num_t_inverse = int(num_t_inverse)
+        # for _, data_t in inv_t:
+            # cnt = self.count(data_t)
+            # num_t_inverse += cnt
+            # if cnt:
+            #     set_inv = pd.concat([set_inv, data_t], axis=0)
+        # self.num_t_inverse = int(num_t_inverse)
         return set_inv
 
     def find_implication(self):
