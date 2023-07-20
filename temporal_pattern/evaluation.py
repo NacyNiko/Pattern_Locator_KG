@@ -56,11 +56,11 @@ def main(dataset, pattern, threshold):
     # analysis.pattern_frequency_analyse()
     # construct pattern dictionary, which shows percentage #(ri -> rj, pattern) / #(ri in training set)
     # analysis.pattern_dictionary()
-    #
+
     # analysis.conclusion_premise_paar(threshold)
-    #
+
     # analysis.find_missing_instances()
-    analysis.temporal_symmetric_finding(100, 0.5)
+    analysis.pattern_finding(pattern, 100, threshold)
     print('Analyse end: {}'.format(pattern))
 
 

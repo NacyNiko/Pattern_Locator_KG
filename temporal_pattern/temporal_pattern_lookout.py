@@ -34,7 +34,7 @@ class TemporalPatternLookout:
         self.stat_t_rel = None
 
         self.intersected = None
-        self.f3_intersected = None
+        self.triples_intersected = None
         self.comp = None
         self.original = None
         self.reversed = None
@@ -98,7 +98,7 @@ class TemporalPatternLookout:
         self.num_t_reflexive = int(num_ss)
 
         self.intersected = pd.merge(self.original, self.reversed, how='inner')
-        self.f3_intersected = pd.merge(self.original, self.reversed, how='inner', on=['head', 'relation', 'tail'])
+        self.triples_intersected = pd.merge(self.original, self.reversed, how='inner', on=['head', 'relation', 'tail'])
 
         self.concat = pd.concat([self.original, self.reversed], axis=0)
 
@@ -114,7 +114,7 @@ class TemporalPatternLookout:
 
     def find_symmetric(self):
         assert self.intersected is not None, 'please run "initialize" first'
-        symm = self.f3_intersected
+        symm = self.triples_intersected
         num_symm = (len(symm) + self.num_t_reflexive) / 2
         symm.rename(columns={'time_x': 'time'}, inplace=True)
         symm = pd.merge(self.original, symm.iloc[:, :4], how='inner').drop_duplicates()
@@ -219,19 +219,25 @@ class TemporalPatternLookout:
         self.num_t_relations = len(s_t_rel)
         return s_t_rel
 
-    def find_star(self):
+    def find_star(self, temporal=False):
         assert self.original is not None, 'please run "initialize" first'
-        instances = self.original.groupby(['head', 'relation'])
+        set_star = pd.DataFrame()
+        instances = self.original.groupby(['head', 'relation', 'time'] if temporal else ['head', 'relation'])
         star_dict = dict()
         for ins in instances:
             temp = list()
+            if ins[1].shape[0] >= 3:
+                set_star = pd.concat([set_star, ins[1]])
             for idx, each in ins[1].iterrows():
                 temp.append(tuple([each['tail'], each['time']]))
+                # set_star = pd.concat(set_star, pd.DataFrame({'head':ins}))
             star_dict[ins[0]] = temp
         self.num_star = len(star_dict)
-        return star_dict
+        return star_dict, set_star.drop_duplicates()
+
 
     def find_hierarchy(self):
+        hierarchy_set = []
         self.num_hierarchy = 0
         relations = self.original['relation'].drop_duplicates()
         for rel in relations:
@@ -260,6 +266,15 @@ class TemporalPatternLookout:
                                     result.append({'root': parent, 'child1': (child1, time1), 'child2': (child2, time2)
                                                       , 'leaf1': leaf1, 'leaf2': leaf2})
                                     self.num_hierarchy += 1
+
+                                    hierarchy_set.append({'head': parent, 'rel': rel, 'tail': child1, 'time': time1})
+                                    hierarchy_set.append({'head': parent, 'rel': rel, 'tail': child2, 'time': time2})
+                                    for e, t in leaf1:
+                                        hierarchy_set.append(
+                                            {'head': child1, 'rel': rel, 'tail': e, 'time': t})
+                                    for e, t in leaf2:
+                                        hierarchy_set.append(
+                                            {'head': child2, 'rel': rel, 'tail': e, 'time': t})
                                     break
                                 else:
                                     if len(leaf1) < 2 and len(leaf2) < 2:
@@ -285,7 +300,8 @@ class TemporalPatternLookout:
                                 child2 = child
                                 time2 = time_
                             i += 1
-
+        hierarchy_set = pd.DataFrame(hierarchy_set).drop_duplicates()
+        return hierarchy_set
 
 
 def makedir(path):
@@ -297,27 +313,29 @@ def main(dataname):
     print('-----------------Data Reprocess Begin--------------------------------------------')
     start = time.time()
 
-    for data in ['train2id.txt', 'test2id.txt']:
+    for data in ['train2id.txt']:  # 'test2id.txt',
         patternlooker = TemporalPatternLookout()
         dataset = patternlooker.data_loader('data', dataname, data).iloc[:, :]
 
         patternlooker.initialize(dataset)
 
         """ Static Logical Temporal Patterns """
-        # set_symmetric = patternlooker.find_symmetric()
+        set_symmetric = patternlooker.find_symmetric()
         #
         # set_reflexive = patternlooker.find_reflexive()
-        # set_inverse = patternlooker.find_inverse()
-        # set_implication = patternlooker.find_implication()
+        set_inverse = patternlooker.find_inverse()
+        set_implication = patternlooker.find_implication()
 
         """ Dynamic Logical Temporal Patterns """
-        # set_t_symmetric = patternlooker.find_temporal_symmetric()
-        # set_evolve = patternlooker.find_evolve()
-        # set_t_implication = patternlooker.find_temporal_implication()
-        # set_t_inverse = patternlooker.find_temporal_inverse()
-        # set_t_relation = patternlooker.find_temporal_relation()
-        set_star = patternlooker.find_star()
-        patternlooker.find_hierarchy()
+        set_t_symmetric = patternlooker.find_temporal_symmetric()
+        set_evolve = patternlooker.find_evolve()
+        set_t_implication = patternlooker.find_temporal_implication()
+        set_t_inverse = patternlooker.find_temporal_inverse()
+        set_t_relation = patternlooker.find_temporal_relation()
+        _, set_star = patternlooker.find_star()
+        _, set_temporal_star = patternlooker.find_star(True)
+        set_hierarchy = patternlooker.find_hierarchy()
+
         end = time.time()
         print('star:{}, hierarchy:{}'.format(patternlooker.num_star, patternlooker.num_hierarchy))
         stat_dict = {
@@ -334,28 +352,30 @@ def main(dataname):
             , 'number of temporal implication': patternlooker.num_t_implication
             , 'number of evolve': patternlooker.num_evolve}
 
-        # save_path = '../results/{}/statistics'.format(dataname)
-        # makedir(save_path)
-        # if not os.path.exists(save_path + '/stats_{}.txt'.format(data[:-7])):
-        #     with open(save_path + '/stats_{}.txt'.format(data[:-7]), 'w') as file:
-        #         file.write(str(stat_dict))
+        save_path = '../results/{}/statistics'.format(dataname)
+        makedir(save_path)
+        if not os.path.exists(save_path + '/stats_{}.txt'.format(data[:-7])):
+            with open(save_path + '/stats_{}.txt'.format(data[:-7]), 'w') as file:
+                file.write(str(stat_dict))
 
-        # # save sets
-        # set_path = '../results/{}/pattern sets/{}'.format(dataname, data[:-7])
-        # makedir(set_path)
-        #
+        # save sets
+        set_path = '../results/{}/pattern sets/{}'.format(dataname, data[:-7])
+        makedir(set_path)
+
         # set_reflexive.to_csv(set_path + '/set reflexive.csv', index=False)
-        # set_symmetric.to_csv(set_path + '/set symmetric.csv', index=False)
-        # set_inverse.to_csv(set_path + '/set inverse.csv', index=False)
-        # set_implication.to_csv(set_path + '/set implication.csv', index=False)
-        # set_t_inverse.to_csv(set_path + '/set temporal inverse.csv', index=False)
-        # set_t_symmetric.to_csv(set_path + '/set temporal symmetric.csv', index=False)
-        # set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
-        # set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
-        # pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
+        set_symmetric.to_csv(set_path + '/set symmetric.csv', index=False)
+        set_inverse.to_csv(set_path + '/set inverse.csv', index=False)
+        set_implication.to_csv(set_path + '/set implication.csv', index=False)
+        set_t_inverse.to_csv(set_path + '/set temporal inverse.csv', index=False)
+        set_t_symmetric.to_csv(set_path + '/set temporal symmetric.csv', index=False)
+        set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
+        set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
+        pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
         # with open(set_path + '/set_entity_relation.pkl', 'wb') as f:
-        #     pickle.dump(set_entity_relation, f)
-        # patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
-
+            # pickle.dump(set_entity_relation, f)
+        patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
+        set_hierarchy.to_csv(set_path + '/set hierarchy.txt', index=False, sep='\t')
+        set_star.to_csv(set_path + '/set star.txt', index=False, sep='\t')
+        set_temporal_star.to_csv(set_path + '/set temporal star.txt', index=False, sep='\t')
         print('It takes {} seconds on {}'.format(end - start, data))
     print('----------------Data Reprocess Finish-------------------------------------------')

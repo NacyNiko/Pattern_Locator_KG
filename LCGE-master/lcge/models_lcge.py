@@ -53,8 +53,8 @@ class TKBCModel(nn.Module, ABC):
                 rhs = self.get_rhs(c_begin, chunk_size)
                 while b_begin < len(queries):
                     these_queries = queries[b_begin:b_begin + batch_size]
-                    q = self.get_queries(these_queries)  # s, p
-                    scores = q @ rhs   # s, p 和all candidates 的分数
+                    q = self.get_queries(these_queries)
+                    scores = q @ rhs
 
                     scores += self.add_L2(these_queries)
 
@@ -380,6 +380,7 @@ class LCGE(TKBCModel):
                rule
         )
 
+
     def forward_over_time(self, x):
         lhs = self.embeddings[0](x[:, 0])
         rel = self.embeddings[1](x[:, 1])
@@ -446,16 +447,6 @@ class LCGE(TKBCModel):
             (h_static[1] * r_static[0] + h_static[0] * r_static[1]) * t_static[1],
             1, keepdim=True
         )
-    # """
-    # torch.sum(
-    #         (lhs[0] * full_rel[0] - lhs[1] * full_rel[1]) * rhs[0] +
-    #         (lhs[1] * full_rel[0] + lhs[0] * full_rel[1]) * rhs[1],
-    #         1, keepdim=True
-    #     ) + self.w_static * torch.sum(
-    #         (h_static[0] * r_static[0] - h_static[1] * r_static[1]) * t_static[0] +
-    #         (h_static[1] * r_static[0] + h_static[0] * r_static[1]) * t_static[1],
-    #         1, keepdim=True
-    #     )
-    # """
+
 
 

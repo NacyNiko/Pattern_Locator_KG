@@ -79,10 +79,7 @@ class AnalysisTools:
                 stat_t_pattern.reset_index(drop=True).to_csv(
                     '{}/freq_{}.csv'.format(path_list['d_%s' % self.pattern], self.pattern),
                     index=False)
-                # set_t_pattern.reset_index(drop=True).to_csv(
-                #     '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
-                # stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
-                #     '{}/freq_rel.csv'.format(path_list['d_rel']), index=False)
+
 
             else:
                 set_pattern = pd.read_csv(r'../results/{}/pattern sets/{}/set {}.csv'
@@ -93,13 +90,7 @@ class AnalysisTools:
 
                 stat_pattern.reset_index(drop=True).to_csv('{}/freq_{}.csv'.format(path_list['s_%s' % self.pattern], self.pattern),
                                                        index=False)
-                # stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
-                #                     '{}/freq_rel.csv'.format(path_list['s_rel']), index=False)
-                # set_pattern.reset_index(drop=True).to_csv(
-                #     '../results/{}/summary/{}/freq_{}.csv'.format(self.dataset, self.pattern, self.pattern))
 
-            stat_t_rel.reset_index(drop=True).rename(columns={'number': 'freq'}).to_csv(
-                    '../results/{}/summary/freq_rel.csv'.format(self.dataset), index=False)
 
     def pattern_dictionary(self):
         def cal_comb(relations: pd.Series) -> list:
@@ -350,10 +341,28 @@ class AnalysisTools:
         selected_instances = pd.merge(test_set, head_relation, how='inner', on=['head', 'relation'])
         selected_instances.to_csv('../results/{}/summary/missing_instances.txt'.format(self.dataset), sep='\t', index=False)
 
-    def temporal_symmetric_finding(self, threshold_num, threshold_percentage):
-        if not os.path.exists('../results/{}/summary/temporal_symmetric_instances_selected.txt'.format(self.dataset)):
-            freq_table = pd.read_csv(r'../results/{}/statistics/train/dynamic/freq_temporal symmetric.csv'.format(self.dataset))
-            selected_rel = freq_table[(freq_table['number of temporal symmetric'] >= threshold_num) & (freq_table['percentage'] >= threshold_percentage)]
+    # def temporal_symmetric_finding(self, threshold_num, threshold_percentage):
+    #     if not os.path.exists('../results/{}/summary/temporal_symmetric_instances_selected.txt'.format(self.dataset)):
+    #         freq_table = pd.read_csv(r'../results/{}/statistics/train/dynamic/freq_temporal symmetric.csv'.format(self.dataset))
+    #         selected_rel = freq_table[(freq_table['number of temporal symmetric'] >= threshold_num) & (freq_table['percentage'] >= threshold_percentage)]
+    #         test_set = pd.read_table(r'./data/{}/test2id.txt'.format(self.dataset), header=None
+    #                                  , names=['head', 'relation', 'tail', 'time'], index_col=False)
+    #         train_set = pd.read_table(r'./data/{}/train2id.txt'.format(self.dataset), header=None
+    #                                  , names=['head', 'relation', 'tail', 'time'], index_col=False)
+    #
+    #         instance_in_test = test_set[test_set['relation'].isin(selected_rel['relation'])]
+    #         inverse_instance_in_test = instance_in_test.copy()
+    #         inverse_instance_in_test['head'], inverse_instance_in_test['tail'] = inverse_instance_in_test['tail'].copy()\
+    #             , inverse_instance_in_test['head'].copy()
+    #
+    #         overlapping_train_set = pd.merge(train_set, inverse_instance_in_test, how='inner')
+    #         overlapping_train_set.to_csv('../results/{}/summary/temporal_symmetric_instances_selected.txt'.format(self.dataset), sep='\t', index=False)
+
+    def pattern_finding(self, pattern, threshold_num, threshold_percentage):
+        temporal = True if (pattern[:8] == 'temporal' or pattern == 'evolve') else False
+        if not os.path.exists(f'../results/{self.dataset}/summary/{pattern}_instances_selected.txt'):
+            freq_table = pd.read_csv(f'../results/{self.dataset}/statistics/train/{"dynamic" if temporal else "static"}/freq_{pattern}.csv')
+            selected_rel = freq_table[(freq_table[f'number of {pattern}'] >= threshold_num) & (freq_table['percentage'] >= threshold_percentage)]
             test_set = pd.read_table(r'./data/{}/test2id.txt'.format(self.dataset), header=None
                                      , names=['head', 'relation', 'tail', 'time'], index_col=False)
             train_set = pd.read_table(r'./data/{}/train2id.txt'.format(self.dataset), header=None
@@ -362,10 +371,34 @@ class AnalysisTools:
             instance_in_test = test_set[test_set['relation'].isin(selected_rel['relation'])]
             inverse_instance_in_test = instance_in_test.copy()
             inverse_instance_in_test['head'], inverse_instance_in_test['tail'] = inverse_instance_in_test['tail'].copy()\
-                , inverse_instance_in_test['head'].copy()
+                    , inverse_instance_in_test['head'].copy()
 
-            overlapping_train_set = pd.merge(train_set, inverse_instance_in_test, how='inner')
-            overlapping_train_set.to_csv('../results/{}/summary/temporal_symmetric_instances_selected.txt'.format(self.dataset), sep='\t', index=False)
+            if pattern in ['symmetric', 'temporal symmetric']:
+                overlapping_train_set = pd.merge(inverse_instance_in_test, train_set, how='inner'
+                            , on=['head', 'relation', 'tail', 'time'] if temporal else ['head', 'relation', 'tail'])
+                if not temporal:
+                    overlapping_train_set = overlapping_train_set.iloc[:, :4].rename(columns={'time_x':  'time'}).drop_duplicates()
+
+            elif pattern in ['inverse', 'temporal inverse', 'implication', 'temporal implication', 'evolve']:
+                if pattern in ['inverse', 'temporal inverse']:
+                    overlapping_train_set = pd.merge(inverse_instance_in_test, train_set, how='inner',
+                                                 on=['head', 'tail', 'time'] if temporal else ['head', 'tail'])
+                elif pattern in ['implication', 'temporal implication', 'evolve']:
+                    overlapping_train_set = pd.merge(instance_in_test, train_set, how='inner',
+                                                 on=['head', 'tail', 'time'] if temporal else ['head', 'tail'])
+                if not temporal:
+                    overlapping_train_set.drop(columns='time_y', inplace=True)
+                    overlapping_train_set = overlapping_train_set.rename(columns={'time_x':  'time'}).drop_duplicates()
+                overlapping_train_set = overlapping_train_set[overlapping_train_set['relation_x'] != overlapping_train_set['relation_y']]
+                overlapping_train_set.drop(columns='relation_y', inplace=True)
+                overlapping_train_set = overlapping_train_set.rename(columns={'relation_x':  'relation'}).drop_duplicates()
+
+            if pattern in ['symmetric', 'temporal symmetric', 'inverse', 'temporal inverse']:
+                overlapping_train_set['head'], overlapping_train_set['tail'] = overlapping_train_set['tail'].copy() \
+                , overlapping_train_set['head'].copy()
+            temp = pd.merge(overlapping_train_set, test_set, how='inner')
+            overlapping_train_set.to_csv(f'../results/{self.dataset}/summary/{pattern}_instances_selected.txt',
+                                         sep='\t', index=False)
 
 
 class PlotTools:
