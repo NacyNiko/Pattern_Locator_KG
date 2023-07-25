@@ -235,73 +235,40 @@ class TemporalPatternLookout:
         self.num_star = len(star_dict)
         return star_dict, set_star.drop_duplicates()
 
+    def find_hierarchy(self, l=3):
+        def search_children(group: pd.DataFrame, root: bool, lv: int, ml: int, branch: pd.DataFrame):
+            for idx, node in group.iterrows():
+                if root:
+                    branch = pd.DataFrame(columns=['head', 'relation', 'tail', 'time'])
+                    lv = 0
+                    ml = 0
+                prev_tail, prev_time = [node['head'], node['time']] if root else [node['tail'], node['time']]
+                if tuple(node.tolist() + [root]) in head_list:
+                    continue
+                head_list.add(tuple(node.tolist() + [root]))
+                next_level = df[(df['head'] == prev_tail) & (df['time'] >= prev_time)]
+                if next_level.shape[0] > 0:       # has next level
+                    if branch.empty or (not branch.empty and not pd.concat([branch, next_level]).drop_duplicates(keep=False).empty):
+                        branch = pd.concat([branch, next_level])
+                        search_children(next_level, False, lv + 1, max(lv+1, ml), branch)
+                else:     # has no next level
+                    if idx == group.index[-1]:
+                        if ml >= l:
+                            branch = branch.drop_duplicates()
+                            self.hierarchy_data = pd.concat([self.hierarchy_data, branch]).drop_duplicates()
+                        lv -= 1
+                    continue
+            return
 
-    def find_hierarchy(self):
-        hierarchy_set = []
-        self.num_hierarchy = 0
-        relations = self.original['relation'].drop_duplicates()
-        for rel in relations:
-            rels = self.original[self.original['relation'] == rel]
-            rel_group_h = rels.groupby('head')
-            dic = {}
-            for each in rel_group_h:
-                dic[each[0]] = each[1]
+        grouped_data = self.original.groupby('relation')
+        self.hierarchy_data = pd.DataFrame(columns=['head', 'relation', 'tail', 'time'])
+        for rel, df in grouped_data:
+            head_list = set()
+            df.sort_values(by='time', inplace=True)
+            df.reset_index(inplace=True, drop=True)
+            search_children(df, True, 0, 0, pd.DataFrame(columns=['head', 'relation', 'tail', 'time']))
+        return self.hierarchy_data
 
-            result = []
-            for parent, children in dic.items():
-                if len(children) >= 2:
-                    i = 0
-                    for idx, n in children.loc[:, ['tail', 'time']].iterrows():
-                        child, time_ = n['tail'], n['time']
-                        if i == 2:
-                            if child1 in dic and child2 in dic:
-                                grand_child1 = dic[child1].loc[:, ['tail', 'time']]
-                                grand_child1 = grand_child1[grand_child1['time'] > time1]
-                                grand_child2 = dic[child2].loc[:, ['tail', 'time']]
-                                grand_child2 = grand_child2[grand_child2['time'] > time2]
-
-                                leaf1 = (grand_child1.apply(lambda row: tuple(row), axis=1).tolist())
-                                leaf2 = (grand_child2.apply(lambda row: tuple(row), axis=1).tolist())
-                                if len(leaf1) >= 2 and len(leaf2) >= 2:
-                                    result.append({'root': parent, 'child1': (child1, time1), 'child2': (child2, time2)
-                                                      , 'leaf1': leaf1, 'leaf2': leaf2})
-                                    self.num_hierarchy += 1
-
-                                    hierarchy_set.append({'head': parent, 'rel': rel, 'tail': child1, 'time': time1})
-                                    hierarchy_set.append({'head': parent, 'rel': rel, 'tail': child2, 'time': time2})
-                                    for e, t in leaf1:
-                                        hierarchy_set.append(
-                                            {'head': child1, 'rel': rel, 'tail': e, 'time': t})
-                                    for e, t in leaf2:
-                                        hierarchy_set.append(
-                                            {'head': child2, 'rel': rel, 'tail': e, 'time': t})
-                                    break
-                                else:
-                                    if len(leaf1) < 2 and len(leaf2) < 2:
-                                        i = 0
-                                    elif len(leaf1) < 2:
-                                        child1, time1 = child2, time2
-                                        i -= 1
-                                    elif len(leaf2) < 2:
-                                        i -= 1
-                                    continue
-                            elif child1 not in dic and child2 not in dic:
-                                i = 0
-                            elif child1 not in dic:
-                                child1, time1 = child2, time2
-                                i -= 1
-                            elif child2 not in dic:
-                                i -= 1
-                        if child in dic and len(dic[child]) >= 2:
-                            if i == 0 and child != parent:
-                                child1 = child
-                                time1 = time_
-                            elif i == 1 and child != child1 and child != parent:
-                                child2 = child
-                                time2 = time_
-                            i += 1
-        hierarchy_set = pd.DataFrame(hierarchy_set).drop_duplicates()
-        return hierarchy_set
 
 
 def makedir(path):
@@ -313,29 +280,29 @@ def main(dataname):
     print('-----------------Data Reprocess Begin--------------------------------------------')
     start = time.time()
 
-    for data in ['train2id.txt']:  # 'test2id.txt',
+    for data in ['test2id.txt']:  # 'test2id.txt',
         patternlooker = TemporalPatternLookout()
         dataset = patternlooker.data_loader('data', dataname, data).iloc[:, :]
 
         patternlooker.initialize(dataset)
 
         """ Static Logical Temporal Patterns """
-        set_symmetric = patternlooker.find_symmetric()
+        # set_symmetric = patternlooker.find_symmetric()
         #
         # set_reflexive = patternlooker.find_reflexive()
-        set_inverse = patternlooker.find_inverse()
-        set_implication = patternlooker.find_implication()
+        # set_inverse = patternlooker.find_inverse()
+        # set_implication = patternlooker.find_implication()
 
         """ Dynamic Logical Temporal Patterns """
-        set_t_symmetric = patternlooker.find_temporal_symmetric()
-        set_evolve = patternlooker.find_evolve()
-        set_t_implication = patternlooker.find_temporal_implication()
-        set_t_inverse = patternlooker.find_temporal_inverse()
-        set_t_relation = patternlooker.find_temporal_relation()
-        _, set_star = patternlooker.find_star()
-        _, set_temporal_star = patternlooker.find_star(True)
+        # set_t_symmetric = patternlooker.find_temporal_symmetric()
+        # set_evolve = patternlooker.find_evolve()
+        # set_t_implication = patternlooker.find_temporal_implication()
+        # set_t_inverse = patternlooker.find_temporal_inverse()
+        # set_t_relation = patternlooker.find_temporal_relation()
+        # _, set_star = patternlooker.find_star()
+        # _, set_temporal_star = patternlooker.find_star(True)
         set_hierarchy = patternlooker.find_hierarchy()
-
+        set_hierarchy = set_hierarchy.drop_duplicates()
         end = time.time()
         print('star:{}, hierarchy:{}'.format(patternlooker.num_star, patternlooker.num_hierarchy))
         stat_dict = {
@@ -363,19 +330,21 @@ def main(dataname):
         makedir(set_path)
 
         # set_reflexive.to_csv(set_path + '/set reflexive.csv', index=False)
-        set_symmetric.to_csv(set_path + '/set symmetric.csv', index=False)
-        set_inverse.to_csv(set_path + '/set inverse.csv', index=False)
-        set_implication.to_csv(set_path + '/set implication.csv', index=False)
-        set_t_inverse.to_csv(set_path + '/set temporal inverse.csv', index=False)
-        set_t_symmetric.to_csv(set_path + '/set temporal symmetric.csv', index=False)
-        set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
-        set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
-        pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
+        # set_symmetric.to_csv(set_path + '/set symmetric.csv', index=False)
+        # set_inverse.to_csv(set_path + '/set inverse.csv', index=False)
+        # set_implication.to_csv(set_path + '/set implication.csv', index=False)
+        # set_t_inverse.to_csv(set_path + '/set temporal inverse.csv', index=False)
+        # set_t_symmetric.to_csv(set_path + '/set temporal symmetric.csv', index=False)
+        # set_t_implication.to_csv(set_path + '/set temporal implication.csv', index=False )
+        # set_evolve.to_csv(set_path + '/set evolve.csv', index=False)
+        # pd.DataFrame(set_t_relation).to_csv(set_path + '/set temporal relation.csv', index=False)
         # with open(set_path + '/set_entity_relation.pkl', 'wb') as f:
             # pickle.dump(set_entity_relation, f)
-        patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
-        set_hierarchy.to_csv(set_path + '/set hierarchy.txt', index=False, sep='\t')
-        set_star.to_csv(set_path + '/set star.txt', index=False, sep='\t')
-        set_temporal_star.to_csv(set_path + '/set temporal star.txt', index=False, sep='\t')
+        # patternlooker.stat_t_rel.to_csv(set_path + '/stat_t_rel.csv', index=False)
+        if set_hierarchy is not None:
+            set_hierarchy.to_csv(set_path + '/set hierarchy.txt', index=False, sep='\t')
+            # rel_level.to_csv(set_path + '/relation deep.csv', index=False)
+        # set_star.to_csv(set_path + '/set star.txt', index=False, sep='\t')
+        # set_temporal_star.to_csv(set_path + '/set temporal star.txt', index=False, sep='\t')
         print('It takes {} seconds on {}'.format(end - start, data))
     print('----------------Data Reprocess Finish-------------------------------------------')

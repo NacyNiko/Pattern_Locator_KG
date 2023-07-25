@@ -53,11 +53,11 @@ def main(dataset, pattern, threshold):
     print('Analyse begin: {}'.format(pattern))
     analysis = AnalysisTools(dataset, pattern)
     # calculate frequency of each relation for certain pattern
-    # analysis.pattern_frequency_analyse()
+    analysis.pattern_frequency_analyse()
     # construct pattern dictionary, which shows percentage #(ri -> rj, pattern) / #(ri in training set)
-    # analysis.pattern_dictionary()
+    analysis.pattern_dictionary()
 
-    # analysis.conclusion_premise_paar(threshold)
+    analysis.conclusion_premise_paar(threshold)
 
     # analysis.find_missing_instances()
     analysis.pattern_finding(pattern, 100, threshold)
